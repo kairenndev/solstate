@@ -1,0 +1,4 @@
+# Direct wallet support. No processor, no platform cut, no intermediary —
+# what you send is what arrives.
+custom:
+  - "https://github.com/kairenndev/solstate/blob/main/SUPPORT.md"
