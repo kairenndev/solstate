@@ -8,6 +8,8 @@ a readable Markdown report, and machine-readable JSON.
 
 No API keys. No dependencies. Python standard library only.
 
+[![Solana ecosystem dashboard](docs/assets/dashboard.png)](https://kairenndev.github.io/solstate/)
+
 ```bash
 git clone https://github.com/kairenndev/solstate
 cd solstate
