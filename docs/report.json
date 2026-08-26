@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-26T04:55:32+00:00",
+  "generated_at": "2026-08-26T04:56:03+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3446.7,
-      "tps_non_vote": 1562.7,
+      "tps_total": 3454.4,
+      "tps_non_vote": 1568.2,
       "slot_time_ms": 361.9,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
@@ -15,16 +15,16 @@
     },
     "epoch": {
       "epoch": 1022,
-      "slot": 441792378,
-      "block_height": 419840907,
-      "slots_done": 288378,
+      "slot": 441792463,
+      "block_height": 419840992,
+      "slots_done": 288463,
       "slots_in_epoch": 432000,
-      "progress_pct": 66.75,
+      "progress_pct": 66.77,
       "hours_remaining": 14.4
     },
     "supply": {
       "total_sol": 632859256,
-      "circulating_sol": 583375396,
+      "circulating_sol": 583375395,
       "non_circulating_sol": 49483861
     },
     "validators": {
@@ -169,12 +169,12 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 10.9,
+  "collection_seconds": 12.5,
   "errors": [],
   "anomalies": {
     "count": 0,
     "critical": 0,
-    "baseline_snapshots": 1,
+    "baseline_snapshots": 2,
     "statistical_detection_active": false,
     "findings": []
   }

@@ -1,6 +1,6 @@
 # Solana Ecosystem State
 
-*Generated 2026-08-26T04:55:32+00:00 · data collected in 10.9s*
+*Generated 2026-08-26T04:56:03+00:00 · data collected in 12.5s*
 
 ## Anomalies
 
@@ -10,12 +10,12 @@ None detected. Statistical detection is warming up; threshold checks are active.
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,562.7 |
-| Total TPS (incl. votes) | 3,446.7 |
+| Non-vote TPS | 1,568.2 |
+| Total TPS (incl. votes) | 3,454.4 |
 | Slot time | 361.9 ms (target 400) |
 | Epoch | 1022 — 66.8% done, ~14.4h left |
-| Block height | 419,840,907 |
-| Circulating supply | 583,375,396 SOL |
+| Block height | 419,840,992 |
+| Circulating supply | 583,375,395 SOL |
 
 ## Validators
 
