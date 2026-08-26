@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Solana Ecosystem State · solstate</title>
+<style>
+:root {
+  --bg: #0b0e14; --panel: #131822; --panel-2: #1a2130; --line: #232c3d;
+  --text: #e6edf7; --dim: #8b98ad; --accent: #14f195; --accent-2: #9945ff;
+  --warn: #ffb020; --crit: #ff4d5e; --ok: #14f195;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font: 15px/1.55 ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif;
+  padding: 32px 20px 64px;
+}
+.wrap { max-width: 1180px; margin: 0 auto; }
+header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px; margin-bottom: 6px; }
+h1 { font-size: 26px; margin: 0; letter-spacing: -.02em; }
+h1 .dot { color: var(--accent); }
+.meta { color: var(--dim); font-size: 13px; }
+.meta code { color: var(--text); background: var(--panel-2); padding: 1px 6px; border-radius: 4px; }
+h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .09em;
+     color: var(--dim); margin: 34px 0 12px; font-weight: 600; }
+.grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(215px, 1fr)); }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+        padding: 14px 16px; position: relative; overflow: hidden; }
+.card .label { color: var(--dim); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
+.card .value { font-size: 25px; font-weight: 650; margin-top: 4px; letter-spacing: -.02em;
+               font-variant-numeric: tabular-nums; }
+.card .sub { color: var(--dim); font-size: 12.5px; margin-top: 2px; }
+.up { color: var(--ok); } .down { color: var(--crit); }
+.spark { margin-top: 8px; display: block; width: 100%; height: 30px; }
+.alerts { margin: 20px 0 0; display: grid; gap: 8px; }
+.alert { border-radius: 10px; padding: 11px 14px; font-size: 14px;
+         border: 1px solid; display: flex; gap: 10px; align-items: flex-start; }
+.alert.critical { background: rgba(255,77,94,.09); border-color: rgba(255,77,94,.42); }
+.alert.warning  { background: rgba(255,176,32,.08); border-color: rgba(255,176,32,.36); }
+.alert.clear    { background: rgba(20,241,149,.06); border-color: rgba(20,241,149,.28); color: var(--dim); }
+.alert b { color: var(--text); }
+table { width: 100%; border-collapse: collapse; font-size: 14px;
+        background: var(--panel); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+th { text-align: left; color: var(--dim); font-weight: 600; font-size: 12px;
+     text-transform: uppercase; letter-spacing: .06em; padding: 10px 14px;
+     background: var(--panel-2); cursor: pointer; user-select: none; white-space: nowrap; }
+th:hover { color: var(--text); }
+th::after { content: " ⇅"; opacity: .3; }
+th.asc::after { content: " ↑"; opacity: 1; color: var(--accent); }
+th.desc::after { content: " ↓"; opacity: 1; color: var(--accent); }
+td { padding: 9px 14px; border-top: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+tbody tr:hover { background: var(--panel-2); }
+code.mono { font-family: ui-monospace, "Cascadia Code", Consolas, monospace; font-size: 12.5px; color: var(--dim); }
+.bar { height: 4px; background: var(--panel-2); border-radius: 3px; overflow: hidden; margin-top: 8px; }
+.bar > i { display: block; height: 100%; background: linear-gradient(90deg, var(--accent-2), var(--accent)); }
+details { margin-top: 12px; background: var(--panel); border: 1px solid var(--line);
+          border-radius: 12px; padding: 12px 16px; }
+summary { cursor: pointer; color: var(--dim); font-size: 13px; }
+summary:hover { color: var(--text); }
+pre { overflow-x: auto; font-size: 12px; color: var(--dim); margin: 12px 0 0; }
+footer { margin-top: 40px; color: var(--dim); font-size: 12.5px; border-top: 1px solid var(--line); padding-top: 16px; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.note { color: var(--dim); font-size: 12.5px; margin-top: 8px; }
+</style>
+</head><body><div class="wrap">
+
+<header>
+  <h1>Solana Ecosystem State<span class="dot">.</span></h1>
+  <span class="meta">generated <code>2026-08-26T04:55:32+00:00</code>
+  · collected in 10.9s
+  · 2 snapshots in history</span>
+</header>
+
+<div class="alerts"><div class="alert clear"><b>No anomalies</b><span>statistical detection still warming up; threshold checks active</span></div></div>
+
+<h2>Network</h2>
+<div class="grid"><div class="card"><div class="label">Non-vote TPS</div><div class="value">1,562.7</div><div class="sub">excludes consensus votes</div></div><div class="card"><div class="label">Total TPS</div><div class="value">3,446.7</div><div class="sub">including vote transactions</div></div><div class="card"><div class="label">Slot time</div><div class="value">361.9 <span class="sub">ms</span></div><div class="sub">target 400 ms</div></div><div class="card"><div class="label">Epoch</div><div class="value">1022</div><div class="sub">66.8% · ~14.4h left<div class="bar"><i style="width:66.8%"></i></div></div></div><div class="card"><div class="label">Active validators</div><div class="value">685</div><div class="sub">10 delinquent (0.044% of stake)</div></div><div class="card"><div class="label">Nakamoto coefficient</div><div class="value">18</div><div class="sub">validators controlling ⅓ of stake</div></div><div class="card"><div class="label">Circulating supply</div><div class="value">583,375,396 <span class="sub">SOL</span></div><div class="sub">632,859,256 total</div></div></div>
+
+<h2>Economy</h2>
+<div class="grid"><div class="card"><div class="label">SOL price</div><div class="value">$96.77</div><div class="sub"><span class="down">-4.31%</span> 24h</div></div><div class="card"><div class="label">Market cap</div><div class="value">$56.45B</div><div class="sub">fully circulating</div></div><div class="card"><div class="label">TVL</div><div class="value">$5.60B</div><div class="sub">rank #2 of 465 chains</div></div><div class="card"><div class="label">DEX volume 24h</div><div class="value">$2.95B</div><div class="sub"><span class="down">-1.58%</span> · 119 venues</div></div><div class="card"><div class="label">Network fees 24h</div><div class="value">$13.01M</div><div class="sub"><span class="down">-10.21%</span></div></div><div class="card"><div class="label">Stablecoin supply</div><div class="value">$15.96B</div><div class="sub">capital positioned to move</div></div></div>
+
+<h2>Top validators by stake</h2>
+<table><thead><tr><th>#</th><th>Identity</th><th>Stake (SOL)</th><th>Share</th><th>Commission</th></tr></thead>
+<tbody><tr><td>1</td><td><code class="mono">Fd7btgyS…2v69Nk</code></td><td data-sort="17066966">17,066,966</td><td data-sort="3.92">3.92%</td><td data-sort="7">7%</td></tr><tr><td>2</td><td><code class="mono">HEL1USMZ…v1e2TU</code></td><td data-sort="16035907">16,035,907</td><td data-sort="3.69">3.69%</td><td data-sort="0">0%</td></tr><tr><td>3</td><td><code class="mono">DRpbCBMx…km21hy</code></td><td data-sort="12268330">12,268,330</td><td data-sort="2.82">2.82%</td><td data-sort="0">0%</td></tr><tr><td>4</td><td><code class="mono">JUPiTERr…LT1h4b</code></td><td data-sort="11739871">11,739,871</td><td data-sort="2.7">2.7%</td><td data-sort="5">5%</td></tr><tr><td>5</td><td><code class="mono">C8Bey3LK…99JP1k</code></td><td data-sort="9202562">9,202,562</td><td data-sort="2.11">2.11%</td><td data-sort="7">7%</td></tr><tr><td>6</td><td><code class="mono">CAo1dCGY…umSve4</code></td><td data-sort="8924729">8,924,729</td><td data-sort="2.05">2.05%</td><td data-sort="10">10%</td></tr><tr><td>7</td><td><code class="mono">E1r4Psq8…5RdxHL</code></td><td data-sort="8579462">8,579,462</td><td data-sort="1.97">1.97%</td><td data-sort="0">0%</td></tr><tr><td>8</td><td><code class="mono">EvnRmnMr…JXqDo4</code></td><td data-sort="7953722">7,953,722</td><td data-sort="1.83">1.83%</td><td data-sort="7">7%</td></tr><tr><td>9</td><td><code class="mono">9eGrDohd…xe8FoY</code></td><td data-sort="7300009">7,300,009</td><td data-sort="1.68">1.68%</td><td data-sort="5">5%</td></tr><tr><td>10</td><td><code class="mono">Awes4Tr6…yGvpLM</code></td><td data-sort="6574676">6,574,676</td><td data-sort="1.51">1.51%</td><td data-sort="0">0%</td></tr></tbody></table>
+<p class="note">The Nakamoto coefficient above counts how many of these together
+reach one third of stake — the point at which the chain can be halted.</p>
+
+<h2>Top DEXs by 24h volume</h2>
+<table><thead><tr><th>Venue</th><th>Volume 24h</th><th>Share</th></tr></thead>
+<tbody><tr><td>PumpSwap</td><td data-sort="567887939">$567.89M</td><td data-sort="19.3">19.3%</td></tr><tr><td>Orca DEX</td><td data-sort="424691788">$424.69M</td><td data-sort="14.4">14.4%</td></tr><tr><td>BisonFi</td><td data-sort="411397417">$411.40M</td><td data-sort="14.0">14.0%</td></tr><tr><td>Meteora DLMM</td><td data-sort="246356371">$246.36M</td><td data-sort="8.4">8.4%</td></tr><tr><td>Scorch</td><td data-sort="218917685">$218.92M</td><td data-sort="7.4">7.4%</td></tr></tbody></table>
+
+
+
+<details><summary>Raw JSON</summary><pre>{
+  &quot;generated_at&quot;: &quot;2026-08-26T04:55:32+00:00&quot;,
+  &quot;network&quot;: {
+    &quot;health&quot;: {
+      &quot;ok&quot;: true,
+      &quot;raw&quot;: &quot;ok&quot;
+    },
+    &quot;performance&quot;: {
+      &quot;tps_total&quot;: 3446.7,
+      &quot;tps_non_vote&quot;: 1562.7,
+      &quot;slot_time_ms&quot;: 361.9,
+      &quot;nominal_slot_time_ms&quot;: 400,
+      &quot;samples_used&quot;: 5,
+      &quot;window_secs&quot;: 300
+    },
+    &quot;epoch&quot;: {
+      &quot;epoch&quot;: 1022,
+      &quot;slot&quot;: 441792378,
+      &quot;block_height&quot;: 419840907,
+      &quot;slots_done&quot;: 288378,
+      &quot;slots_in_epoch&quot;: 432000,
+      &quot;progress_pct&quot;: 66.75,
+      &quot;hours_remaining&quot;: 14.4
+    },
+    &quot;supply&quot;: {
+      &quot;total_sol&quot;: 632859256,
+      &quot;circulating_sol&quot;: 583375396,
+      &quot;non_circulating_sol&quot;: 49483861
+    },
+    &quot;validators&quot;: {
+      &quot;active_count&quot;: 685,
+      &quot;delinquent_count&quot;: 10,
+      &quot;delinquent_stake_pct&quot;: 0.044,
+      &quot;total_stake_sol&quot;: 435118104,
+      &quot;nakamoto_coefficient&quot;: 18,
+      &quot;top_validators&quot;: [
+        {
+          &quot;identity&quot;: &quot;Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk&quot;,
+          &quot;stake_sol&quot;: 17066966,
+          &quot;stake_pct&quot;: 3.92,
+          &quot;commission&quot;: 7
+        },
+        {
+          &quot;identity&quot;: &quot;HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU&quot;,
+          &quot;stake_sol&quot;: 16035907,
+          &quot;stake_pct&quot;: 3.69,
+          &quot;commission&quot;: 0
+        },
+        {
+          &quot;identity&quot;: &quot;DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy&quot;,
+          &quot;stake_sol&quot;: 12268330,
+          &quot;stake_pct&quot;: 2.82,
+          &quot;commission&quot;: 0
+        },
+        {
+          &quot;identity&quot;: &quot;JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b&quot;,
+          &quot;stake_sol&quot;: 11739871,
+          &quot;stake_pct&quot;: 2.7,
+          &quot;commission&quot;: 5
+        },
+        {
+          &quot;identity&quot;: &quot;C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k&quot;,
+          &quot;stake_sol&quot;: 9202562,
+          &quot;stake_pct&quot;: 2.11,
+          &quot;commission&quot;: 7
+        },
+        {
+          &quot;identity&quot;: &quot;CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4&quot;,
+          &quot;stake_sol&quot;: 8924729,
+          &quot;stake_pct&quot;: 2.05,
+          &quot;commission&quot;: 10
+        },
+        {
+          &quot;identity&quot;: &quot;E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL&quot;,
+          &quot;stake_sol&quot;: 8579462,
+          &quot;stake_pct&quot;: 1.97,
+          &quot;commission&quot;: 0
+        },
+        {
+          &quot;identity&quot;: &quot;EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4&quot;,
+          &quot;stake_sol&quot;: 7953722,
+          &quot;stake_pct&quot;: 1.83,
+          &quot;commission&quot;: 7
+        },
+        {
+          &quot;identity&quot;: &quot;9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY&quot;,
+          &quot;stake_sol&quot;: 7300009,
+          &quot;stake_pct&quot;: 1.68,
+          &quot;commission&quot;: 5
+        },
+        {
+          &quot;identity&quot;: &quot;Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM&quot;,
+          &quot;stake_sol&quot;: 6574676,
+          &quot;stake_pct&quot;: 1.51,
+          &quot;commission&quot;: 0
+        }
+      ]
+    }
+  },
+  &quot;economy&quot;: {
+    &quot;price&quot;: {
+      &quot;usd&quot;: 96.77,
+      &quot;market_cap_usd&quot;: 56454847067,
+      &quot;volume_24h_usd&quot;: 4302376752,
+      &quot;change_24h_pct&quot;: -4.31
+    },
+    &quot;tvl&quot;: {
+      &quot;tvl_usd&quot;: 5600700890,
+      &quot;rank&quot;: 2,
+      &quot;chains_total&quot;: 465,
+      &quot;share_of_all_chains_pct&quot;: 6.35
+    },
+    &quot;dex_volume&quot;: {
+      &quot;volume_24h_usd&quot;: 2948781265,
+      &quot;volume_7d_usd&quot;: 21600562943,
+      &quot;change_24h_pct&quot;: -1.58,
+      &quot;protocols_count&quot;: 119,
+      &quot;top_protocols&quot;: [
+        {
+          &quot;name&quot;: &quot;PumpSwap&quot;,
+          &quot;volume_24h_usd&quot;: 567887939,
+          &quot;share_pct&quot;: 19.3
+        },
+        {
+          &quot;name&quot;: &quot;Orca DEX&quot;,
+          &quot;volume_24h_usd&quot;: 424691788,
+          &quot;share_pct&quot;: 14.4
+        },
+        {
+          &quot;name&quot;: &quot;BisonFi&quot;,
+          &quot;volume_24h_usd&quot;: 411397417,
+          &quot;share_pct&quot;: 14.0
+        },
+        {
+          &quot;name&quot;: &quot;Meteora DLMM&quot;,
+          &quot;volume_24h_usd&quot;: 246356371,
+          &quot;share_pct&quot;: 8.4
+        },
+        {
+          &quot;name&quot;: &quot;Scorch&quot;,
+          &quot;volume_24h_usd&quot;: 218917685,
+          &quot;share_pct&quot;: 7.4
+        }
+      ]
+    },
+    &quot;fees&quot;: {
+      &quot;fees_24h_usd&quot;: 13011430,
+      &quot;fees_7d_usd&quot;: 89459349,
+      &quot;change_24h_pct&quot;: -10.21
+    },
+    &quot;stablecoins&quot;: {
+      &quot;total_usd&quot;: 15960670922,
+      &quot;by_peg&quot;: {
+        &quot;peggedUSD&quot;: 15891891962,
+        &quot;peggedEUR&quot;: 63864348,
+        &quot;peggedJPY&quot;: 53,
+        &quot;peggedCHF&quot;: 1348730,
+        &quot;peggedAUD&quot;: 74439,
+        &quot;peggedVAR&quot;: 2491989,
+        &quot;peggedGBP&quot;: 832238,
+        &quot;peggedTRY&quot;: 165698,
+        &quot;peggedCAD&quot;: 1464,
+        &quot;peggedKRW&quot;: 1
+      }
+    }
+  },
+  &quot;sources&quot;: [
+    &quot;Solana JSON-RPC (api.mainnet-beta.solana.com and public fallbacks)&quot;,
+    &quot;DeFiLlama — TVL, DEX volume, fees, stablecoin supply&quot;,
+    &quot;CoinGecko — SOL price and market cap&quot;
+  ],
+  &quot;collection_seconds&quot;: 10.9,
+  &quot;errors&quot;: [],
+  &quot;anomalies&quot;: {
+    &quot;count&quot;: 0,
+    &quot;critical&quot;: 0,
+    &quot;baseline_snapshots&quot;: 1,
+    &quot;statistical_detection_active&quot;: false,
+    &quot;findings&quot;: []
+  }
+}</pre></details>
+
+<footer>
+Built by <a href="https://github.com/kairenndev/solstate">solstate</a> ·
+Python standard library only, no API keys, no dependencies ·
+Sources: Solana RPC, DeFiLlama, CoinGecko ·
+Fees are reported as fees, not relabelled as REV.
+</footer>
+
+</div><script>
+// Sortable tables. Numeric columns are detected from a data-sort attribute so
+// that "$1.2B" and "1200000000" sort by value, not by string.
+document.querySelectorAll('table').forEach(function (table) {
+  table.querySelectorAll('th').forEach(function (th, index) {
+    th.addEventListener('click', function () {
+      var body = table.tBodies[0];
+      var rows = Array.prototype.slice.call(body.rows);
+      var asc = !th.classList.contains('asc');
+      table.querySelectorAll('th').forEach(function (o) { o.classList.remove('asc', 'desc'); });
+      th.classList.add(asc ? 'asc' : 'desc');
+      rows.sort(function (a, b) {
+        var x = a.cells[index], y = b.cells[index];
+        var xv = x.dataset.sort !== undefined ? parseFloat(x.dataset.sort) : NaN;
+        var yv = y.dataset.sort !== undefined ? parseFloat(y.dataset.sort) : NaN;
+        if (!isNaN(xv) && !isNaN(yv)) return asc ? xv - yv : yv - xv;
+        return asc ? x.textContent.localeCompare(y.textContent)
+                   : y.textContent.localeCompare(x.textContent);
+      });
+      rows.forEach(function (r) { body.appendChild(r); });
+    });
+  });
+});
+
+// Sparkline readout on hover: the shape shows the trend, the tooltip gives the
+// number, so the chart stays uncluttered until asked.
+document.querySelectorAll('svg.spark').forEach(function (svg) {
+  var series = JSON.parse(svg.dataset.series || '[]');
+  var card = svg.closest('.card');
+  var sub = card && card.querySelector('.sub');
+  var original = sub ? sub.textContent : '';
+  if (!series.length || !sub) return;
+  svg.addEventListener('mousemove', function (e) {
+    var box = svg.getBoundingClientRect();
+    var i = Math.min(series.length - 1,
+                     Math.max(0, Math.round((e.clientX - box.left) / box.width * (series.length - 1))));
+    sub.textContent = 'point ' + (i + 1) + '/' + series.length + ': ' + series[i].toLocaleString();
+  });
+  svg.addEventListener('mouseleave', function () { sub.textContent = original; });
+});
+</script></body></html>

@@ -1,0 +1,60 @@
+name: Update report
+
+# Hourly is a deliberate choice, not a default. The slowest-moving metric here
+# (TVL, stablecoin supply) updates a few times a day upstream, and the fastest
+# (TPS) is a 5-minute rolling average. Running more often would add commits
+# without adding information; running daily would make anomaly detection useless
+# — a chain incident is over long before the next daily snapshot.
+#
+# Minute 17 rather than 0: GitHub's scheduler is heavily oversubscribed on the
+# hour and delays jobs by many minutes there.
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "solstate/**"
+      - ".github/workflows/update.yml"
+
+# The job commits the regenerated report back to the repository. That commit is
+# what makes the dashboard live, and it is also what grows the history file the
+# anomaly detector needs — the repository is the database.
+permissions:
+  contents: write
+
+concurrency:
+  group: update-report
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # No install step, and that is the point: the project uses the standard
+      # library only, so there is nothing to resolve, pin, or break.
+
+      - name: Build report
+        run: python -m solstate --out docs
+
+      - name: Commit if changed
+        run: |
+          git config user.name "solstate-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs history
+          # Every run changes the timestamp, so "nothing to commit" only happens
+          # when the build genuinely failed to write. Treat it as a soft signal
+          # rather than an error: the next scheduled run will try again.
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update report: $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
