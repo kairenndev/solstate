@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-08-28T22:22:40+00:00",
+  "generated_at": "2026-08-28T23:22:26+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 4611.4,
-      "tps_non_vote": 2451.8,
-      "slot_time_ms": 317.8,
+      "tps_total": 4106.9,
+      "tps_non_vote": 1938.8,
+      "slot_time_ms": 315.8,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1024,
-      "slot": 442446444,
-      "block_height": 420494422,
-      "slots_done": 78444,
+      "slot": 442457768,
+      "block_height": 420505734,
+      "slots_done": 89768,
       "slots_in_epoch": 432000,
-      "progress_pct": 18.16,
-      "hours_remaining": 31.2
+      "progress_pct": 20.78,
+      "hours_remaining": 30.0
     },
     "supply": {
-      "total_sol": 633079618,
-      "circulating_sol": 584162078,
+      "total_sol": 633079578,
+      "circulating_sol": 584162038,
       "non_circulating_sol": 48917540
     },
     "validators": {
-      "active_count": 688,
-      "delinquent_count": 9,
-      "delinquent_stake_pct": 0.004,
+      "active_count": 687,
+      "delinquent_count": 10,
+      "delinquent_stake_pct": 0.009,
       "total_stake_sol": 436134289,
       "nakamoto_coefficient": 18,
       "top_validators": [
@@ -99,13 +99,13 @@
   },
   "economy": {
     "price": {
-      "usd": 103.61,
-      "market_cap_usd": 60522354774,
-      "volume_24h_usd": 5936204258,
-      "change_24h_pct": -5.41
+      "usd": 104.13,
+      "market_cap_usd": 60835017055,
+      "volume_24h_usd": 5972222108,
+      "change_24h_pct": -4.8
     },
     "tvl": {
-      "tvl_usd": 5816255549,
+      "tvl_usd": 5811406373,
       "rank": 2,
       "chains_total": 465,
       "share_of_all_chains_pct": 6.64
@@ -128,8 +128,8 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 338668489,
-          "share_pct": 9.2
+          "volume_24h_usd": 335524488,
+          "share_pct": 9.1
         },
         {
           "name": "Meteora DLMM",
@@ -138,8 +138,8 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 181013798,
-          "share_pct": 4.9
+          "volume_24h_usd": 179128250,
+          "share_pct": 4.8
         }
       ]
     },
@@ -149,17 +149,17 @@
       "change_24h_pct": 7.19
     },
     "stablecoins": {
-      "total_usd": 15933297978,
+      "total_usd": 15946927998,
       "by_peg": {
-        "peggedUSD": 15866582604,
-        "peggedEUR": 61843451,
+        "peggedUSD": 15880202940,
+        "peggedEUR": 61863505,
         "peggedJPY": 50,
-        "peggedCHF": 1336328,
-        "peggedAUD": 75520,
-        "peggedVAR": 2484789,
-        "peggedGBP": 806234,
+        "peggedCHF": 1337236,
+        "peggedAUD": 75524,
+        "peggedVAR": 2473469,
+        "peggedGBP": 806274,
         "peggedTRY": 167547,
-        "peggedCAD": 1453,
+        "peggedCAD": 1452,
         "peggedKRW": 1
       }
     }
@@ -169,38 +169,38 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 8.5,
+  "collection_seconds": 7.2,
   "errors": [],
   "anomalies": {
     "count": 5,
     "critical": 0,
-    "baseline_snapshots": 9,
+    "baseline_snapshots": 10,
     "statistical_detection_active": true,
     "findings": [
       {
         "severity": "warning",
-        "metric": "Non-vote TPS",
-        "message": "Non-vote TPS is 52.4% above its recent median (2,452 vs 1,609 tx/s); z=5.0."
-      },
-      {
-        "severity": "warning",
         "metric": "Slot time",
-        "message": "Slot time is 12.4% below its recent median (317.8 vs 362.8 ms); z=-16.9."
+        "message": "Slot time is 12.8% below its recent median (315.8 vs 362.4 ms); z=-12.8."
       },
       {
         "severity": "warning",
         "metric": "SOL price",
-        "message": "SOL price is 7.0% above its recent median (103.6 vs 96.84 USD); z=41.5."
+        "message": "SOL price is 7.5% above its recent median (104.1 vs 96.86 USD); z=14.0."
       },
       {
         "severity": "warning",
         "metric": "TVL",
-        "message": "TVL is 3.8% above its recent median (5.816e+09 vs 5.601e+09 USD); z=170.2."
+        "message": "TVL is 3.8% above its recent median (5.811e+09 vs 5.601e+09 USD); z=50.1."
+      },
+      {
+        "severity": "warning",
+        "metric": "DEX volume 24h",
+        "message": "DEX volume 24h is 25.5% above its recent median (3.7e+09 vs 2.949e+09 USD); z=116.9."
       },
       {
         "severity": "warning",
         "metric": "Network fees 24h",
-        "message": "Network fees 24h is 24.9% above its recent median (1.63e+07 vs 1.306e+07 USD); z=49.7."
+        "message": "Network fees 24h is 24.5% above its recent median (1.63e+07 vs 1.309e+07 USD); z=25.9."
       }
     ]
   }
