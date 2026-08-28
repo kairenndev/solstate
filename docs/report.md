@@ -1,25 +1,25 @@
 # Solana Ecosystem State
 
-*Generated 2026-08-28T21:53:37+00:00 · data collected in 9.9s*
+*Generated 2026-08-28T22:22:40+00:00 · data collected in 8.5s*
 
 ## ⚠ Anomalies
 
-- 🟡 **Non-vote TPS** — Non-vote TPS is 66.3% above its recent median (2,641 vs 1,589 tx/s); z=10.5.
-- 🟡 **Slot time** — Slot time is 12.4% below its recent median (318.1 vs 363 ms); z=-19.5.
-- 🟡 **SOL price** — SOL price is 6.8% above its recent median (103.4 vs 96.81 USD); z=40.3.
-- 🟡 **TVL** — TVL is 3.8% above its recent median (5.815e+09 vs 5.6e+09 USD); z=338.2.
-- 🟡 **Network fees 24h** — Network fees 24h is 25.0% above its recent median (1.63e+07 vs 1.304e+07 USD); z=74.2.
+- 🟡 **Non-vote TPS** — Non-vote TPS is 52.4% above its recent median (2,452 vs 1,609 tx/s); z=5.0.
+- 🟡 **Slot time** — Slot time is 12.4% below its recent median (317.8 vs 362.8 ms); z=-16.9.
+- 🟡 **SOL price** — SOL price is 7.0% above its recent median (103.6 vs 96.84 USD); z=41.5.
+- 🟡 **TVL** — TVL is 3.8% above its recent median (5.816e+09 vs 5.601e+09 USD); z=170.2.
+- 🟡 **Network fees 24h** — Network fees 24h is 24.9% above its recent median (1.63e+07 vs 1.306e+07 USD); z=49.7.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 2,641.4 |
-| Total TPS (incl. votes) | 4,783.4 |
-| Slot time | 318.1 ms (target 400) |
-| Epoch | 1024 — 16.9% done, ~31.7h left |
-| Block height | 420,488,931 |
-| Circulating supply | 584,162,099 SOL |
+| Non-vote TPS | 2,451.8 |
+| Total TPS (incl. votes) | 4,611.4 |
+| Slot time | 317.8 ms (target 400) |
+| Epoch | 1024 — 18.2% done, ~31.2h left |
+| Block height | 420,494,422 |
+| Circulating supply | 584,162,078 SOL |
 
 ## Validators
 
@@ -55,9 +55,9 @@
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $103.37 | -4.66% |
-| Market cap | $60.41B | |
-| TVL | $5.81B | rank #2 of 465 chains |
+| SOL price | $103.61 | -5.41% |
+| Market cap | $60.52B | |
+| TVL | $5.82B | rank #2 of 465 chains |
 | DEX volume | $3.70B | +57.34% |
 | Network fees | $16.30M | +7.19% |
 | Stablecoin supply | $15.93B | |

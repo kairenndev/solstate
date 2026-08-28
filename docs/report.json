@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-08-28T21:53:37+00:00",
+  "generated_at": "2026-08-28T22:22:40+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 4783.4,
-      "tps_non_vote": 2641.4,
-      "slot_time_ms": 318.1,
+      "tps_total": 4611.4,
+      "tps_non_vote": 2451.8,
+      "slot_time_ms": 317.8,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1024,
-      "slot": 442440945,
-      "block_height": 420488931,
-      "slots_done": 72945,
+      "slot": 442446444,
+      "block_height": 420494422,
+      "slots_done": 78444,
       "slots_in_epoch": 432000,
-      "progress_pct": 16.89,
-      "hours_remaining": 31.7
+      "progress_pct": 18.16,
+      "hours_remaining": 31.2
     },
     "supply": {
-      "total_sol": 633079639,
-      "circulating_sol": 584162099,
+      "total_sol": 633079618,
+      "circulating_sol": 584162078,
       "non_circulating_sol": 48917540
     },
     "validators": {
@@ -99,13 +99,13 @@
   },
   "economy": {
     "price": {
-      "usd": 103.37,
-      "market_cap_usd": 60412759514,
-      "volume_24h_usd": 6030755121,
-      "change_24h_pct": -4.66
+      "usd": 103.61,
+      "market_cap_usd": 60522354774,
+      "volume_24h_usd": 5936204258,
+      "change_24h_pct": -5.41
     },
     "tvl": {
-      "tvl_usd": 5814581041,
+      "tvl_usd": 5816255549,
       "rank": 2,
       "chains_total": 465,
       "share_of_all_chains_pct": 6.64
@@ -169,38 +169,38 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 9.9,
+  "collection_seconds": 8.5,
   "errors": [],
   "anomalies": {
     "count": 5,
     "critical": 0,
-    "baseline_snapshots": 8,
+    "baseline_snapshots": 9,
     "statistical_detection_active": true,
     "findings": [
       {
         "severity": "warning",
         "metric": "Non-vote TPS",
-        "message": "Non-vote TPS is 66.3% above its recent median (2,641 vs 1,589 tx/s); z=10.5."
+        "message": "Non-vote TPS is 52.4% above its recent median (2,452 vs 1,609 tx/s); z=5.0."
       },
       {
         "severity": "warning",
         "metric": "Slot time",
-        "message": "Slot time is 12.4% below its recent median (318.1 vs 363 ms); z=-19.5."
+        "message": "Slot time is 12.4% below its recent median (317.8 vs 362.8 ms); z=-16.9."
       },
       {
         "severity": "warning",
         "metric": "SOL price",
-        "message": "SOL price is 6.8% above its recent median (103.4 vs 96.81 USD); z=40.3."
+        "message": "SOL price is 7.0% above its recent median (103.6 vs 96.84 USD); z=41.5."
       },
       {
         "severity": "warning",
         "metric": "TVL",
-        "message": "TVL is 3.8% above its recent median (5.815e+09 vs 5.6e+09 USD); z=338.2."
+        "message": "TVL is 3.8% above its recent median (5.816e+09 vs 5.601e+09 USD); z=170.2."
       },
       {
         "severity": "warning",
         "metric": "Network fees 24h",
-        "message": "Network fees 24h is 25.0% above its recent median (1.63e+07 vs 1.304e+07 USD); z=74.2."
+        "message": "Network fees 24h is 24.9% above its recent median (1.63e+07 vs 1.306e+07 USD); z=49.7."
       }
     ]
   }
