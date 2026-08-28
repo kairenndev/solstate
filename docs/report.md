@@ -1,32 +1,33 @@
 # Solana Ecosystem State
 
-*Generated 2026-08-28T01:04:58+00:00 · data collected in 20.7s*
+*Generated 2026-08-28T21:53:37+00:00 · data collected in 9.9s*
 
 ## ⚠ Anomalies
 
-- 🟡 **Non-vote TPS** — Non-vote TPS is 39.2% above its recent median (2,182 vs 1,568 tx/s); z=10.1.
-- 🟡 **SOL price** — SOL price is 12.9% above its recent median (109.3 vs 96.77 USD); z=76.7.
-- 🟡 **TVL** — TVL is 7.3% above its recent median (6.008e+09 vs 5.6e+09 USD); z=477.7.
-- 🟡 **Network fees 24h** — Network fees 24h is 19.9% above its recent median (1.562e+07 vs 1.303e+07 USD); z=115.0.
+- 🟡 **Non-vote TPS** — Non-vote TPS is 66.3% above its recent median (2,641 vs 1,589 tx/s); z=10.5.
+- 🟡 **Slot time** — Slot time is 12.4% below its recent median (318.1 vs 363 ms); z=-19.5.
+- 🟡 **SOL price** — SOL price is 6.8% above its recent median (103.4 vs 96.81 USD); z=40.3.
+- 🟡 **TVL** — TVL is 3.8% above its recent median (5.815e+09 vs 5.6e+09 USD); z=338.2.
+- 🟡 **Network fees 24h** — Network fees 24h is 25.0% above its recent median (1.63e+07 vs 1.304e+07 USD); z=74.2.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 2,182.2 |
-| Total TPS (incl. votes) | 4,050.7 |
-| Slot time | 366.7 ms (target 400) |
-| Epoch | 1023 — 67.3% done, ~14.3h left |
-| Block height | 420,275,109 |
-| Circulating supply | 584,062,218 SOL |
+| Non-vote TPS | 2,641.4 |
+| Total TPS (incl. votes) | 4,783.4 |
+| Slot time | 318.1 ms (target 400) |
+| Epoch | 1024 — 16.9% done, ~31.7h left |
+| Block height | 420,488,931 |
+| Circulating supply | 584,162,099 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
 | Active | 688 |
-| Delinquent | 9 (0.010% of stake) |
-| Total stake | 436,884,837 SOL |
+| Delinquent | 9 (0.004% of stake) |
+| Total stake | 436,134,289 SOL |
 | Nakamoto coefficient | **18** |
 
 > The Nakamoto coefficient is how many of the largest validators together
@@ -37,16 +38,16 @@
 
 | # | Identity | Stake (SOL) | Share | Commission |
 |---|---|---|---|---|
-| 1 | `Fd7btg…69Nk` | 17,062,869 | 3.91% | 7% |
-| 2 | `HEL1US…e2TU` | 16,029,433 | 3.67% | 0% |
-| 3 | `DRpbCB…21hy` | 12,314,379 | 2.82% | 0% |
-| 4 | `JUPiTE…1h4b` | 11,751,683 | 2.69% | 5% |
-| 5 | `C8Bey3…JP1k` | 9,216,852 | 2.11% | 7% |
-| 6 | `E1r4Ps…dxHL` | 9,051,084 | 2.07% | 0% |
-| 7 | `CAo1dC…Sve4` | 8,904,595 | 2.04% | 10% |
-| 8 | `EvnRmn…qDo4` | 7,849,682 | 1.8% | 7% |
-| 9 | `9eGrDo…8FoY` | 7,301,740 | 1.67% | 5% |
-| 10 | `Awes4T…vpLM` | 6,578,261 | 1.51% | 0% |
+| 1 | `Fd7btg…69Nk` | 16,991,835 | 3.9% | 7% |
+| 2 | `HEL1US…e2TU` | 16,035,737 | 3.68% | 0% |
+| 3 | `DRpbCB…21hy` | 12,393,242 | 2.84% | 0% |
+| 4 | `JUPiTE…1h4b` | 11,460,007 | 2.63% | 5% |
+| 5 | `C8Bey3…JP1k` | 9,292,131 | 2.13% | 7% |
+| 6 | `E1r4Ps…dxHL` | 9,081,213 | 2.08% | 0% |
+| 7 | `CAo1dC…Sve4` | 9,001,204 | 2.06% | 10% |
+| 8 | `9eGrDo…8FoY` | 7,294,487 | 1.67% | 5% |
+| 9 | `EvnRmn…qDo4` | 7,192,557 | 1.65% | 7% |
+| 10 | `Awes4T…vpLM` | 6,585,996 | 1.51% | 0% |
 
 </details>
 
@@ -54,12 +55,12 @@
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $109.28 | +8.43% |
-| Market cap | $63.79B | |
-| TVL | $6.01B | rank #2 of 465 chains |
-| DEX volume | $2.94B | +25.02% |
-| Network fees | $15.62M | +2.68% |
-| Stablecoin supply | $16.00B | |
+| SOL price | $103.37 | -4.66% |
+| Market cap | $60.41B | |
+| TVL | $5.81B | rank #2 of 465 chains |
+| DEX volume | $3.70B | +57.34% |
+| Network fees | $16.30M | +7.19% |
+| Stablecoin supply | $15.93B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
@@ -69,11 +70,11 @@
 
 | Venue | Volume | Share |
 |---|---|---|
-| PumpSwap | $765.13M | 26.0% |
-| BisonFi | $416.99M | 14.2% |
-| Orca DEX | $365.65M | 12.4% |
-| Meteora DLMM | $245.52M | 8.4% |
-| Raydium AMM | $180.41M | 6.1% |
+| PumpSwap | $1.46B | 39.5% |
+| BisonFi | $416.99M | 11.3% |
+| Orca DEX | $338.67M | 9.2% |
+| Meteora DLMM | $245.52M | 6.6% |
+| Raydium AMM | $181.01M | 4.9% |
 
 ## Sources
 
