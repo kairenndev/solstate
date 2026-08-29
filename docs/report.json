@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-08-29T02:22:55+00:00",
+  "generated_at": "2026-08-29T03:23:05+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 4253.6,
-      "tps_non_vote": 2097.0,
-      "slot_time_ms": 316.8,
+      "tps_total": 3693.6,
+      "tps_non_vote": 1545.2,
+      "slot_time_ms": 318.5,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1024,
-      "slot": 442491925,
-      "block_height": 420539871,
-      "slots_done": 123925,
+      "slot": 442503275,
+      "block_height": 420551221,
+      "slots_done": 135275,
       "slots_in_epoch": 432000,
-      "progress_pct": 28.69,
-      "hours_remaining": 27.1
+      "progress_pct": 31.31,
+      "hours_remaining": 26.3
     },
     "supply": {
-      "total_sol": 633079463,
-      "circulating_sol": 584161923,
+      "total_sol": 633079427,
+      "circulating_sol": 584161887,
       "non_circulating_sol": 48917540
     },
     "validators": {
@@ -99,20 +99,20 @@
   },
   "economy": {
     "price": {
-      "usd": 103.96,
-      "market_cap_usd": 60724845311,
-      "volume_24h_usd": 5455059224,
-      "change_24h_pct": -3.1
+      "usd": 103.98,
+      "market_cap_usd": 60742736177,
+      "volume_24h_usd": 5450939559,
+      "change_24h_pct": -2.99
     },
     "tvl": {
-      "tvl_usd": 5829920522,
+      "tvl_usd": 5871696994,
       "rank": 2,
       "chains_total": 465,
-      "share_of_all_chains_pct": 6.63
+      "share_of_all_chains_pct": 6.69
     },
     "dex_volume": {
-      "volume_24h_usd": 2615039457,
-      "volume_7d_usd": 20951262405,
+      "volume_24h_usd": 2615026955,
+      "volume_7d_usd": 20951249903,
       "change_24h_pct": -29.33,
       "protocols_count": 119,
       "top_protocols": [
@@ -138,27 +138,27 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 171652001,
-          "share_pct": 6.6
+          "volume_24h_usd": 170744111,
+          "share_pct": 6.5
         }
       ]
     },
     "fees": {
-      "fees_24h_usd": 15708146,
-      "fees_7d_usd": 95680878,
-      "change_24h_pct": -3.65
+      "fees_24h_usd": 15447745,
+      "fees_7d_usd": 98525984,
+      "change_24h_pct": -5.24
     },
     "stablecoins": {
-      "total_usd": 15982578767,
+      "total_usd": 16011173508,
       "by_peg": {
-        "peggedUSD": 15918245189,
-        "peggedEUR": 59471019,
+        "peggedUSD": 15946825225,
+        "peggedEUR": 59468148,
         "peggedJPY": 48,
-        "peggedCHF": 1338459,
-        "peggedAUD": 75655,
-        "peggedVAR": 2473143,
-        "peggedGBP": 806256,
-        "peggedTRY": 167547,
+        "peggedCHF": 1334568,
+        "peggedAUD": 75679,
+        "peggedVAR": 2497455,
+        "peggedGBP": 803765,
+        "peggedTRY": 167169,
         "peggedCAD": 1451,
         "peggedKRW": 1
       }
@@ -169,38 +169,23 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 9.3,
+  "collection_seconds": 6.8,
   "errors": [],
   "anomalies": {
-    "count": 5,
+    "count": 2,
     "critical": 0,
-    "baseline_snapshots": 13,
+    "baseline_snapshots": 14,
     "statistical_detection_active": true,
     "findings": [
       {
         "severity": "warning",
         "metric": "Slot time",
-        "message": "Slot time is 12.5% below its recent median (316.8 vs 361.9 ms); z=-6.3."
-      },
-      {
-        "severity": "warning",
-        "metric": "SOL price",
-        "message": "SOL price is 7.2% above its recent median (104 vs 96.95 USD); z=5.4."
-      },
-      {
-        "severity": "warning",
-        "metric": "TVL",
-        "message": "TVL is 4.1% above its recent median (5.83e+09 vs 5.601e+09 USD); z=17.5."
+        "message": "Slot time is 11.9% below its recent median (318.5 vs 361.4 ms); z=-4.9."
       },
       {
         "severity": "warning",
         "metric": "DEX volume 24h",
         "message": "DEX volume 24h is 11.3% below its recent median (2.615e+09 vs 2.949e+09 USD); z=-16.3."
-      },
-      {
-        "severity": "warning",
-        "metric": "Network fees 24h",
-        "message": "Network fees 24h is 18.7% above its recent median (1.571e+07 vs 1.324e+07 USD); z=7.4."
       }
     ]
   }
