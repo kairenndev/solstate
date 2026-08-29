@@ -1,22 +1,21 @@
 # Solana Ecosystem State
 
-*Generated 2026-08-29T04:22:46+00:00 · data collected in 10.5s*
+*Generated 2026-08-29T05:22:56+00:00 · data collected in 7.0s*
 
-## ⚠ Anomalies
+## Anomalies
 
-- 🟡 **Slot time** — Slot time is 11.9% below its recent median (318.1 vs 361 ms); z=-4.1.
-- 🟡 **DEX volume 24h** — DEX volume 24h is 11.3% below its recent median (2.615e+09 vs 2.949e+09 USD); z=-16.3.
+None detected. Baseline: 16 snapshots.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,469.5 |
-| Total TPS (incl. votes) | 3,616.6 |
-| Slot time | 318.1 ms (target 400) |
-| Epoch | 1024 — 33.9% done, ~25.2h left |
-| Block height | 420,562,512 |
-| Circulating supply | 584,161,850 SOL |
+| Non-vote TPS | 1,629.0 |
+| Total TPS (incl. votes) | 3,785.7 |
+| Slot time | 317.1 ms (target 400) |
+| Epoch | 1024 — 36.6% done, ~24.1h left |
+| Block height | 420,573,898 |
+| Circulating supply | 584,161,817 SOL |
 
 ## Validators
 
@@ -52,9 +51,9 @@
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $103.57 | -3.58% |
-| Market cap | $60.48B | |
-| TVL | $5.87B | rank #2 of 465 chains |
+| SOL price | $104.14 | -2.52% |
+| Market cap | $60.84B | |
+| TVL | $5.86B | rank #2 of 465 chains |
 | DEX volume | $2.62B | -29.33% |
 | Network fees | $15.45M | -5.24% |
 | Stablecoin supply | $15.99B | |
@@ -71,7 +70,7 @@
 | Orca DEX | $338.68M | 13.0% |
 | BisonFi | $331.44M | 12.7% |
 | Meteora DLMM | $279.39M | 10.7% |
-| Raydium AMM | $172.70M | 6.6% |
+| Raydium AMM | $175.41M | 6.7% |
 
 ## Sources
 
