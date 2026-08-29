@@ -1,25 +1,25 @@
 # Solana Ecosystem State
 
-*Generated 2026-08-28T23:22:26+00:00 · data collected in 7.2s*
+*Generated 2026-08-29T00:23:03+00:00 · data collected in 8.5s*
 
 ## ⚠ Anomalies
 
-- 🟡 **Slot time** — Slot time is 12.8% below its recent median (315.8 vs 362.4 ms); z=-12.8.
-- 🟡 **SOL price** — SOL price is 7.5% above its recent median (104.1 vs 96.86 USD); z=14.0.
-- 🟡 **TVL** — TVL is 3.8% above its recent median (5.811e+09 vs 5.601e+09 USD); z=50.1.
-- 🟡 **DEX volume 24h** — DEX volume 24h is 25.5% above its recent median (3.7e+09 vs 2.949e+09 USD); z=116.9.
-- 🟡 **Network fees 24h** — Network fees 24h is 24.5% above its recent median (1.63e+07 vs 1.309e+07 USD); z=25.9.
+- 🟡 **Slot time** — Slot time is 13.0% below its recent median (314.8 vs 361.9 ms); z=-7.9.
+- 🟡 **SOL price** — SOL price is 7.7% above its recent median (104.3 vs 96.88 USD); z=8.0.
+- 🟡 **TVL** — TVL is 4.1% above its recent median (5.828e+09 vs 5.601e+09 USD); z=31.9.
+- 🟡 **DEX volume 24h** — DEX volume 24h is 25.5% above its recent median (3.7e+09 vs 2.949e+09 USD); z=58.4.
+- 🟡 **Network fees 24h** — Network fees 24h is 24.1% above its recent median (1.63e+07 vs 1.313e+07 USD); z=17.4.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,938.8 |
-| Total TPS (incl. votes) | 4,106.9 |
-| Slot time | 315.8 ms (target 400) |
-| Epoch | 1024 — 20.8% done, ~30.0h left |
-| Block height | 420,505,734 |
-| Circulating supply | 584,162,038 SOL |
+| Non-vote TPS | 1,750.9 |
+| Total TPS (incl. votes) | 3,925.4 |
+| Slot time | 314.8 ms (target 400) |
+| Epoch | 1024 — 23.4% done, ~28.9h left |
+| Block height | 420,517,221 |
+| Circulating supply | 584,161,998 SOL |
 
 ## Validators
 
@@ -55,9 +55,9 @@
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $104.13 | -4.80% |
-| Market cap | $60.84B | |
-| TVL | $5.81B | rank #2 of 465 chains |
+| SOL price | $104.35 | -4.77% |
+| Market cap | $60.96B | |
+| TVL | $5.83B | rank #2 of 465 chains |
 | DEX volume | $3.70B | +57.34% |
 | Network fees | $16.30M | +7.19% |
 | Stablecoin supply | $15.95B | |
@@ -72,9 +72,9 @@
 |---|---|---|
 | PumpSwap | $1.46B | 39.5% |
 | BisonFi | $416.99M | 11.3% |
-| Orca DEX | $335.52M | 9.1% |
+| Orca DEX | $338.28M | 9.1% |
 | Meteora DLMM | $245.52M | 6.6% |
-| Raydium AMM | $179.13M | 4.8% |
+| Raydium AMM | $174.43M | 4.7% |
 
 ## Sources
 
