@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-08-29T19:22:53+00:00",
+  "generated_at": "2026-08-29T20:23:00+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 4116.9,
-      "tps_non_vote": 1978.4,
-      "slot_time_ms": 320.5,
+      "tps_total": 3926.1,
+      "tps_non_vote": 1750.6,
+      "slot_time_ms": 314.1,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1024,
-      "slot": 442685009,
-      "block_height": 420732851,
-      "slots_done": 317009,
+      "slot": 442696392,
+      "block_height": 420744230,
+      "slots_done": 328392,
       "slots_in_epoch": 432000,
-      "progress_pct": 73.38,
-      "hours_remaining": 10.2
+      "progress_pct": 76.02,
+      "hours_remaining": 9.0
     },
     "supply": {
-      "total_sol": 633078851,
-      "circulating_sol": 584161311,
+      "total_sol": 633078812,
+      "circulating_sol": 584161272,
       "non_circulating_sol": 48917540
     },
     "validators": {
@@ -99,16 +99,16 @@
   },
   "economy": {
     "price": {
-      "usd": 105.68,
-      "market_cap_usd": 61737132950,
-      "volume_24h_usd": 2618656766,
-      "change_24h_pct": 2.31
+      "usd": 105.32,
+      "market_cap_usd": 61551401828,
+      "volume_24h_usd": 2516855483,
+      "change_24h_pct": 1.68
     },
     "tvl": {
-      "tvl_usd": 5897895104,
+      "tvl_usd": 5896456733,
       "rank": 2,
       "chains_total": 465,
-      "share_of_all_chains_pct": 6.71
+      "share_of_all_chains_pct": 6.7
     },
     "dex_volume": {
       "volume_24h_usd": 2590586442,
@@ -138,7 +138,7 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 135796251,
+          "volume_24h_usd": 135244764,
           "share_pct": 5.2
         }
       ]
@@ -169,12 +169,12 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 7.8,
+  "collection_seconds": 8.5,
   "errors": [],
   "anomalies": {
     "count": 1,
     "critical": 0,
-    "baseline_snapshots": 30,
+    "baseline_snapshots": 31,
     "statistical_detection_active": true,
     "findings": [
       {

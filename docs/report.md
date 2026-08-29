@@ -1,6 +1,6 @@
 # Solana Ecosystem State
 
-*Generated 2026-08-29T19:22:53+00:00 · data collected in 7.8s*
+*Generated 2026-08-29T20:23:00+00:00 · data collected in 8.5s*
 
 ## ⚠ Anomalies
 
@@ -10,12 +10,12 @@
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,978.4 |
-| Total TPS (incl. votes) | 4,116.9 |
-| Slot time | 320.5 ms (target 400) |
-| Epoch | 1024 — 73.4% done, ~10.2h left |
-| Block height | 420,732,851 |
-| Circulating supply | 584,161,311 SOL |
+| Non-vote TPS | 1,750.6 |
+| Total TPS (incl. votes) | 3,926.1 |
+| Slot time | 314.1 ms (target 400) |
+| Epoch | 1024 — 76.0% done, ~9.0h left |
+| Block height | 420,744,230 |
+| Circulating supply | 584,161,272 SOL |
 
 ## Validators
 
@@ -51,8 +51,8 @@
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $105.68 | +2.31% |
-| Market cap | $61.74B | |
+| SOL price | $105.32 | +1.68% |
+| Market cap | $61.55B | |
 | TVL | $5.90B | rank #2 of 465 chains |
 | DEX volume | $2.59B | -29.99% |
 | Network fees | $15.73M | -3.52% |
@@ -70,7 +70,7 @@
 | BisonFi | $331.44M | 12.8% |
 | Meteora DLMM | $279.39M | 10.8% |
 | Orca DEX | $187.43M | 7.2% |
-| Raydium AMM | $135.80M | 5.2% |
+| Raydium AMM | $135.24M | 5.2% |
 
 ## Sources
 
