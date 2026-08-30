@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-08-30T10:23:07+00:00",
+  "generated_at": "2026-08-30T11:22:51+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3236.4,
-      "tps_non_vote": 1108.0,
-      "slot_time_ms": 315.8,
+      "tps_total": 3041.2,
+      "tps_non_vote": 898.5,
+      "slot_time_ms": 315.1,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1025,
-      "slot": 442855476,
-      "block_height": 420903259,
-      "slots_done": 55476,
+      "slot": 442866801,
+      "block_height": 420914584,
+      "slots_done": 66801,
       "slots_in_epoch": 432000,
-      "progress_pct": 12.84,
-      "hours_remaining": 33.1
+      "progress_pct": 15.46,
+      "hours_remaining": 32.0
     },
     "supply": {
-      "total_sol": 633173770,
-      "circulating_sol": 585122087,
+      "total_sol": 633173740,
+      "circulating_sol": 585122057,
       "non_circulating_sol": 48051683
     },
     "validators": {
-      "active_count": 678,
-      "delinquent_count": 19,
-      "delinquent_stake_pct": 0.057,
+      "active_count": 679,
+      "delinquent_count": 18,
+      "delinquent_stake_pct": 0.031,
       "total_stake_sol": 437127890,
       "nakamoto_coefficient": 18,
       "top_validators": [
@@ -99,65 +99,65 @@
   },
   "economy": {
     "price": {
-      "usd": 104.66,
-      "market_cap_usd": 61237965436,
-      "volume_24h_usd": 2039544474,
-      "change_24h_pct": 1.17
+      "usd": 105.16,
+      "market_cap_usd": 61519871150,
+      "volume_24h_usd": 2059470792,
+      "change_24h_pct": 1.54
     },
     "tvl": {
-      "tvl_usd": 5898570612,
+      "tvl_usd": 5889858537,
       "rank": 2,
       "chains_total": 465,
       "share_of_all_chains_pct": 6.7
     },
     "dex_volume": {
-      "volume_24h_usd": 1813163418,
-      "volume_7d_usd": 19032118843,
-      "change_24h_pct": -30.01,
+      "volume_24h_usd": 1670710752,
+      "volume_7d_usd": 19182845610,
+      "change_24h_pct": -35.51,
       "protocols_count": 120,
       "top_protocols": [
         {
           "name": "PumpSwap",
           "volume_24h_usd": 584752927,
-          "share_pct": 32.3
+          "share_pct": 35.0
         },
         {
           "name": "BisonFi",
           "volume_24h_usd": 149874159,
-          "share_pct": 8.3
+          "share_pct": 9.0
         },
         {
           "name": "Meteora DLMM",
           "volume_24h_usd": 142974096,
-          "share_pct": 7.9
+          "share_pct": 8.6
         },
         {
           "name": "Orca DEX",
           "volume_24h_usd": 126279435,
-          "share_pct": 7.0
+          "share_pct": 7.6
         },
         {
-          "name": "Axiom",
-          "volume_24h_usd": 124298931,
-          "share_pct": 6.9
+          "name": "pump.fun",
+          "volume_24h_usd": 110076922,
+          "share_pct": 6.6
         }
       ]
     },
     "fees": {
-      "fees_24h_usd": 11135063,
-      "fees_7d_usd": 97993030,
-      "change_24h_pct": -29.21
+      "fees_24h_usd": 11130686,
+      "fees_7d_usd": 97996575,
+      "change_24h_pct": -29.23
     },
     "stablecoins": {
-      "total_usd": 15935093100,
+      "total_usd": 15927686570,
       "by_peg": {
-        "peggedUSD": 15870859828,
-        "peggedEUR": 59381502,
+        "peggedUSD": 15863441134,
+        "peggedEUR": 59390448,
         "peggedJPY": 52,
-        "peggedCHF": 1340031,
-        "peggedAUD": 74715,
-        "peggedVAR": 2464866,
-        "peggedGBP": 803478,
+        "peggedCHF": 1338547,
+        "peggedAUD": 75168,
+        "peggedVAR": 2469115,
+        "peggedGBP": 803477,
         "peggedTRY": 167178,
         "peggedCAD": 1451,
         "peggedKRW": 1
@@ -169,28 +169,23 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 10.6,
+  "collection_seconds": 7.3,
   "errors": [],
   "anomalies": {
-    "count": 3,
+    "count": 2,
     "critical": 0,
-    "baseline_snapshots": 45,
+    "baseline_snapshots": 46,
     "statistical_detection_active": true,
     "findings": [
       {
         "severity": "warning",
         "metric": "DEX volume 24h",
-        "message": "DEX volume 24h is 30.0% below its recent median (1.813e+09 vs 2.591e+09 USD); z=-21.5."
+        "message": "DEX volume 24h is 35.5% below its recent median (1.671e+09 vs 2.591e+09 USD); z=-25.4."
       },
       {
         "severity": "warning",
         "metric": "Network fees 24h",
-        "message": "Network fees 24h is 27.9% below its recent median (1.114e+07 vs 1.545e+07 USD); z=-10.3."
-      },
-      {
-        "severity": "warning",
-        "metric": "Delinquent stake",
-        "message": "Delinquent stake is 533.3% above its recent median (0.057 vs 0.009 %); z=6.5."
+        "message": "Network fees 24h is 27.9% below its recent median (1.113e+07 vs 1.545e+07 USD); z=-10.4."
       }
     ]
   }

@@ -1,30 +1,29 @@
 # Solana Ecosystem State
 
-*Generated 2026-08-30T10:23:07+00:00 · data collected in 10.6s*
+*Generated 2026-08-30T11:22:51+00:00 · data collected in 7.3s*
 
 ## ⚠ Anomalies
 
-- 🟡 **DEX volume 24h** — DEX volume 24h is 30.0% below its recent median (1.813e+09 vs 2.591e+09 USD); z=-21.5.
-- 🟡 **Network fees 24h** — Network fees 24h is 27.9% below its recent median (1.114e+07 vs 1.545e+07 USD); z=-10.3.
-- 🟡 **Delinquent stake** — Delinquent stake is 533.3% above its recent median (0.057 vs 0.009 %); z=6.5.
+- 🟡 **DEX volume 24h** — DEX volume 24h is 35.5% below its recent median (1.671e+09 vs 2.591e+09 USD); z=-25.4.
+- 🟡 **Network fees 24h** — Network fees 24h is 27.9% below its recent median (1.113e+07 vs 1.545e+07 USD); z=-10.4.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,108.0 |
-| Total TPS (incl. votes) | 3,236.4 |
-| Slot time | 315.8 ms (target 400) |
-| Epoch | 1025 — 12.8% done, ~33.1h left |
-| Block height | 420,903,259 |
-| Circulating supply | 585,122,087 SOL |
+| Non-vote TPS | 898.5 |
+| Total TPS (incl. votes) | 3,041.2 |
+| Slot time | 315.1 ms (target 400) |
+| Epoch | 1025 — 15.5% done, ~32.0h left |
+| Block height | 420,914,584 |
+| Circulating supply | 585,122,057 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active | 678 |
-| Delinquent | 19 (0.057% of stake) |
+| Active | 679 |
+| Delinquent | 18 (0.031% of stake) |
 | Total stake | 437,127,890 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -53,12 +52,12 @@
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $104.66 | +1.17% |
-| Market cap | $61.24B | |
-| TVL | $5.90B | rank #2 of 465 chains |
-| DEX volume | $1.81B | -30.01% |
-| Network fees | $11.14M | -29.21% |
-| Stablecoin supply | $15.94B | |
+| SOL price | $105.16 | +1.54% |
+| Market cap | $61.52B | |
+| TVL | $5.89B | rank #2 of 465 chains |
+| DEX volume | $1.67B | -35.51% |
+| Network fees | $11.13M | -29.23% |
+| Stablecoin supply | $15.93B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
@@ -68,11 +67,11 @@
 
 | Venue | Volume | Share |
 |---|---|---|
-| PumpSwap | $584.75M | 32.3% |
-| BisonFi | $149.87M | 8.3% |
-| Meteora DLMM | $142.97M | 7.9% |
-| Orca DEX | $126.28M | 7.0% |
-| Axiom | $124.30M | 6.9% |
+| PumpSwap | $584.75M | 35.0% |
+| BisonFi | $149.87M | 9.0% |
+| Meteora DLMM | $142.97M | 8.6% |
+| Orca DEX | $126.28M | 7.6% |
+| pump.fun | $110.08M | 6.6% |
 
 ## Sources
 
