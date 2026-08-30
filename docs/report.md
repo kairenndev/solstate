@@ -1,30 +1,31 @@
 # Solana Ecosystem State
 
-*Generated 2026-08-30T05:22:42+00:00 · data collected in 8.2s*
+*Generated 2026-08-30T06:22:57+00:00 · data collected in 14.1s*
 
 ## ⚠ Anomalies
 
 - 🟡 **DEX volume 24h** — DEX volume 24h is 30.7% below its recent median (1.813e+09 vs 2.615e+09 USD); z=-22.1.
-- 🟡 **Network fees 24h** — Network fees 24h is 28.1% below its recent median (1.117e+07 vs 1.554e+07 USD); z=-15.9.
+- 🟡 **Network fees 24h** — Network fees 24h is 27.8% below its recent median (1.117e+07 vs 1.547e+07 USD); z=-11.2.
+- 🟡 **Delinquent stake** — Delinquent stake is 388.9% above its recent median (0.044 vs 0.009 %); z=4.7.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,114.1 |
-| Total TPS (incl. votes) | 3,262.1 |
+| Non-vote TPS | 1,248.8 |
+| Total TPS (incl. votes) | 3,386.7 |
 | Slot time | 316.8 ms (target 400) |
-| Epoch | 1024 — 99.7% done, ~0.1h left |
-| Block height | 420,846,300 |
-| Circulating supply | 585,035,938 SOL |
+| Epoch | 1025 — 2.3% done, ~37.1h left |
+| Block height | 420,857,709 |
+| Circulating supply | 585,122,437 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active | 684 |
-| Delinquent | 13 (0.005% of stake) |
-| Total stake | 436,134,289 SOL |
+| Active | 679 |
+| Delinquent | 18 (0.044% of stake) |
+| Total stake | 437,127,890 SOL |
 | Nakamoto coefficient | **18** |
 
 > The Nakamoto coefficient is how many of the largest validators together
@@ -35,16 +36,16 @@
 
 | # | Identity | Stake (SOL) | Share | Commission |
 |---|---|---|---|---|
-| 1 | `Fd7btg…69Nk` | 16,991,835 | 3.9% | 7% |
-| 2 | `HEL1US…e2TU` | 16,035,737 | 3.68% | 0% |
-| 3 | `DRpbCB…21hy` | 12,393,242 | 2.84% | 0% |
-| 4 | `JUPiTE…1h4b` | 11,460,007 | 2.63% | 5% |
-| 5 | `C8Bey3…JP1k` | 9,292,131 | 2.13% | 7% |
-| 6 | `E1r4Ps…dxHL` | 9,081,213 | 2.08% | 0% |
-| 7 | `CAo1dC…Sve4` | 9,001,204 | 2.06% | 10% |
-| 8 | `9eGrDo…8FoY` | 7,294,487 | 1.67% | 5% |
-| 9 | `EvnRmn…qDo4` | 7,192,557 | 1.65% | 7% |
-| 10 | `Awes4T…vpLM` | 6,585,996 | 1.51% | 0% |
+| 1 | `Fd7btg…69Nk` | 17,203,741 | 3.94% | 7% |
+| 2 | `HEL1US…e2TU` | 16,085,807 | 3.68% | 0% |
+| 3 | `DRpbCB…21hy` | 12,389,824 | 2.83% | 0% |
+| 4 | `JUPiTE…1h4b` | 11,479,512 | 2.63% | 5% |
+| 5 | `E1r4Ps…dxHL` | 9,452,658 | 2.16% | 0% |
+| 6 | `C8Bey3…JP1k` | 9,293,056 | 2.13% | 7% |
+| 7 | `CAo1dC…Sve4` | 9,023,631 | 2.06% | 10% |
+| 8 | `9eGrDo…8FoY` | 7,295,972 | 1.67% | 5% |
+| 9 | `EvnRmn…qDo4` | 7,201,762 | 1.65% | 7% |
+| 10 | `Awes4T…vpLM` | 6,589,845 | 1.51% | 0% |
 
 </details>
 
@@ -52,12 +53,12 @@
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $105.02 | +0.85% |
-| Market cap | $61.44B | |
+| SOL price | $104.97 | +1.45% |
+| Market cap | $61.42B | |
 | TVL | $5.91B | rank #2 of 465 chains |
 | DEX volume | $1.81B | -30.01% |
 | Network fees | $11.17M | -28.99% |
-| Stablecoin supply | $15.95B | |
+| Stablecoin supply | $15.96B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
@@ -69,8 +70,8 @@
 |---|---|---|
 | PumpSwap | $584.75M | 32.3% |
 | BisonFi | $149.87M | 8.3% |
-| Orca DEX | $145.27M | 8.0% |
 | Meteora DLMM | $142.97M | 7.9% |
+| Orca DEX | $136.20M | 7.5% |
 | Axiom | $124.30M | 6.9% |
 
 ## Sources
