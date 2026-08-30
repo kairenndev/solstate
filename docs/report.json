@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-08-30T12:22:45+00:00",
+  "generated_at": "2026-08-30T13:22:41+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3588.1,
-      "tps_non_vote": 1450.6,
-      "slot_time_ms": 316.1,
+      "tps_total": 3620.1,
+      "tps_non_vote": 1513.5,
+      "slot_time_ms": 320.9,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1025,
-      "slot": 442878148,
-      "block_height": 420925931,
-      "slots_done": 78148,
+      "slot": 442889468,
+      "block_height": 420937247,
+      "slots_done": 89468,
       "slots_in_epoch": 432000,
-      "progress_pct": 18.09,
-      "hours_remaining": 31.1
+      "progress_pct": 20.71,
+      "hours_remaining": 30.5
     },
     "supply": {
-      "total_sol": 633173708,
-      "circulating_sol": 585122025,
+      "total_sol": 633173674,
+      "circulating_sol": 585121991,
       "non_circulating_sol": 48051683
     },
     "validators": {
       "active_count": 678,
       "delinquent_count": 19,
-      "delinquent_stake_pct": 0.043,
+      "delinquent_stake_pct": 0.057,
       "total_stake_sol": 437127890,
       "nakamoto_coefficient": 18,
       "top_validators": [
@@ -99,13 +99,13 @@
   },
   "economy": {
     "price": {
-      "usd": 105.4,
-      "market_cap_usd": 61674285005,
-      "volume_24h_usd": 2120141112,
-      "change_24h_pct": 1.47
+      "usd": 106.14,
+      "market_cap_usd": 62098958323,
+      "volume_24h_usd": 2179406403,
+      "change_24h_pct": 2.31
     },
     "tvl": {
-      "tvl_usd": 5897153911,
+      "tvl_usd": 5894567426,
       "rank": 2,
       "chains_total": 465,
       "share_of_all_chains_pct": 6.7
@@ -169,28 +169,23 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 6.8,
+  "collection_seconds": 8.4,
   "errors": [],
   "anomalies": {
-    "count": 3,
+    "count": 2,
     "critical": 0,
-    "baseline_snapshots": 47,
+    "baseline_snapshots": 48,
     "statistical_detection_active": true,
     "findings": [
       {
         "severity": "warning",
-        "metric": "DEX volume 24h",
-        "message": "DEX volume 24h is 35.5% below its recent median (1.671e+09 vs 2.591e+09 USD); z=-25.4."
-      },
-      {
-        "severity": "warning",
         "metric": "Network fees 24h",
-        "message": "Network fees 24h is 28.1% below its recent median (1.111e+07 vs 1.545e+07 USD); z=-10.4."
+        "message": "Network fees 24h is 28.1% below its recent median (1.111e+07 vs 1.545e+07 USD); z=-5.2."
       },
       {
         "severity": "warning",
         "metric": "Delinquent stake",
-        "message": "Delinquent stake is 377.8% above its recent median (0.043 vs 0.009 %); z=4.6."
+        "message": "Delinquent stake is 533.3% above its recent median (0.057 vs 0.009 %); z=6.5."
       }
     ]
   }
