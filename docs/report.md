@@ -1,28 +1,29 @@
 # Solana Ecosystem State
 
-*Generated 2026-08-30T00:23:02+00:00 · data collected in 12.2s*
+*Generated 2026-08-30T01:22:49+00:00 · data collected in 27.0s*
 
-## Anomalies
+## ⚠ Anomalies
 
-None detected. Baseline: 35 snapshots.
+- 🟡 **DEX volume 24h** — DEX volume 24h is 30.6% below its recent median (1.814e+09 vs 2.615e+09 USD); z=-22.1.
+- 🟡 **Network fees 24h** — Network fees 24h is 7.8% below its recent median (1.441e+07 vs 1.562e+07 USD); z=-4.6.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 2,486.2 |
-| Total TPS (incl. votes) | 4,625.5 |
-| Slot time | 319.8 ms (target 400) |
-| Epoch | 1024 — 86.5% done, ~5.2h left |
-| Block height | 420,789,645 |
-| Circulating supply | 585,036,117 SOL |
+| Non-vote TPS | 1,752.2 |
+| Total TPS (incl. votes) | 3,918.5 |
+| Slot time | 316.5 ms (target 400) |
+| Epoch | 1024 — 89.2% done, ~4.1h left |
+| Block height | 420,800,933 |
+| Circulating supply | 585,036,079 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active | 687 |
-| Delinquent | 10 (0.009% of stake) |
+| Active | 688 |
+| Delinquent | 9 (0.009% of stake) |
 | Total stake | 436,134,289 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -51,12 +52,12 @@ None detected. Baseline: 35 snapshots.
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $105.47 | +0.98% |
-| Market cap | $61.64B | |
-| TVL | $5.91B | rank #2 of 465 chains |
-| DEX volume | $2.59B | -29.99% |
-| Network fees | $15.73M | -3.52% |
-| Stablecoin supply | $15.97B | |
+| SOL price | $105.23 | +1.18% |
+| Market cap | $61.54B | |
+| TVL | $5.89B | rank #2 of 465 chains |
+| DEX volume | $1.81B | -29.96% |
+| Network fees | $14.41M | -8.39% |
+| Stablecoin supply | $15.96B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
@@ -66,11 +67,11 @@ None detected. Baseline: 35 snapshots.
 
 | Venue | Volume | Share |
 |---|---|---|
-| PumpSwap | $576.29M | 22.2% |
-| BisonFi | $331.44M | 12.8% |
-| Meteora DLMM | $279.39M | 10.8% |
-| Orca DEX | $146.80M | 5.7% |
-| Axiom | $124.30M | 4.8% |
+| PumpSwap | $584.75M | 32.2% |
+| BisonFi | $149.87M | 8.3% |
+| Orca DEX | $145.33M | 8.0% |
+| Meteora DLMM | $142.97M | 7.9% |
+| Axiom | $124.30M | 6.9% |
 
 ## Sources
 
