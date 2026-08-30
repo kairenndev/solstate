@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-08-30T08:22:44+00:00",
+  "generated_at": "2026-08-30T09:23:19+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3473.4,
-      "tps_non_vote": 1353.8,
-      "slot_time_ms": 317.5,
+      "tps_total": 3419.4,
+      "tps_non_vote": 1272.2,
+      "slot_time_ms": 314.8,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1025,
-      "slot": 442832640,
-      "block_height": 420880427,
-      "slots_done": 32640,
+      "slot": 442844121,
+      "block_height": 420891908,
+      "slots_done": 44121,
       "slots_in_epoch": 432000,
-      "progress_pct": 7.56,
-      "hours_remaining": 35.2
+      "progress_pct": 10.21,
+      "hours_remaining": 33.9
     },
     "supply": {
-      "total_sol": 633173833,
-      "circulating_sol": 585122162,
-      "non_circulating_sol": 48051671
+      "total_sol": 633173801,
+      "circulating_sol": 585122118,
+      "non_circulating_sol": 48051683
     },
     "validators": {
-      "active_count": 679,
-      "delinquent_count": 18,
-      "delinquent_stake_pct": 0.031,
+      "active_count": 678,
+      "delinquent_count": 19,
+      "delinquent_stake_pct": 0.057,
       "total_stake_sol": 437127890,
       "nakamoto_coefficient": 18,
       "top_validators": [
@@ -99,16 +99,16 @@
   },
   "economy": {
     "price": {
-      "usd": 105.02,
-      "market_cap_usd": 61452493880,
-      "volume_24h_usd": 2066191425,
-      "change_24h_pct": 1.58
+      "usd": 104.88,
+      "market_cap_usd": 61350366533,
+      "volume_24h_usd": 1972660708,
+      "change_24h_pct": 1.49
     },
     "tvl": {
-      "tvl_usd": 5901083273,
+      "tvl_usd": 5901472291,
       "rank": 2,
       "chains_total": 465,
-      "share_of_all_chains_pct": 6.7
+      "share_of_all_chains_pct": 6.71
     },
     "dex_volume": {
       "volume_24h_usd": 1813163418,
@@ -133,8 +133,8 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 136195384,
-          "share_pct": 7.5
+          "volume_24h_usd": 126279435,
+          "share_pct": 7.0
         },
         {
           "name": "Axiom",
@@ -169,23 +169,28 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 10.5,
+  "collection_seconds": 9.7,
   "errors": [],
   "anomalies": {
-    "count": 2,
+    "count": 3,
     "critical": 0,
-    "baseline_snapshots": 43,
+    "baseline_snapshots": 44,
     "statistical_detection_active": true,
     "findings": [
       {
         "severity": "warning",
         "metric": "DEX volume 24h",
-        "message": "DEX volume 24h is 30.6% below its recent median (1.813e+09 vs 2.614e+09 USD); z=-23.1."
+        "message": "DEX volume 24h is 30.3% below its recent median (1.813e+09 vs 2.602e+09 USD); z=-41.8."
       },
       {
         "severity": "warning",
         "metric": "Network fees 24h",
-        "message": "Network fees 24h is 27.8% below its recent median (1.117e+07 vs 1.547e+07 USD); z=-11.2."
+        "message": "Network fees 24h is 27.8% below its recent median (1.117e+07 vs 1.546e+07 USD); z=-10.7."
+      },
+      {
+        "severity": "warning",
+        "metric": "Delinquent stake",
+        "message": "Delinquent stake is 533.3% above its recent median (0.057 vs 0.009 %); z=6.5."
       }
     ]
   }
