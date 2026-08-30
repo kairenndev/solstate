@@ -1,23 +1,23 @@
 # Solana Ecosystem State
 
-*Generated 2026-08-30T09:23:19+00:00 · data collected in 9.7s*
+*Generated 2026-08-30T10:23:07+00:00 · data collected in 10.6s*
 
 ## ⚠ Anomalies
 
-- 🟡 **DEX volume 24h** — DEX volume 24h is 30.3% below its recent median (1.813e+09 vs 2.602e+09 USD); z=-41.8.
-- 🟡 **Network fees 24h** — Network fees 24h is 27.8% below its recent median (1.117e+07 vs 1.546e+07 USD); z=-10.7.
+- 🟡 **DEX volume 24h** — DEX volume 24h is 30.0% below its recent median (1.813e+09 vs 2.591e+09 USD); z=-21.5.
+- 🟡 **Network fees 24h** — Network fees 24h is 27.9% below its recent median (1.114e+07 vs 1.545e+07 USD); z=-10.3.
 - 🟡 **Delinquent stake** — Delinquent stake is 533.3% above its recent median (0.057 vs 0.009 %); z=6.5.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,272.2 |
-| Total TPS (incl. votes) | 3,419.4 |
-| Slot time | 314.8 ms (target 400) |
-| Epoch | 1025 — 10.2% done, ~33.9h left |
-| Block height | 420,891,908 |
-| Circulating supply | 585,122,118 SOL |
+| Non-vote TPS | 1,108.0 |
+| Total TPS (incl. votes) | 3,236.4 |
+| Slot time | 315.8 ms (target 400) |
+| Epoch | 1025 — 12.8% done, ~33.1h left |
+| Block height | 420,903,259 |
+| Circulating supply | 585,122,087 SOL |
 
 ## Validators
 
@@ -53,11 +53,11 @@
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $104.88 | +1.49% |
-| Market cap | $61.35B | |
+| SOL price | $104.66 | +1.17% |
+| Market cap | $61.24B | |
 | TVL | $5.90B | rank #2 of 465 chains |
 | DEX volume | $1.81B | -30.01% |
-| Network fees | $11.17M | -28.99% |
+| Network fees | $11.14M | -29.21% |
 | Stablecoin supply | $15.94B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
