@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-08-30T04:22:44+00:00",
+  "generated_at": "2026-08-30T05:22:42+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3758.1,
-      "tps_non_vote": 1620.8,
-      "slot_time_ms": 318.5,
+      "tps_total": 3262.1,
+      "tps_non_vote": 1114.1,
+      "slot_time_ms": 316.8,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1024,
-      "slot": 442787140,
-      "block_height": 420834935,
-      "slots_done": 419140,
+      "slot": 442798505,
+      "block_height": 420846300,
+      "slots_done": 430505,
       "slots_in_epoch": 432000,
-      "progress_pct": 97.02,
-      "hours_remaining": 1.1
+      "progress_pct": 99.65,
+      "hours_remaining": 0.1
     },
     "supply": {
-      "total_sol": 633078511,
-      "circulating_sol": 585035971,
+      "total_sol": 633078478,
+      "circulating_sol": 585035938,
       "non_circulating_sol": 48042540
     },
     "validators": {
-      "active_count": 683,
-      "delinquent_count": 14,
-      "delinquent_stake_pct": 0.01,
+      "active_count": 684,
+      "delinquent_count": 13,
+      "delinquent_stake_pct": 0.005,
       "total_stake_sol": 436134289,
       "nakamoto_coefficient": 18,
       "top_validators": [
@@ -99,13 +99,13 @@
   },
   "economy": {
     "price": {
-      "usd": 104.99,
-      "market_cap_usd": 61425481029,
-      "volume_24h_usd": 2135949275,
-      "change_24h_pct": 1.35
+      "usd": 105.02,
+      "market_cap_usd": 61442979951,
+      "volume_24h_usd": 2115353824,
+      "change_24h_pct": 0.85
     },
     "tvl": {
-      "tvl_usd": 5907480319,
+      "tvl_usd": 5906351116,
       "rank": 2,
       "chains_total": 465,
       "share_of_all_chains_pct": 6.71
@@ -144,20 +144,20 @@
       ]
     },
     "fees": {
-      "fees_24h_usd": 11179424,
-      "fees_7d_usd": 97794566,
-      "change_24h_pct": -28.92
+      "fees_24h_usd": 11168814,
+      "fees_7d_usd": 97841514,
+      "change_24h_pct": -28.99
     },
     "stablecoins": {
-      "total_usd": 15950713591,
+      "total_usd": 15948125654,
       "by_peg": {
-        "peggedUSD": 15886455608,
-        "peggedEUR": 59398407,
+        "peggedUSD": 15883857340,
+        "peggedEUR": 59403192,
         "peggedJPY": 49,
-        "peggedCHF": 1340030,
+        "peggedCHF": 1340903,
         "peggedAUD": 75331,
-        "peggedVAR": 2471702,
-        "peggedGBP": 803835,
+        "peggedVAR": 2476726,
+        "peggedGBP": 803482,
         "peggedTRY": 167178,
         "peggedCAD": 1451,
         "peggedKRW": 1
@@ -169,12 +169,12 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 8.4,
+  "collection_seconds": 8.2,
   "errors": [],
   "anomalies": {
     "count": 2,
     "critical": 0,
-    "baseline_snapshots": 39,
+    "baseline_snapshots": 40,
     "statistical_detection_active": true,
     "findings": [
       {
@@ -185,7 +185,7 @@
       {
         "severity": "warning",
         "metric": "Network fees 24h",
-        "message": "Network fees 24h is 28.4% below its recent median (1.118e+07 vs 1.562e+07 USD); z=-17.6."
+        "message": "Network fees 24h is 28.1% below its recent median (1.117e+07 vs 1.554e+07 USD); z=-15.9."
       }
     ]
   }
