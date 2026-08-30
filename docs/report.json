@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-08-30T17:22:53+00:00",
+  "generated_at": "2026-08-30T18:22:46+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 4129.3,
-      "tps_non_vote": 2002.3,
-      "slot_time_ms": 317.8,
+      "tps_total": 4766.6,
+      "tps_non_vote": 2657.9,
+      "slot_time_ms": 320.2,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1025,
-      "slot": 442934938,
-      "block_height": 420982707,
-      "slots_done": 134938,
+      "slot": 442946234,
+      "block_height": 420993999,
+      "slots_done": 146234,
       "slots_in_epoch": 432000,
-      "progress_pct": 31.24,
-      "hours_remaining": 26.2
+      "progress_pct": 33.85,
+      "hours_remaining": 25.4
     },
     "supply": {
-      "total_sol": 633173521,
-      "circulating_sol": 585121837,
+      "total_sol": 633173479,
+      "circulating_sol": 585121796,
       "non_circulating_sol": 48051683
     },
     "validators": {
@@ -99,16 +99,16 @@
   },
   "economy": {
     "price": {
-      "usd": 106.19,
-      "market_cap_usd": 62172111030,
-      "volume_24h_usd": 2279879718,
-      "change_24h_pct": 1.28
+      "usd": 106.44,
+      "market_cap_usd": 62281942036,
+      "volume_24h_usd": 2376499532,
+      "change_24h_pct": 1.47
     },
     "tvl": {
-      "tvl_usd": 5947533741,
+      "tvl_usd": 5955547989,
       "rank": 2,
       "chains_total": 465,
-      "share_of_all_chains_pct": 6.72
+      "share_of_all_chains_pct": 6.71
     },
     "dex_volume": {
       "volume_24h_usd": 1670710752,
@@ -127,14 +127,14 @@
           "share_pct": 9.0
         },
         {
-          "name": "Meteora DLMM",
-          "volume_24h_usd": 142974096,
+          "name": "Orca DEX",
+          "volume_24h_usd": 144513898,
           "share_pct": 8.6
         },
         {
-          "name": "Orca DEX",
-          "volume_24h_usd": 130577271,
-          "share_pct": 7.8
+          "name": "Meteora DLMM",
+          "volume_24h_usd": 142974096,
+          "share_pct": 8.6
         },
         {
           "name": "pump.fun",
@@ -149,15 +149,15 @@
       "change_24h_pct": -28.7
     },
     "stablecoins": {
-      "total_usd": 15874802208,
+      "total_usd": 15862059629,
       "by_peg": {
-        "peggedUSD": 15810595153,
-        "peggedEUR": 59301921,
+        "peggedUSD": 15797906504,
+        "peggedEUR": 59311044,
         "peggedJPY": 52,
-        "peggedCHF": 1338188,
-        "peggedAUD": 75223,
-        "peggedVAR": 2519293,
-        "peggedGBP": 803747,
+        "peggedCHF": 1343385,
+        "peggedAUD": 75231,
+        "peggedVAR": 2451037,
+        "peggedGBP": 803746,
         "peggedTRY": 167178,
         "peggedCAD": 1452,
         "peggedKRW": 1
@@ -169,12 +169,12 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 8.8,
+  "collection_seconds": 13.4,
   "errors": [],
   "anomalies": {
     "count": 1,
     "critical": 0,
-    "baseline_snapshots": 52,
+    "baseline_snapshots": 53,
     "statistical_detection_active": true,
     "findings": [
       {
