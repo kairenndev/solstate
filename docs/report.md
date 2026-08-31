@@ -1,28 +1,28 @@
 # Solana Ecosystem State
 
-*Generated 2026-08-31T00:22:51+00:00 · data collected in 9.2s*
+*Generated 2026-08-31T01:23:04+00:00 · data collected in 13.2s*
 
 ## ⚠ Anomalies
 
-- 🟡 **Stablecoin supply** — Stablecoin supply is 1.0% below its recent median (1.579e+10 vs 1.596e+10 USD); z=-3.7.
+- 🟡 **Stablecoin supply** — Stablecoin supply is 1.0% below its recent median (1.579e+10 vs 1.596e+10 USD); z=-3.6.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,899.1 |
-| Total TPS (incl. votes) | 4,012.3 |
-| Slot time | 318.1 ms (target 400) |
-| Epoch | 1025 — 49.6% done, ~19.2h left |
-| Block height | 421,061,985 |
-| Circulating supply | 585,121,557 SOL |
+| Non-vote TPS | 2,396.2 |
+| Total TPS (incl. votes) | 4,490.9 |
+| Slot time | 322.2 ms (target 400) |
+| Epoch | 1025 — 52.2% done, ~18.5h left |
+| Block height | 421,073,316 |
+| Circulating supply | 585,121,517 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active | 679 |
-| Delinquent | 18 (0.010% of stake) |
+| Active | 678 |
+| Delinquent | 19 (0.031% of stake) |
 | Total stake | 437,127,890 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -51,11 +51,11 @@
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $102.14 | -3.16% |
-| Market cap | $59.75B | |
-| TVL | $5.86B | rank #2 of 465 chains |
-| DEX volume | $1.67B | -35.51% |
-| Network fees | $11.21M | -28.70% |
+| SOL price | $101.88 | -3.22% |
+| Market cap | $59.65B | |
+| TVL | $5.78B | rank #2 of 465 chains |
+| DEX volume | $1.87B | +11.72% |
+| Network fees | $11.07M | -1.28% |
 | Stablecoin supply | $15.79B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
@@ -66,11 +66,11 @@
 
 | Venue | Volume | Share |
 |---|---|---|
-| PumpSwap | $584.75M | 35.0% |
-| Orca DEX | $175.68M | 10.5% |
-| BisonFi | $149.87M | 9.0% |
-| Meteora DLMM | $142.97M | 8.6% |
-| pump.fun | $110.08M | 6.6% |
+| PumpSwap | $732.11M | 39.2% |
+| Orca DEX | $215.23M | 11.5% |
+| BisonFi | $184.51M | 9.9% |
+| Meteora DLMM | $142.67M | 7.6% |
+| Raydium AMM | $108.96M | 5.8% |
 
 ## Sources
 
