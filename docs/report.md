@@ -1,28 +1,28 @@
 # Solana Ecosystem State
 
-*Generated 2026-08-31T12:22:57+00:00 · data collected in 11.6s*
+*Generated 2026-08-31T13:22:53+00:00 · data collected in 10.5s*
 
 ## Anomalies
 
-None detected. Baseline: 71 snapshots.
+None detected. Baseline: 72 snapshots.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,636.7 |
-| Total TPS (incl. votes) | 3,777.0 |
-| Slot time | 315.8 ms (target 400) |
-| Epoch | 1025 — 81.1% done, ~7.2h left |
-| Block height | 421,198,049 |
-| Circulating supply | 585,121,121 SOL |
+| Non-vote TPS | 1,845.3 |
+| Total TPS (incl. votes) | 3,987.5 |
+| Slot time | 315.5 ms (target 400) |
+| Epoch | 1025 — 83.7% done, ~6.2h left |
+| Block height | 421,209,395 |
+| Circulating supply | 585,121,084 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
 | Active | 679 |
-| Delinquent | 18 (0.031% of stake) |
+| Delinquent | 18 (0.010% of stake) |
 | Total stake | 437,127,890 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -51,12 +51,12 @@ None detected. Baseline: 71 snapshots.
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $103.50 | -1.78% |
-| Market cap | $60.57B | |
-| TVL | $5.82B | rank #2 of 465 chains |
+| SOL price | $102.67 | -3.27% |
+| Market cap | $60.07B | |
+| TVL | $5.83B | rank #2 of 465 chains |
 | DEX volume | $1.93B | +15.50% |
 | Network fees | $12.19M | +8.73% |
-| Stablecoin supply | $15.83B | |
+| Stablecoin supply | $15.76B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
@@ -70,7 +70,7 @@ None detected. Baseline: 71 snapshots.
 | Orca DEX | $247.90M | 12.8% |
 | BisonFi | $184.51M | 9.6% |
 | Meteora DLMM | $142.67M | 7.4% |
-| Manifest Trade | $130.78M | 6.8% |
+| Manifest Trade | $130.72M | 6.8% |
 
 ## Sources
 
