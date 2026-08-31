@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-08-31T18:22:55+00:00",
+  "generated_at": "2026-08-31T19:22:58+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 4203.2,
-      "tps_non_vote": 2077.8,
-      "slot_time_ms": 316.8,
+      "tps_total": 4184.9,
+      "tps_non_vote": 2041.4,
+      "slot_time_ms": 316.5,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1025,
-      "slot": 443218356,
-      "block_height": 421266015,
-      "slots_done": 418356,
+      "slot": 443229723,
+      "block_height": 421277364,
+      "slots_done": 429723,
       "slots_in_epoch": 432000,
-      "progress_pct": 96.84,
-      "hours_remaining": 1.2
+      "progress_pct": 99.47,
+      "hours_remaining": 0.2
     },
     "supply": {
-      "total_sol": 633172552,
-      "circulating_sol": 585120774,
+      "total_sol": 633172511,
+      "circulating_sol": 585120734,
       "non_circulating_sol": 48051778
     },
     "validators": {
-      "active_count": 679,
-      "delinquent_count": 18,
-      "delinquent_stake_pct": 0.031,
+      "active_count": 681,
+      "delinquent_count": 16,
+      "delinquent_stake_pct": 0.005,
       "total_stake_sol": 437127890,
       "nakamoto_coefficient": 18,
       "top_validators": [
@@ -99,13 +99,13 @@
   },
   "economy": {
     "price": {
-      "usd": 104.01,
-      "market_cap_usd": 60859374589,
-      "volume_24h_usd": 3724286729,
-      "change_24h_pct": -2.33
+      "usd": 104.04,
+      "market_cap_usd": 60875231949,
+      "volume_24h_usd": 3809369335,
+      "change_24h_pct": -2.27
     },
     "tvl": {
-      "tvl_usd": 5791254029,
+      "tvl_usd": 5800089994,
       "rank": 2,
       "chains_total": 465,
       "share_of_all_chains_pct": 6.59
@@ -137,9 +137,9 @@
           "share_pct": 7.4
         },
         {
-          "name": "Manifest Trade",
-          "volume_24h_usd": 130724040,
-          "share_pct": 6.8
+          "name": "Raydium AMM",
+          "volume_24h_usd": 133122704,
+          "share_pct": 6.9
         }
       ]
     },
@@ -149,17 +149,17 @@
       "change_24h_pct": 9.75
     },
     "stablecoins": {
-      "total_usd": 15728781306,
+      "total_usd": 15723803856,
       "by_peg": {
-        "peggedUSD": 15665700415,
-        "peggedEUR": 58232646,
-        "peggedJPY": 49,
-        "peggedCHF": 1340192,
-        "peggedAUD": 75598,
-        "peggedVAR": 2455222,
-        "peggedGBP": 807569,
-        "peggedTRY": 168155,
-        "peggedCAD": 1458,
+        "peggedUSD": 15659536064,
+        "peggedEUR": 59387444,
+        "peggedJPY": 50,
+        "peggedCHF": 1336262,
+        "peggedAUD": 75760,
+        "peggedVAR": 2491060,
+        "peggedGBP": 807565,
+        "peggedTRY": 168189,
+        "peggedCAD": 1461,
         "peggedKRW": 1
       }
     }
@@ -169,12 +169,12 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 7.3,
+  "collection_seconds": 8.1,
   "errors": [],
   "anomalies": {
     "count": 0,
     "critical": 0,
-    "baseline_snapshots": 77,
+    "baseline_snapshots": 78,
     "statistical_detection_active": true,
     "findings": []
   }
