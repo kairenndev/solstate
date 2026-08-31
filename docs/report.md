@@ -1,28 +1,28 @@
 # Solana Ecosystem State
 
-*Generated 2026-08-31T11:23:02+00:00 · data collected in 7.7s*
+*Generated 2026-08-31T12:22:57+00:00 · data collected in 11.6s*
 
 ## Anomalies
 
-None detected. Baseline: 70 snapshots.
+None detected. Baseline: 71 snapshots.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,251.5 |
-| Total TPS (incl. votes) | 3,379.6 |
-| Slot time | 317.8 ms (target 400) |
-| Epoch | 1025 — 78.5% done, ~8.2h left |
-| Block height | 421,186,674 |
-| Circulating supply | 585,121,155 SOL |
+| Non-vote TPS | 1,636.7 |
+| Total TPS (incl. votes) | 3,777.0 |
+| Slot time | 315.8 ms (target 400) |
+| Epoch | 1025 — 81.1% done, ~7.2h left |
+| Block height | 421,198,049 |
+| Circulating supply | 585,121,121 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active | 678 |
-| Delinquent | 19 (0.031% of stake) |
+| Active | 679 |
+| Delinquent | 18 (0.031% of stake) |
 | Total stake | 437,127,890 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -51,12 +51,12 @@ None detected. Baseline: 70 snapshots.
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $104.04 | -1.05% |
-| Market cap | $60.89B | |
-| TVL | $5.81B | rank #2 of 465 chains |
-| DEX volume | $1.87B | +11.91% |
-| Network fees | $12.01M | +7.12% |
-| Stablecoin supply | $15.85B | |
+| SOL price | $103.50 | -1.78% |
+| Market cap | $60.57B | |
+| TVL | $5.82B | rank #2 of 465 chains |
+| DEX volume | $1.93B | +15.50% |
+| Network fees | $12.19M | +8.73% |
+| Stablecoin supply | $15.83B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
@@ -66,11 +66,11 @@ None detected. Baseline: 70 snapshots.
 
 | Venue | Volume | Share |
 |---|---|---|
-| PumpSwap | $732.11M | 39.2% |
-| Orca DEX | $247.90M | 13.3% |
-| BisonFi | $184.51M | 9.9% |
-| Meteora DLMM | $142.67M | 7.6% |
-| Manifest Trade | $122.59M | 6.6% |
+| PumpSwap | $732.11M | 37.9% |
+| Orca DEX | $247.90M | 12.8% |
+| BisonFi | $184.51M | 9.6% |
+| Meteora DLMM | $142.67M | 7.4% |
+| Manifest Trade | $130.78M | 6.8% |
 
 ## Sources
 

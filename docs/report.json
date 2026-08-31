@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-08-31T11:23:02+00:00",
+  "generated_at": "2026-08-31T12:22:57+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3379.6,
-      "tps_non_vote": 1251.5,
-      "slot_time_ms": 317.8,
+      "tps_total": 3777.0,
+      "tps_non_vote": 1636.7,
+      "slot_time_ms": 315.8,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1025,
-      "slot": 443139000,
-      "block_height": 421186674,
-      "slots_done": 339000,
+      "slot": 443150379,
+      "block_height": 421198049,
+      "slots_done": 350379,
       "slots_in_epoch": 432000,
-      "progress_pct": 78.47,
-      "hours_remaining": 8.2
+      "progress_pct": 81.11,
+      "hours_remaining": 7.2
     },
     "supply": {
-      "total_sol": 633172838,
-      "circulating_sol": 585121155,
+      "total_sol": 633172804,
+      "circulating_sol": 585121121,
       "non_circulating_sol": 48051683
     },
     "validators": {
-      "active_count": 678,
-      "delinquent_count": 19,
+      "active_count": 679,
+      "delinquent_count": 18,
       "delinquent_stake_pct": 0.031,
       "total_stake_sol": 437127890,
       "nakamoto_coefficient": 18,
@@ -99,66 +99,66 @@
   },
   "economy": {
     "price": {
-      "usd": 104.04,
-      "market_cap_usd": 60889142389,
-      "volume_24h_usd": 3825873395,
-      "change_24h_pct": -1.05
+      "usd": 103.5,
+      "market_cap_usd": 60567598505,
+      "volume_24h_usd": 3789709203,
+      "change_24h_pct": -1.78
     },
     "tvl": {
-      "tvl_usd": 5809403673,
+      "tvl_usd": 5822950401,
       "rank": 2,
       "chains_total": 465,
       "share_of_all_chains_pct": 6.63
     },
     "dex_volume": {
-      "volume_24h_usd": 1869646571,
-      "volume_7d_usd": 17963151809,
-      "change_24h_pct": 11.91,
+      "volume_24h_usd": 1929632645,
+      "volume_7d_usd": 18173864650,
+      "change_24h_pct": 15.5,
       "protocols_count": 120,
       "top_protocols": [
         {
           "name": "PumpSwap",
           "volume_24h_usd": 732106454,
-          "share_pct": 39.2
+          "share_pct": 37.9
         },
         {
           "name": "Orca DEX",
           "volume_24h_usd": 247895097,
-          "share_pct": 13.3
+          "share_pct": 12.8
         },
         {
           "name": "BisonFi",
           "volume_24h_usd": 184508289,
-          "share_pct": 9.9
+          "share_pct": 9.6
         },
         {
           "name": "Meteora DLMM",
           "volume_24h_usd": 142668519,
-          "share_pct": 7.6
+          "share_pct": 7.4
         },
         {
           "name": "Manifest Trade",
-          "volume_24h_usd": 122592837,
-          "share_pct": 6.6
+          "volume_24h_usd": 130778778,
+          "share_pct": 6.8
         }
       ]
     },
     "fees": {
-      "fees_24h_usd": 12012187,
-      "fees_7d_usd": 97284063,
-      "change_24h_pct": 7.12
+      "fees_24h_usd": 12193230,
+      "fees_7d_usd": 98405860,
+      "change_24h_pct": 8.73
     },
     "stablecoins": {
-      "total_usd": 15851964353,
+      "total_usd": 15828202335,
       "by_peg": {
-        "peggedUSD": 15787638068,
-        "peggedEUR": 59457288,
+        "peggedUSD": 15765804530,
+        "peggedEUR": 57523875,
         "peggedJPY": 50,
-        "peggedCHF": 1338981,
-        "peggedAUD": 75697,
-        "peggedVAR": 2481790,
-        "peggedGBP": 803895,
-        "peggedTRY": 167126,
+        "peggedCHF": 1338356,
+        "peggedAUD": 75694,
+        "peggedVAR": 2486294,
+        "peggedGBP": 803898,
+        "peggedTRY": 168180,
         "peggedCAD": 1458,
         "peggedKRW": 1
       }
@@ -169,12 +169,12 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 7.7,
+  "collection_seconds": 11.6,
   "errors": [],
   "anomalies": {
     "count": 0,
     "critical": 0,
-    "baseline_snapshots": 70,
+    "baseline_snapshots": 71,
     "statistical_detection_active": true,
     "findings": []
   }
