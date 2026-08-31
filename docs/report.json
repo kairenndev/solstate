@@ -1,97 +1,97 @@
 {
-  "generated_at": "2026-08-31T19:22:58+00:00",
+  "generated_at": "2026-08-31T20:23:07+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 4184.9,
-      "tps_non_vote": 2041.4,
-      "slot_time_ms": 316.5,
+      "tps_total": 4167.0,
+      "tps_non_vote": 1996.7,
+      "slot_time_ms": 312.2,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
-      "epoch": 1025,
-      "slot": 443229723,
-      "block_height": 421277364,
-      "slots_done": 429723,
+      "epoch": 1026,
+      "slot": 443241126,
+      "block_height": 421288759,
+      "slots_done": 9126,
       "slots_in_epoch": 432000,
-      "progress_pct": 99.47,
-      "hours_remaining": 0.2
+      "progress_pct": 2.11,
+      "hours_remaining": 36.7
     },
     "supply": {
-      "total_sol": 633172511,
-      "circulating_sol": 585120734,
-      "non_circulating_sol": 48051778
+      "total_sol": 633267872,
+      "circulating_sol": 585207302,
+      "non_circulating_sol": 48060570
     },
     "validators": {
-      "active_count": 681,
-      "delinquent_count": 16,
-      "delinquent_stake_pct": 0.005,
-      "total_stake_sol": 437127890,
+      "active_count": 680,
+      "delinquent_count": 14,
+      "delinquent_stake_pct": 0.01,
+      "total_stake_sol": 438201819,
       "nakamoto_coefficient": 18,
       "top_validators": [
         {
           "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
-          "stake_sol": 17203741,
-          "stake_pct": 3.94,
+          "stake_sol": 17174436,
+          "stake_pct": 3.92,
           "commission": 7
         },
         {
           "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
-          "stake_sol": 16085807,
-          "stake_pct": 3.68,
+          "stake_sol": 16281426,
+          "stake_pct": 3.72,
           "commission": 0
         },
         {
           "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
-          "stake_sol": 12389824,
-          "stake_pct": 2.83,
+          "stake_sol": 12434730,
+          "stake_pct": 2.84,
           "commission": 0
         },
         {
           "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
-          "stake_sol": 11479512,
-          "stake_pct": 2.63,
+          "stake_sol": 11480709,
+          "stake_pct": 2.62,
           "commission": 5
         },
         {
           "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
-          "stake_sol": 9452658,
+          "stake_sol": 9455250,
           "stake_pct": 2.16,
           "commission": 0
         },
         {
           "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
-          "stake_sol": 9293056,
-          "stake_pct": 2.13,
+          "stake_sol": 9285506,
+          "stake_pct": 2.12,
           "commission": 7
         },
         {
           "identity": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
-          "stake_sol": 9023631,
+          "stake_sol": 9044016,
           "stake_pct": 2.06,
           "commission": 10
         },
         {
-          "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
-          "stake_sol": 7295972,
-          "stake_pct": 1.67,
-          "commission": 5
-        },
-        {
           "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
-          "stake_sol": 7201762,
+          "stake_sol": 7216300,
           "stake_pct": 1.65,
           "commission": 7
         },
         {
+          "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+          "stake_sol": 6930213,
+          "stake_pct": 1.58,
+          "commission": 5
+        },
+        {
           "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
-          "stake_sol": 6589845,
-          "stake_pct": 1.51,
+          "stake_sol": 6591885,
+          "stake_pct": 1.5,
           "commission": 0
         }
       ]
@@ -99,16 +99,16 @@
   },
   "economy": {
     "price": {
-      "usd": 104.04,
-      "market_cap_usd": 60875231949,
-      "volume_24h_usd": 3809369335,
-      "change_24h_pct": -2.27
+      "usd": 104.23,
+      "market_cap_usd": 60974150352,
+      "volume_24h_usd": 3800190841,
+      "change_24h_pct": -1.37
     },
     "tvl": {
-      "tvl_usd": 5800089994,
+      "tvl_usd": 5845718887,
       "rank": 2,
       "chains_total": 465,
-      "share_of_all_chains_pct": 6.59
+      "share_of_all_chains_pct": 6.62
     },
     "dex_volume": {
       "volume_24h_usd": 1929632645,
@@ -138,8 +138,8 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 133122704,
-          "share_pct": 6.9
+          "volume_24h_usd": 136827173,
+          "share_pct": 7.1
         }
       ]
     },
@@ -149,16 +149,16 @@
       "change_24h_pct": 9.75
     },
     "stablecoins": {
-      "total_usd": 15723803856,
+      "total_usd": 15729804016,
       "by_peg": {
-        "peggedUSD": 15659536064,
-        "peggedEUR": 59387444,
+        "peggedUSD": 15665580966,
+        "peggedEUR": 59335033,
         "peggedJPY": 50,
-        "peggedCHF": 1336262,
-        "peggedAUD": 75760,
-        "peggedVAR": 2491060,
-        "peggedGBP": 807565,
-        "peggedTRY": 168189,
+        "peggedCHF": 1345264,
+        "peggedAUD": 75313,
+        "peggedVAR": 2490183,
+        "peggedGBP": 807572,
+        "peggedTRY": 168173,
         "peggedCAD": 1461,
         "peggedKRW": 1
       }
@@ -169,12 +169,12 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 8.1,
+  "collection_seconds": 11.0,
   "errors": [],
   "anomalies": {
     "count": 0,
     "critical": 0,
-    "baseline_snapshots": 78,
+    "baseline_snapshots": 79,
     "statistical_detection_active": true,
     "findings": []
   }
