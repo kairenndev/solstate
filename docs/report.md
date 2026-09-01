@@ -1,28 +1,28 @@
 # Solana Ecosystem State
 
-*Generated 2026-08-31T23:22:49+00:00 · data collected in 7.3s*
+*Generated 2026-09-01T00:38:27+00:00 · data collected in 8.4s*
 
-## ⚠ Anomalies
+## Anomalies
 
-- 🟡 **Delinquent stake** — Delinquent stake is 2240.0% above its recent median (0.234 vs 0.01 %); z=27.5.
+None detected. Baseline: 83 snapshots.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,789.0 |
-| Total TPS (incl. votes) | 3,929.8 |
-| Slot time | 316.5 ms (target 400) |
-| Epoch | 1026 — 10.0% done, ~34.2h left |
-| Block height | 421,322,650 |
-| Circulating supply | 585,207,003 SOL |
+| Non-vote TPS | 1,897.5 |
+| Total TPS (incl. votes) | 4,051.2 |
+| Slot time | 314.1 ms (target 400) |
+| Epoch | 1026 — 13.3% done, ~32.7h left |
+| Block height | 421,336,961 |
+| Circulating supply | 585,207,281 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active | 680 |
-| Delinquent | 14 (0.234% of stake) |
+| Active | 679 |
+| Delinquent | 15 (0.031% of stake) |
 | Total stake | 438,201,819 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -51,12 +51,12 @@
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $103.10 | -0.25% |
-| Market cap | $60.34B | |
+| SOL price | $103.33 | +0.88% |
+| Market cap | $60.47B | |
 | TVL | $5.99B | rank #2 of 465 chains |
-| DEX volume | $1.93B | +15.50% |
+| DEX volume | $2.10B | +8.90% |
 | Network fees | $12.31M | +9.75% |
-| Stablecoin supply | $15.76B | |
+| Stablecoin supply | $15.79B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
@@ -66,11 +66,11 @@
 
 | Venue | Volume | Share |
 |---|---|---|
-| PumpSwap | $732.11M | 37.9% |
-| Orca DEX | $264.69M | 13.7% |
-| BisonFi | $184.51M | 9.6% |
-| Meteora DLMM | $142.67M | 7.4% |
-| Raydium AMM | $140.46M | 7.3% |
+| PumpSwap | $732.11M | 34.8% |
+| Orca DEX | $254.68M | 12.1% |
+| BisonFi | $184.51M | 8.8% |
+| Meteora DLMM | $142.67M | 6.8% |
+| Raydium AMM | $141.22M | 6.7% |
 
 ## Sources
 
