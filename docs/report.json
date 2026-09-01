@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-01T01:25:25+00:00",
+  "generated_at": "2026-09-01T02:27:28+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 4181.5,
-      "tps_non_vote": 2046.2,
-      "slot_time_ms": 317.8,
+      "tps_total": 3773.4,
+      "tps_non_vote": 1629.8,
+      "slot_time_ms": 315.8,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1026,
-      "slot": 443298225,
-      "block_height": 421345836,
-      "slots_done": 66225,
+      "slot": 443309935,
+      "block_height": 421357538,
+      "slots_done": 77935,
       "slots_in_epoch": 432000,
-      "progress_pct": 15.33,
-      "hours_remaining": 32.3
+      "progress_pct": 18.04,
+      "hours_remaining": 31.1
     },
     "supply": {
-      "total_sol": 633267680,
-      "circulating_sol": 585207251,
+      "total_sol": 633267640,
+      "circulating_sol": 585207210,
       "non_circulating_sol": 48060430
     },
     "validators": {
-      "active_count": 682,
-      "delinquent_count": 12,
-      "delinquent_stake_pct": 0.005,
+      "active_count": 680,
+      "delinquent_count": 14,
+      "delinquent_stake_pct": 0.01,
       "total_stake_sol": 438201819,
       "nakamoto_coefficient": 18,
       "top_validators": [
@@ -99,21 +99,21 @@
   },
   "economy": {
     "price": {
-      "usd": 103.1,
-      "market_cap_usd": 60339352812,
-      "volume_24h_usd": 3151432866,
-      "change_24h_pct": 1.18
+      "usd": 103.15,
+      "market_cap_usd": 60368017423,
+      "volume_24h_usd": 3104712712,
+      "change_24h_pct": 1.16
     },
     "tvl": {
-      "tvl_usd": 5960799710,
+      "tvl_usd": 5842476554,
       "rank": 2,
       "chains_total": 465,
-      "share_of_all_chains_pct": 6.77
+      "share_of_all_chains_pct": 6.61
     },
     "dex_volume": {
-      "volume_24h_usd": 2460443647,
-      "volume_7d_usd": 17427453713,
-      "change_24h_pct": 27.51,
+      "volume_24h_usd": 2457773259,
+      "volume_7d_usd": 17424783325,
+      "change_24h_pct": 27.37,
       "protocols_count": 120,
       "top_protocols": [
         {
@@ -122,14 +122,14 @@
           "share_pct": 38.2
         },
         {
-          "name": "Orca DEX",
-          "volume_24h_usd": 254675602,
-          "share_pct": 10.4
-        },
-        {
           "name": "BisonFi",
           "volume_24h_usd": 232851077,
           "share_pct": 9.5
+        },
+        {
+          "name": "Orca DEX",
+          "volume_24h_usd": 220805899,
+          "share_pct": 9.0
         },
         {
           "name": "Meteora DLMM",
@@ -138,26 +138,26 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 138512406,
+          "volume_24h_usd": 137944507,
           "share_pct": 5.6
         }
       ]
     },
     "fees": {
-      "fees_24h_usd": 12487107,
-      "fees_7d_usd": 86228563,
-      "change_24h_pct": 1.46
+      "fees_24h_usd": 13271674,
+      "fees_7d_usd": 96157859,
+      "change_24h_pct": 7.84
     },
     "stablecoins": {
-      "total_usd": 15789949150,
+      "total_usd": 15812397343,
       "by_peg": {
-        "peggedUSD": 15728358770,
-        "peggedEUR": 56723440,
-        "peggedJPY": 51,
-        "peggedCHF": 1339536,
-        "peggedAUD": 75297,
-        "peggedVAR": 2474708,
-        "peggedGBP": 807715,
+        "peggedUSD": 15750826464,
+        "peggedEUR": 56734472,
+        "peggedJPY": 52,
+        "peggedCHF": 1340191,
+        "peggedAUD": 75303,
+        "peggedVAR": 2443598,
+        "peggedGBP": 807629,
         "peggedTRY": 168173,
         "peggedCAD": 1461,
         "peggedKRW": 1
@@ -169,12 +169,12 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 7.9,
+  "collection_seconds": 7.3,
   "errors": [],
   "anomalies": {
     "count": 0,
     "critical": 0,
-    "baseline_snapshots": 84,
+    "baseline_snapshots": 85,
     "statistical_detection_active": true,
     "findings": []
   }
