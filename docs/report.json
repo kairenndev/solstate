@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-09-01T12:33:49+00:00",
+  "generated_at": "2026-09-01T13:28:47+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3602.9,
-      "tps_non_vote": 1483.7,
-      "slot_time_ms": 319.1,
+      "tps_total": 4215.8,
+      "tps_non_vote": 2099.0,
+      "slot_time_ms": 319.5,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1026,
-      "slot": 443424492,
-      "block_height": 421472078,
-      "slots_done": 192492,
+      "slot": 443434838,
+      "block_height": 421482424,
+      "slots_done": 202838,
       "slots_in_epoch": 432000,
-      "progress_pct": 44.56,
-      "hours_remaining": 21.2
+      "progress_pct": 46.95,
+      "hours_remaining": 20.3
     },
     "supply": {
-      "total_sol": 633267296,
-      "circulating_sol": 585206866,
+      "total_sol": 633267259,
+      "circulating_sol": 585206829,
       "non_circulating_sol": 48060430
     },
     "validators": {
@@ -99,10 +99,10 @@
   },
   "economy": {
     "price": {
-      "usd": 102.16,
-      "market_cap_usd": 59798745514,
-      "volume_24h_usd": 2972160265,
-      "change_24h_pct": -0.92
+      "usd": 101.81,
+      "market_cap_usd": 59579706889,
+      "volume_24h_usd": 3003929275,
+      "change_24h_pct": -0.88
     },
     "tvl": {
       "tvl_usd": 5801359795,
@@ -128,7 +128,7 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 220447374,
+          "volume_24h_usd": 220518494,
           "share_pct": 8.8
         },
         {
@@ -138,26 +138,26 @@
         },
         {
           "name": "Manifest Trade",
-          "volume_24h_usd": 147553367,
+          "volume_24h_usd": 147526788,
           "share_pct": 5.9
         }
       ]
     },
     "fees": {
-      "fees_24h_usd": 13393826,
-      "fees_7d_usd": 97404767,
+      "fees_24h_usd": 13393815,
+      "fees_7d_usd": 97405832,
       "change_24h_pct": 8.83
     },
     "stablecoins": {
-      "total_usd": 15892441880,
+      "total_usd": 15725284263,
       "by_peg": {
-        "peggedUSD": 15830222916,
-        "peggedEUR": 57373677,
+        "peggedUSD": 15662807736,
+        "peggedEUR": 57649148,
         "peggedJPY": 52,
-        "peggedCHF": 1335706,
-        "peggedAUD": 75516,
-        "peggedVAR": 2457780,
-        "peggedGBP": 807765,
+        "peggedCHF": 1333387,
+        "peggedAUD": 75515,
+        "peggedVAR": 2442178,
+        "peggedGBP": 807779,
         "peggedTRY": 167007,
         "peggedCAD": 1460,
         "peggedKRW": 1
@@ -169,12 +169,12 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 6.8,
+  "collection_seconds": 11.0,
   "errors": [],
   "anomalies": {
     "count": 0,
     "critical": 0,
-    "baseline_snapshots": 95,
+    "baseline_snapshots": 96,
     "statistical_detection_active": true,
     "findings": []
   }
