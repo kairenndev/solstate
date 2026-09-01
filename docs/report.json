@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-09-01T06:34:40+00:00",
+  "generated_at": "2026-09-01T07:28:31+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3387.6,
-      "tps_non_vote": 1274.5,
-      "slot_time_ms": 319.8,
+      "tps_total": 3622.8,
+      "tps_non_vote": 1482.0,
+      "slot_time_ms": 315.8,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1026,
-      "slot": 443356619,
-      "block_height": 421404209,
-      "slots_done": 124619,
+      "slot": 443366811,
+      "block_height": 421414397,
+      "slots_done": 134811,
       "slots_in_epoch": 432000,
-      "progress_pct": 28.85,
-      "hours_remaining": 27.3
+      "progress_pct": 31.21,
+      "hours_remaining": 26.1
     },
     "supply": {
-      "total_sol": 633267496,
-      "circulating_sol": 585207067,
+      "total_sol": 633267467,
+      "circulating_sol": 585207037,
       "non_circulating_sol": 48060430
     },
     "validators": {
@@ -99,10 +99,10 @@
   },
   "economy": {
     "price": {
-      "usd": 103.99,
-      "market_cap_usd": 60856926688,
-      "volume_24h_usd": 2923408480,
-      "change_24h_pct": 1.35
+      "usd": 103.42,
+      "market_cap_usd": 60518484964,
+      "volume_24h_usd": 2939804622,
+      "change_24h_pct": 0.42
     },
     "tvl": {
       "tvl_usd": 5842833167,
@@ -138,8 +138,8 @@
         },
         {
           "name": "Manifest Trade",
-          "volume_24h_usd": 145236167,
-          "share_pct": 5.9
+          "volume_24h_usd": 148851810,
+          "share_pct": 6.1
         }
       ]
     },
@@ -169,12 +169,12 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 8.9,
+  "collection_seconds": 14.2,
   "errors": [],
   "anomalies": {
     "count": 0,
     "critical": 0,
-    "baseline_snapshots": 89,
+    "baseline_snapshots": 90,
     "statistical_detection_active": true,
     "findings": []
   }
