@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-09-01T07:28:31+00:00",
+  "generated_at": "2026-09-01T08:30:22+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3622.8,
-      "tps_non_vote": 1482.0,
-      "slot_time_ms": 315.8,
+      "tps_total": 3772.0,
+      "tps_non_vote": 1654.8,
+      "slot_time_ms": 319.5,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1026,
-      "slot": 443366811,
-      "block_height": 421414397,
-      "slots_done": 134811,
+      "slot": 443378500,
+      "block_height": 421426086,
+      "slots_done": 146500,
       "slots_in_epoch": 432000,
-      "progress_pct": 31.21,
-      "hours_remaining": 26.1
+      "progress_pct": 33.91,
+      "hours_remaining": 25.3
     },
     "supply": {
-      "total_sol": 633267467,
-      "circulating_sol": 585207037,
+      "total_sol": 633267432,
+      "circulating_sol": 585207003,
       "non_circulating_sol": 48060430
     },
     "validators": {
@@ -99,13 +99,13 @@
   },
   "economy": {
     "price": {
-      "usd": 103.42,
-      "market_cap_usd": 60518484964,
-      "volume_24h_usd": 2939804622,
-      "change_24h_pct": 0.42
+      "usd": 102.21,
+      "market_cap_usd": 59812533741,
+      "volume_24h_usd": 2958794940,
+      "change_24h_pct": -0.5
     },
     "tvl": {
-      "tvl_usd": 5842833167,
+      "tvl_usd": 5842310449,
       "rank": 2,
       "chains_total": 465,
       "share_of_all_chains_pct": 6.63
@@ -132,13 +132,13 @@
           "share_pct": 9.1
         },
         {
-          "name": "Meteora DLMM",
-          "volume_24h_usd": 149325505,
+          "name": "Manifest Trade",
+          "volume_24h_usd": 150611564,
           "share_pct": 6.1
         },
         {
-          "name": "Manifest Trade",
-          "volume_24h_usd": 148851810,
+          "name": "Meteora DLMM",
+          "volume_24h_usd": 149325505,
           "share_pct": 6.1
         }
       ]
@@ -149,15 +149,15 @@
       "change_24h_pct": 7.96
     },
     "stablecoins": {
-      "total_usd": 15874872002,
+      "total_usd": 15884972056,
       "by_peg": {
-        "peggedUSD": 15813040142,
-        "peggedEUR": 56980917,
-        "peggedJPY": 51,
-        "peggedCHF": 1337690,
-        "peggedAUD": 75272,
-        "peggedVAR": 2461510,
-        "peggedGBP": 807951,
+        "peggedUSD": 15823122820,
+        "peggedEUR": 56983135,
+        "peggedJPY": 52,
+        "peggedCHF": 1338758,
+        "peggedAUD": 75290,
+        "peggedVAR": 2475521,
+        "peggedGBP": 808011,
         "peggedTRY": 167007,
         "peggedCAD": 1460,
         "peggedKRW": 1
@@ -169,12 +169,12 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 14.2,
+  "collection_seconds": 16.0,
   "errors": [],
   "anomalies": {
     "count": 0,
     "critical": 0,
-    "baseline_snapshots": 90,
+    "baseline_snapshots": 91,
     "statistical_detection_active": true,
     "findings": []
   }
