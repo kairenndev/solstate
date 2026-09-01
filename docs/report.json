@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-01T17:26:48+00:00",
+  "generated_at": "2026-09-01T18:31:40+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 4295.5,
-      "tps_non_vote": 2146.0,
-      "slot_time_ms": 314.1,
+      "tps_total": 5101.0,
+      "tps_non_vote": 2988.8,
+      "slot_time_ms": 319.5,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1026,
-      "slot": 443479618,
-      "block_height": 421527186,
-      "slots_done": 247618,
+      "slot": 443491952,
+      "block_height": 421539504,
+      "slots_done": 259952,
       "slots_in_epoch": 432000,
-      "progress_pct": 57.32,
-      "hours_remaining": 16.1
+      "progress_pct": 60.17,
+      "hours_remaining": 15.3
     },
     "supply": {
-      "total_sol": 633267090,
-      "circulating_sol": 585206660,
+      "total_sol": 633267044,
+      "circulating_sol": 585206614,
       "non_circulating_sol": 48060430
     },
     "validators": {
       "active_count": 678,
       "delinquent_count": 16,
-      "delinquent_stake_pct": 0.028,
+      "delinquent_stake_pct": 0.039,
       "total_stake_sol": 438201819,
       "nakamoto_coefficient": 18,
       "top_validators": [
@@ -99,13 +99,13 @@
   },
   "economy": {
     "price": {
-      "usd": 101.05,
-      "market_cap_usd": 59137816057,
-      "volume_24h_usd": 3037540464,
-      "change_24h_pct": -1.73
+      "usd": 99.42,
+      "market_cap_usd": 58182476077,
+      "volume_24h_usd": 3102109266,
+      "change_24h_pct": -4.18
     },
     "tvl": {
-      "tvl_usd": 5781965007,
+      "tvl_usd": 5781050385,
       "rank": 2,
       "chains_total": 465,
       "share_of_all_chains_pct": 6.6
@@ -128,8 +128,8 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 220518494,
-          "share_pct": 8.8
+          "volume_24h_usd": 213880630,
+          "share_pct": 8.6
         },
         {
           "name": "Meteora DLMM",
@@ -149,15 +149,15 @@
       "change_24h_pct": 9.7
     },
     "stablecoins": {
-      "total_usd": 15750384533,
+      "total_usd": 15674614234,
       "by_peg": {
-        "peggedUSD": 15687914403,
-        "peggedEUR": 57629027,
-        "peggedJPY": 52,
-        "peggedCHF": 1339503,
-        "peggedAUD": 75419,
-        "peggedVAR": 2449592,
-        "peggedGBP": 808069,
+        "peggedUSD": 15609885396,
+        "peggedEUR": 59895107,
+        "peggedJPY": 49,
+        "peggedCHF": 1339675,
+        "peggedAUD": 75431,
+        "peggedVAR": 2442501,
+        "peggedGBP": 807607,
         "peggedTRY": 167007,
         "peggedCAD": 1460,
         "peggedKRW": 1
@@ -169,13 +169,19 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 8.0,
+  "collection_seconds": 7.9,
   "errors": [],
   "anomalies": {
-    "count": 0,
+    "count": 1,
     "critical": 0,
-    "baseline_snapshots": 100,
+    "baseline_snapshots": 101,
     "statistical_detection_active": true,
-    "findings": []
+    "findings": [
+      {
+        "severity": "warning",
+        "metric": "Delinquent stake",
+        "message": "Delinquent stake is 290.0% above its recent median (0.039 vs 0.01 %); z=3.9."
+      }
+    ]
   }
 }
