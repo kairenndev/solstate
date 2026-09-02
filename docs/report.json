@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-09-02T21:26:38+00:00",
+  "generated_at": "2026-09-02T22:28:03+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 4001.3,
-      "tps_non_vote": 1876.2,
-      "slot_time_ms": 316.1,
+      "tps_total": 3794.8,
+      "tps_non_vote": 1662.2,
+      "slot_time_ms": 314.1,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1027,
-      "slot": 443799238,
-      "block_height": 421846570,
-      "slots_done": 135238,
+      "slot": 443810930,
+      "block_height": 421858236,
+      "slots_done": 146930,
       "slots_in_epoch": 432000,
-      "progress_pct": 31.31,
-      "hours_remaining": 26.1
+      "progress_pct": 34.01,
+      "hours_remaining": 24.9
     },
     "supply": {
-      "total_sol": 633361406,
-      "circulating_sol": 585275314,
+      "total_sol": 633361367,
+      "circulating_sol": 585275274,
       "non_circulating_sol": 48086093
     },
     "validators": {
@@ -99,16 +99,16 @@
   },
   "economy": {
     "price": {
-      "usd": 99.64,
-      "market_cap_usd": 58314156536,
-      "volume_24h_usd": 2944273840,
-      "change_24h_pct": 0.09
+      "usd": 99.25,
+      "market_cap_usd": 58106319845,
+      "volume_24h_usd": 2901301399,
+      "change_24h_pct": -0.28
     },
     "tvl": {
-      "tvl_usd": 5683661961,
+      "tvl_usd": 5686226969,
       "rank": 2,
       "chains_total": 465,
-      "share_of_all_chains_pct": 6.66
+      "share_of_all_chains_pct": 6.67
     },
     "dex_volume": {
       "volume_24h_usd": 2171560050,
@@ -122,19 +122,19 @@
           "share_pct": 38.1
         },
         {
-          "name": "Orca DEX",
-          "volume_24h_usd": 210297275,
-          "share_pct": 9.7
-        },
-        {
           "name": "BisonFi",
           "volume_24h_usd": 204829713,
           "share_pct": 9.4
         },
         {
+          "name": "Orca DEX",
+          "volume_24h_usd": 200270826,
+          "share_pct": 9.2
+        },
+        {
           "name": "Manifest Trade",
-          "volume_24h_usd": 163155740,
-          "share_pct": 7.5
+          "volume_24h_usd": 170822546,
+          "share_pct": 7.9
         },
         {
           "name": "Meteora DLMM",
@@ -145,19 +145,19 @@
     },
     "fees": {
       "fees_24h_usd": 12646788,
-      "fees_7d_usd": 96596950,
-      "change_24h_pct": -6.1
+      "fees_7d_usd": 96642023,
+      "change_24h_pct": -6.15
     },
     "stablecoins": {
-      "total_usd": 15672698995,
+      "total_usd": 15724296826,
       "by_peg": {
-        "peggedUSD": 15607523091,
-        "peggedEUR": 60310225,
+        "peggedUSD": 15659183093,
+        "peggedEUR": 60308800,
         "peggedJPY": 53,
-        "peggedCHF": 1321282,
-        "peggedAUD": 75355,
-        "peggedVAR": 2487025,
-        "peggedGBP": 813501,
+        "peggedCHF": 1319229,
+        "peggedAUD": 75361,
+        "peggedVAR": 2428305,
+        "peggedGBP": 813522,
         "peggedTRY": 166999,
         "peggedCAD": 1463,
         "peggedKRW": 1
@@ -174,7 +174,7 @@
   "anomalies": {
     "count": 1,
     "critical": 0,
-    "baseline_snapshots": 128,
+    "baseline_snapshots": 129,
     "statistical_detection_active": true,
     "findings": [
       {
