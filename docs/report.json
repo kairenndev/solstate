@@ -1,96 +1,96 @@
 {
-  "generated_at": "2026-09-02T09:28:22+00:00",
+  "generated_at": "2026-09-02T10:29:02+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3493.8,
-      "tps_non_vote": 1336.2,
-      "slot_time_ms": 312.8,
+      "tps_total": 3004.5,
+      "tps_non_vote": 859.9,
+      "slot_time_ms": 313.2,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
-      "epoch": 1026,
-      "slot": 443662438,
-      "block_height": 421709903,
-      "slots_done": 430438,
+      "epoch": 1027,
+      "slot": 443674003,
+      "block_height": 421721456,
+      "slots_done": 10003,
       "slots_in_epoch": 432000,
-      "progress_pct": 99.64,
-      "hours_remaining": 0.1
+      "progress_pct": 2.32,
+      "hours_remaining": 36.7
     },
     "supply": {
-      "total_sol": 633266489,
-      "circulating_sol": 585206058,
-      "non_circulating_sol": 48060430
+      "total_sol": 633361813,
+      "circulating_sol": 585292448,
+      "non_circulating_sol": 48069366
     },
     "validators": {
-      "active_count": 678,
-      "delinquent_count": 16,
-      "delinquent_stake_pct": 0.042,
-      "total_stake_sol": 438201819,
+      "active_count": 674,
+      "delinquent_count": 21,
+      "delinquent_stake_pct": 0.156,
+      "total_stake_sol": 438422357,
       "nakamoto_coefficient": 18,
       "top_validators": [
         {
           "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
-          "stake_sol": 17174436,
-          "stake_pct": 3.92,
+          "stake_sol": 17348904,
+          "stake_pct": 3.96,
           "commission": 7
         },
         {
           "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
-          "stake_sol": 16281426,
+          "stake_sol": 16325737,
           "stake_pct": 3.72,
           "commission": 0
         },
         {
           "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
-          "stake_sol": 12434730,
+          "stake_sol": 12462274,
           "stake_pct": 2.84,
           "commission": 0
         },
         {
           "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
-          "stake_sol": 11480709,
-          "stake_pct": 2.62,
+          "stake_sol": 11304498,
+          "stake_pct": 2.58,
           "commission": 5
         },
         {
           "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
-          "stake_sol": 9455250,
-          "stake_pct": 2.16,
+          "stake_sol": 9565273,
+          "stake_pct": 2.18,
           "commission": 0
         },
         {
           "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
-          "stake_sol": 9285506,
+          "stake_sol": 9285486,
           "stake_pct": 2.12,
           "commission": 7
         },
         {
           "identity": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
-          "stake_sol": 9044016,
+          "stake_sol": 9040435,
           "stake_pct": 2.06,
           "commission": 10
         },
         {
           "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
-          "stake_sol": 7216300,
+          "stake_sol": 7220140,
           "stake_pct": 1.65,
           "commission": 7
         },
         {
           "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
-          "stake_sol": 6930213,
-          "stake_pct": 1.58,
+          "stake_sol": 7125475,
+          "stake_pct": 1.63,
           "commission": 5
         },
         {
           "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
-          "stake_sol": 6591885,
+          "stake_sol": 6590653,
           "stake_pct": 1.5,
           "commission": 0
         }
@@ -99,16 +99,16 @@
   },
   "economy": {
     "price": {
-      "usd": 99.02,
-      "market_cap_usd": 57947979419,
-      "volume_24h_usd": 3348603734,
-      "change_24h_pct": -3.08
+      "usd": 98.3,
+      "market_cap_usd": 57535460909,
+      "volume_24h_usd": 3276247999,
+      "change_24h_pct": -3.92
     },
     "tvl": {
-      "tvl_usd": 5712053447,
+      "tvl_usd": 5706889294,
       "rank": 2,
       "chains_total": 465,
-      "share_of_all_chains_pct": 6.66
+      "share_of_all_chains_pct": 6.67
     },
     "dex_volume": {
       "volume_24h_usd": 2246687191,
@@ -123,8 +123,8 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 219353888,
-          "share_pct": 9.8
+          "volume_24h_usd": 211421432,
+          "share_pct": 9.4
         },
         {
           "name": "BisonFi",
@@ -138,26 +138,26 @@
         },
         {
           "name": "Manifest Trade",
-          "volume_24h_usd": 138692288,
-          "share_pct": 6.2
+          "volume_24h_usd": 136582213,
+          "share_pct": 6.1
         }
       ]
     },
     "fees": {
-      "fees_24h_usd": 12266834,
-      "fees_7d_usd": 95299166,
-      "change_24h_pct": -9.14
+      "fees_24h_usd": 12260119,
+      "fees_7d_usd": 95446081,
+      "change_24h_pct": -9.19
     },
     "stablecoins": {
-      "total_usd": 15574318866,
+      "total_usd": 15539374175,
       "by_peg": {
-        "peggedUSD": 15506751988,
-        "peggedEUR": 62723442,
+        "peggedUSD": 15474336218,
+        "peggedEUR": 60244254,
         "peggedJPY": 52,
-        "peggedCHF": 1321772,
-        "peggedAUD": 75250,
-        "peggedVAR": 2471860,
-        "peggedGBP": 806044,
+        "peggedCHF": 1318581,
+        "peggedAUD": 75232,
+        "peggedVAR": 2425319,
+        "peggedGBP": 806063,
         "peggedTRY": 166999,
         "peggedCAD": 1457,
         "peggedKRW": 1
@@ -169,13 +169,19 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 7.9,
+  "collection_seconds": 12.8,
   "errors": [],
   "anomalies": {
-    "count": 0,
+    "count": 1,
     "critical": 0,
-    "baseline_snapshots": 116,
+    "baseline_snapshots": 117,
     "statistical_detection_active": true,
-    "findings": []
+    "findings": [
+      {
+        "severity": "warning",
+        "metric": "Delinquent stake",
+        "message": "Delinquent stake is 1200.0% above its recent median (0.156 vs 0.012 %); z=12.1."
+      }
+    ]
   }
 }
