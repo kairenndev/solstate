@@ -1,28 +1,28 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-02T10:29:02+00:00 · data collected in 12.8s*
+*Generated 2026-09-02T11:27:34+00:00 · data collected in 13.9s*
 
 ## ⚠ Anomalies
 
-- 🟡 **Delinquent stake** — Delinquent stake is 1200.0% above its recent median (0.156 vs 0.012 %); z=12.1.
+- 🟡 **Delinquent stake** — Delinquent stake is 650.0% above its recent median (0.09 vs 0.012 %); z=6.6.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 859.9 |
-| Total TPS (incl. votes) | 3,004.5 |
-| Slot time | 313.2 ms (target 400) |
-| Epoch | 1027 — 2.3% done, ~36.7h left |
-| Block height | 421,721,456 |
-| Circulating supply | 585,292,448 SOL |
+| Non-vote TPS | 1,204.5 |
+| Total TPS (incl. votes) | 3,334.6 |
+| Slot time | 314.8 ms (target 400) |
+| Epoch | 1027 — 4.9% done, ~35.9h left |
+| Block height | 421,732,605 |
+| Circulating supply | 585,292,417 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active | 674 |
-| Delinquent | 21 (0.156% of stake) |
+| Active | 676 |
+| Delinquent | 19 (0.090% of stake) |
 | Total stake | 438,422,357 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -51,12 +51,12 @@
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $98.30 | -3.92% |
-| Market cap | $57.54B | |
-| TVL | $5.71B | rank #2 of 465 chains |
-| DEX volume | $2.25B | -10.19% |
-| Network fees | $12.26M | -9.19% |
-| Stablecoin supply | $15.54B | |
+| SOL price | $97.53 | -4.53% |
+| Market cap | $57.08B | |
+| TVL | $5.70B | rank #2 of 465 chains |
+| DEX volume | $2.17B | -13.19% |
+| Network fees | $12.53M | -7.17% |
+| Stablecoin supply | $15.61B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
@@ -66,11 +66,11 @@
 
 | Venue | Volume | Share |
 |---|---|---|
-| PumpSwap | $827.37M | 36.8% |
-| Orca DEX | $211.42M | 9.4% |
-| BisonFi | $204.83M | 9.1% |
-| Meteora DLMM | $139.98M | 6.2% |
-| Manifest Trade | $136.58M | 6.1% |
+| PumpSwap | $827.37M | 38.1% |
+| Orca DEX | $211.42M | 9.7% |
+| BisonFi | $204.83M | 9.4% |
+| Meteora DLMM | $139.98M | 6.4% |
+| Manifest Trade | $135.76M | 6.3% |
 
 ## Sources
 
