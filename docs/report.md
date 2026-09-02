@@ -1,28 +1,28 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-02T06:37:13+00:00 · data collected in 7.6s*
+*Generated 2026-09-02T07:27:58+00:00 · data collected in 7.0s*
 
-## ⚠ Anomalies
+## Anomalies
 
-- 🟡 **Delinquent stake** — Delinquent stake is 720.0% above its recent median (0.082 vs 0.01 %); z=9.7.
+None detected. Baseline: 114 snapshots.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,488.5 |
-| Total TPS (incl. votes) | 3,634.7 |
-| Slot time | 314.1 ms (target 400) |
-| Epoch | 1026 — 92.1% done, ~3.0h left |
-| Block height | 421,677,269 |
-| Circulating supply | 585,206,149 SOL |
+| Non-vote TPS | 1,157.0 |
+| Total TPS (incl. votes) | 3,280.3 |
+| Slot time | 318.1 ms (target 400) |
+| Epoch | 1026 — 94.3% done, ~2.2h left |
+| Block height | 421,686,949 |
+| Circulating supply | 585,206,123 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
 | Active | 677 |
-| Delinquent | 17 (0.082% of stake) |
+| Delinquent | 17 (0.042% of stake) |
 | Total stake | 438,201,819 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -51,9 +51,9 @@
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $99.79 | -3.91% |
-| Market cap | $58.40B | |
-| TVL | $5.70B | rank #2 of 465 chains |
+| SOL price | $99.99 | -3.28% |
+| Market cap | $58.52B | |
+| TVL | $5.71B | rank #2 of 465 chains |
 | DEX volume | $2.25B | -10.19% |
 | Network fees | $12.27M | -9.14% |
 | Stablecoin supply | $15.57B | |
@@ -70,7 +70,7 @@
 | Orca DEX | $219.35M | 9.8% |
 | BisonFi | $204.83M | 9.1% |
 | Meteora DLMM | $139.98M | 6.2% |
-| Manifest Trade | $139.48M | 6.2% |
+| Manifest Trade | $139.14M | 6.2% |
 
 ## Sources
 
