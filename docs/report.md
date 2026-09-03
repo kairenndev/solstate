@@ -1,45 +1,62 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-03T01:30:52+00:00 · data collected in 111.2s*
+*Generated 2026-09-03T05:09:59+00:00 · data collected in 7.6s*
 
 ## Anomalies
 
-None detected. Baseline: 132 snapshots.
+None detected. Baseline: 133 snapshots.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,482.2 |
-| Total TPS (incl. votes) | 3,618.8 |
-| Slot time | 314.1 ms (target 400) |
-| Epoch | 1027 — 42.1% done, ~21.8h left |
-| Block height | 421,893,049 |
-| Circulating supply | 585,275,231 SOL |
+| Non-vote TPS | 1,231.8 |
+| Total TPS (incl. votes) | 3,392.7 |
+| Slot time | 312.2 ms (target 400) |
+| Epoch | 1027 — 51.8% done, ~18.1h left |
+| Block height | 421,934,844 |
+| Circulating supply | 585,275,109 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active | n/a |
-| Delinquent | n/a (n/a% of stake) |
-| Total stake | n/a SOL |
-| Nakamoto coefficient | **n/a** |
+| Active | 677 |
+| Delinquent | 18 (0.046% of stake) |
+| Total stake | 438,422,357 SOL |
+| Nakamoto coefficient | **18** |
 
 > The Nakamoto coefficient is how many of the largest validators together
 > control one third of stake — the threshold at which the chain can be
 > halted. Lower means more fragile.
 
+<details><summary>Top 10 validators by stake</summary>
+
+| # | Identity | Stake (SOL) | Share | Commission |
+|---|---|---|---|---|
+| 1 | `Fd7btg…69Nk` | 17,348,904 | 3.96% | 7% |
+| 2 | `HEL1US…e2TU` | 16,325,737 | 3.72% | 0% |
+| 3 | `DRpbCB…21hy` | 12,462,274 | 2.84% | 0% |
+| 4 | `JUPiTE…1h4b` | 11,304,498 | 2.58% | 5% |
+| 5 | `E1r4Ps…dxHL` | 9,565,273 | 2.18% | 0% |
+| 6 | `C8Bey3…JP1k` | 9,285,486 | 2.12% | 7% |
+| 7 | `CAo1dC…Sve4` | 9,040,435 | 2.06% | 10% |
+| 8 | `EvnRmn…qDo4` | 7,220,140 | 1.65% | 7% |
+| 9 | `9eGrDo…8FoY` | 7,125,475 | 1.63% | 5% |
+| 10 | `Awes4T…vpLM` | 6,590,653 | 1.5% | 0% |
+
+</details>
+
 ## Economy
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $100.32 | +0.75% |
-| Market cap | $58.66B | |
-| TVL | $5.69B | rank #2 of 465 chains |
-| DEX volume | $2.33B | +7.20% |
-| Network fees | $12.13M | -4.11% |
-| Stablecoin supply | $15.80B | |
+| SOL price | $100.72 | +0.90% |
+| Market cap | $58.94B | |
+| TVL | $5.73B | rank #2 of 465 chains |
+| DEX volume | $2.33B | +7.16% |
+| Network fees | $11.21M | -11.36% |
+| Stablecoin supply | $15.81B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
@@ -51,8 +68,8 @@ None detected. Baseline: 132 snapshots.
 |---|---|---|
 | PumpSwap | $1.02B | 43.9% |
 | Orca DEX | $202.63M | 8.7% |
-| BisonFi | $194.35M | 8.3% |
-| Manifest Trade | $170.54M | 7.3% |
+| BisonFi | $194.35M | 8.4% |
+| Manifest Trade | $170.30M | 7.3% |
 | Meteora DLMM | $137.83M | 5.9% |
 
 ## Sources
@@ -60,13 +77,6 @@ None detected. Baseline: 132 snapshots.
 - Solana JSON-RPC (api.mainnet-beta.solana.com and public fallbacks)
 - DeFiLlama — TVL, DEX volume, fees, stablecoin supply
 - CoinGecko — SOL price and market cap
-
-## Collection errors
-
-Listed rather than hidden: a metric missing for an unknown reason is
-worse than a metric missing for a stated one.
-
-- `network.validators: IncompleteRead(273702 bytes read, 26345 more expected)`
 
 ---
 
