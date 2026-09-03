@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-03T11:26:35+00:00",
+  "generated_at": "2026-09-03T12:34:40+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3318.3,
-      "tps_non_vote": 1167.8,
-      "slot_time_ms": 312.8,
+      "tps_total": 3644.3,
+      "tps_non_vote": 1519.8,
+      "slot_time_ms": 315.5,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1027,
-      "slot": 443959410,
-      "block_height": 422006587,
-      "slots_done": 295410,
+      "slot": 443972389,
+      "block_height": 422019514,
+      "slots_done": 308389,
       "slots_in_epoch": 432000,
-      "progress_pct": 68.38,
-      "hours_remaining": 11.9
+      "progress_pct": 71.39,
+      "hours_remaining": 10.8
     },
     "supply": {
-      "total_sol": 633360935,
-      "circulating_sol": 585274899,
+      "total_sol": 633360898,
+      "circulating_sol": 585274861,
       "non_circulating_sol": 48086036
     },
     "validators": {
-      "active_count": 677,
-      "delinquent_count": 18,
-      "delinquent_stake_pct": 0.047,
+      "active_count": 675,
+      "delinquent_count": 20,
+      "delinquent_stake_pct": 0.064,
       "total_stake_sol": 438422357,
       "nakamoto_coefficient": 18,
       "top_validators": [
@@ -99,47 +99,47 @@
   },
   "economy": {
     "price": {
-      "usd": 100.55,
-      "market_cap_usd": 58850426117,
-      "volume_24h_usd": 3030771417,
-      "change_24h_pct": 3.12
+      "usd": 101.18,
+      "market_cap_usd": 59216130713,
+      "volume_24h_usd": 3070029132,
+      "change_24h_pct": 3.14
     },
     "tvl": {
-      "tvl_usd": 5764434528,
+      "tvl_usd": 5763907304,
       "rank": 2,
       "chains_total": 465,
-      "share_of_all_chains_pct": 6.73
+      "share_of_all_chains_pct": 6.75
     },
     "dex_volume": {
-      "volume_24h_usd": 2327024999,
-      "volume_7d_usd": 16711816287,
-      "change_24h_pct": 7.16,
+      "volume_24h_usd": 2289285889,
+      "volume_7d_usd": 16853370673,
+      "change_24h_pct": 5.42,
       "protocols_count": 121,
       "top_protocols": [
         {
           "name": "PumpSwap",
           "volume_24h_usd": 1021115034,
-          "share_pct": 43.9
+          "share_pct": 44.6
         },
         {
           "name": "Orca DEX",
           "volume_24h_usd": 218272629,
-          "share_pct": 9.4
+          "share_pct": 9.5
         },
         {
           "name": "BisonFi",
           "volume_24h_usd": 194352343,
-          "share_pct": 8.4
+          "share_pct": 8.5
         },
         {
           "name": "Manifest Trade",
-          "volume_24h_usd": 169167989,
-          "share_pct": 7.3
+          "volume_24h_usd": 175472274,
+          "share_pct": 7.7
         },
         {
           "name": "Meteora DLMM",
           "volume_24h_usd": 137825685,
-          "share_pct": 5.9
+          "share_pct": 6.0
         }
       ]
     },
@@ -149,16 +149,16 @@
       "change_24h_pct": -17.46
     },
     "stablecoins": {
-      "total_usd": 15754710122,
+      "total_usd": 15810491435,
       "by_peg": {
-        "peggedUSD": 15689252365,
-        "peggedEUR": 60610062,
+        "peggedUSD": 15745041379,
+        "peggedEUR": 60620133,
         "peggedJPY": 49,
-        "peggedCHF": 1326430,
-        "peggedAUD": 75739,
-        "peggedVAR": 2466634,
-        "peggedGBP": 812517,
-        "peggedTRY": 164861,
+        "peggedCHF": 1318761,
+        "peggedAUD": 74914,
+        "peggedVAR": 2456760,
+        "peggedGBP": 812484,
+        "peggedTRY": 165491,
         "peggedCAD": 1464,
         "peggedKRW": 1
       }
@@ -169,12 +169,12 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 8.0,
+  "collection_seconds": 10.0,
   "errors": [],
   "anomalies": {
     "count": 0,
     "critical": 0,
-    "baseline_snapshots": 140,
+    "baseline_snapshots": 141,
     "statistical_detection_active": true,
     "findings": []
   }
