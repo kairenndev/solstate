@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-09-04T18:28:53+00:00",
+  "generated_at": "2026-09-04T19:23:36+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3683.1,
-      "tps_non_vote": 1566.1,
-      "slot_time_ms": 315.8,
+      "tps_total": 3654.4,
+      "tps_non_vote": 1499.6,
+      "slot_time_ms": 313.2,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1028,
-      "slot": 444313554,
-      "block_height": 422359095,
-      "slots_done": 217554,
+      "slot": 444323971,
+      "block_height": 422369464,
+      "slots_done": 227971,
       "slots_in_epoch": 432000,
-      "progress_pct": 50.36,
-      "hours_remaining": 18.8
+      "progress_pct": 52.77,
+      "hours_remaining": 17.8
     },
     "supply": {
-      "total_sol": 633455133,
-      "circulating_sol": 585360107,
+      "total_sol": 633455100,
+      "circulating_sol": 585360075,
       "non_circulating_sol": 48095025
     },
     "validators": {
@@ -99,16 +99,16 @@
   },
   "economy": {
     "price": {
-      "usd": 101.4,
-      "market_cap_usd": 59357461641,
-      "volume_24h_usd": 3812700324,
-      "change_24h_pct": -3.2
+      "usd": 101.87,
+      "market_cap_usd": 59627994406,
+      "volume_24h_usd": 3735971413,
+      "change_24h_pct": -3.45
     },
     "tvl": {
-      "tvl_usd": 5818933055,
+      "tvl_usd": 5805966666,
       "rank": 2,
       "chains_total": 465,
-      "share_of_all_chains_pct": 6.67
+      "share_of_all_chains_pct": 6.66
     },
     "dex_volume": {
       "volume_24h_usd": 2459540364,
@@ -138,7 +138,7 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 168150379,
+          "volume_24h_usd": 166718338,
           "share_pct": 6.8
         }
       ]
@@ -149,15 +149,15 @@
       "change_24h_pct": 4.9
     },
     "stablecoins": {
-      "total_usd": 16448393692,
+      "total_usd": 16531135896,
       "by_peg": {
-        "peggedUSD": 16381827364,
-        "peggedEUR": 61698186,
+        "peggedUSD": 16464459200,
+        "peggedEUR": 61814815,
         "peggedJPY": 54,
-        "peggedCHF": 1326563,
-        "peggedAUD": 75451,
-        "peggedVAR": 2483443,
-        "peggedGBP": 816003,
+        "peggedCHF": 1322746,
+        "peggedAUD": 75393,
+        "peggedVAR": 2481123,
+        "peggedGBP": 815939,
         "peggedTRY": 165158,
         "peggedCAD": 1468,
         "peggedKRW": 1
@@ -169,13 +169,19 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 7.3,
+  "collection_seconds": 9.0,
   "errors": [],
   "anomalies": {
-    "count": 0,
+    "count": 1,
     "critical": 0,
-    "baseline_snapshots": 171,
+    "baseline_snapshots": 172,
     "statistical_detection_active": true,
-    "findings": []
+    "findings": [
+      {
+        "severity": "warning",
+        "metric": "Stablecoin supply",
+        "message": "Stablecoin supply is 4.1% above its recent median (1.653e+10 vs 1.588e+10 USD); z=3.8."
+      }
+    ]
   }
 }
