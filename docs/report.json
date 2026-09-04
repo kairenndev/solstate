@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-09-04T07:28:00+00:00",
+  "generated_at": "2026-09-04T08:29:55+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3177.0,
-      "tps_non_vote": 1039.1,
-      "slot_time_ms": 313.5,
+      "tps_total": 3199.9,
+      "tps_non_vote": 1069.5,
+      "slot_time_ms": 312.8,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1028,
-      "slot": 444188000,
-      "block_height": 422234139,
-      "slots_done": 92000,
+      "slot": 444199782,
+      "block_height": 422245861,
+      "slots_done": 103782,
       "slots_in_epoch": 432000,
-      "progress_pct": 21.3,
-      "hours_remaining": 29.7
+      "progress_pct": 24.02,
+      "hours_remaining": 28.5
     },
     "supply": {
-      "total_sol": 633455526,
-      "circulating_sol": 585360501,
+      "total_sol": 633455494,
+      "circulating_sol": 585360469,
       "non_circulating_sol": 48095025
     },
     "validators": {
@@ -99,16 +99,16 @@
   },
   "economy": {
     "price": {
-      "usd": 103.74,
-      "market_cap_usd": 60731971911,
-      "volume_24h_usd": 4025391496,
-      "change_24h_pct": 2.95
+      "usd": 103.85,
+      "market_cap_usd": 60788016380,
+      "volume_24h_usd": 4061970473,
+      "change_24h_pct": 3.01
     },
     "tvl": {
-      "tvl_usd": 5910007548,
+      "tvl_usd": 5908328388,
       "rank": 2,
       "chains_total": 465,
-      "share_of_all_chains_pct": 6.7
+      "share_of_all_chains_pct": 6.71
     },
     "dex_volume": {
       "volume_24h_usd": 2373588820,
@@ -138,8 +138,8 @@
         },
         {
           "name": "Manifest Trade",
-          "volume_24h_usd": 173459983,
-          "share_pct": 7.3
+          "volume_24h_usd": 177587304,
+          "share_pct": 7.5
         }
       ]
     },
@@ -169,12 +169,12 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 13.4,
+  "collection_seconds": 6.9,
   "errors": [],
   "anomalies": {
     "count": 0,
     "critical": 0,
-    "baseline_snapshots": 160,
+    "baseline_snapshots": 161,
     "statistical_detection_active": true,
     "findings": []
   }
