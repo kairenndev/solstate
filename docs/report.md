@@ -1,21 +1,21 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-05T16:26:49+00:00 · data collected in 9.3s*
+*Generated 2026-09-05T17:24:42+00:00 · data collected in 9.7s*
 
 ## Anomalies
 
-None detected. Baseline: 193 snapshots.
+None detected. Baseline: 194 snapshots.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,280.2 |
-| Total TPS (incl. votes) | 3,415.4 |
-| Slot time | 314.8 ms (target 400) |
-| Epoch | 1029 — 8.5% done, ~34.6h left |
-| Block height | 422,609,112 |
-| Circulating supply | 585,445,825 SOL |
+| Non-vote TPS | 1,551.7 |
+| Total TPS (incl. votes) | 3,664.4 |
+| Slot time | 317.8 ms (target 400) |
+| Epoch | 1029 — 11.0% done, ~33.9h left |
+| Block height | 422,620,081 |
+| Circulating supply | 585,445,792 SOL |
 
 ## Validators
 
@@ -51,8 +51,8 @@ None detected. Baseline: 193 snapshots.
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $103.04 | +1.31% |
-| Market cap | $60.32B | |
+| SOL price | $103.80 | +2.12% |
+| Market cap | $60.74B | |
 | TVL | $5.89B | rank #2 of 466 chains |
 | DEX volume | $1.88B | -23.50% |
 | Network fees | $10.44M | -11.71% |
@@ -70,7 +70,7 @@ None detected. Baseline: 193 snapshots.
 | BisonFi | $251.95M | 13.4% |
 | Orca DEX | $210.00M | 11.2% |
 | Meteora DLMM | $180.66M | 9.6% |
-| Manifest Trade | $126.85M | 6.7% |
+| Manifest Trade | $126.36M | 6.7% |
 
 ## Sources
 
