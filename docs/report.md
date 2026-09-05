@@ -1,28 +1,28 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-05T10:25:38+00:00 · data collected in 8.6s*
+*Generated 2026-09-05T11:25:25+00:00 · data collected in 8.3s*
 
 ## Anomalies
 
-None detected. Baseline: 187 snapshots.
+None detected. Baseline: 188 snapshots.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 983.2 |
-| Total TPS (incl. votes) | 3,078.3 |
-| Slot time | 315.5 ms (target 400) |
-| Epoch | 1028 — 92.6% done, ~2.8h left |
-| Block height | 422,540,537 |
-| Circulating supply | 585,359,607 SOL |
+| Non-vote TPS | 826.7 |
+| Total TPS (incl. votes) | 2,978.7 |
+| Slot time | 313.8 ms (target 400) |
+| Epoch | 1028 — 95.2% done, ~1.8h left |
+| Block height | 422,551,914 |
+| Circulating supply | 585,359,578 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active | 677 |
-| Delinquent | 18 (0.032% of stake) |
+| Active | 678 |
+| Delinquent | 17 (0.028% of stake) |
 | Total stake | 436,898,866 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -51,12 +51,12 @@ None detected. Baseline: 187 snapshots.
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $102.42 | -1.16% |
-| Market cap | $59.95B | |
-| TVL | $5.86B | rank #2 of 466 chains |
-| DEX volume | $1.85B | -24.89% |
+| SOL price | $102.32 | -1.77% |
+| Market cap | $59.90B | |
+| TVL | $5.87B | rank #2 of 466 chains |
+| DEX volume | $1.88B | -23.50% |
 | Network fees | $9.54M | -19.31% |
-| Stablecoin supply | $16.34B | |
+| Stablecoin supply | $16.35B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
@@ -66,11 +66,11 @@ None detected. Baseline: 187 snapshots.
 
 | Venue | Volume | Share |
 |---|---|---|
-| PumpSwap | $310.67M | 16.8% |
-| BisonFi | $232.51M | 12.6% |
-| Orca DEX | $210.00M | 11.4% |
-| Meteora DLMM | $180.66M | 9.8% |
-| Manifest Trade | $145.24M | 7.9% |
+| PumpSwap | $310.67M | 16.5% |
+| BisonFi | $251.95M | 13.4% |
+| Orca DEX | $210.00M | 11.2% |
+| Meteora DLMM | $180.66M | 9.6% |
+| Manifest Trade | $140.67M | 7.5% |
 
 ## Sources
 

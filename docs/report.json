@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-05T10:25:38+00:00",
+  "generated_at": "2026-09-05T11:25:25+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3078.3,
-      "tps_non_vote": 983.2,
-      "slot_time_ms": 315.5,
+      "tps_total": 2978.7,
+      "tps_non_vote": 826.7,
+      "slot_time_ms": 313.8,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1028,
-      "slot": 444495906,
-      "block_height": 422540537,
-      "slots_done": 399906,
+      "slot": 444507323,
+      "block_height": 422551914,
+      "slots_done": 411323,
       "slots_in_epoch": 432000,
-      "progress_pct": 92.57,
-      "hours_remaining": 2.8
+      "progress_pct": 95.21,
+      "hours_remaining": 1.8
     },
     "supply": {
-      "total_sol": 633454632,
-      "circulating_sol": 585359607,
+      "total_sol": 633454604,
+      "circulating_sol": 585359578,
       "non_circulating_sol": 48095025
     },
     "validators": {
-      "active_count": 677,
-      "delinquent_count": 18,
-      "delinquent_stake_pct": 0.032,
+      "active_count": 678,
+      "delinquent_count": 17,
+      "delinquent_stake_pct": 0.028,
       "total_stake_sol": 436898866,
       "nakamoto_coefficient": 18,
       "top_validators": [
@@ -99,65 +99,65 @@
   },
   "economy": {
     "price": {
-      "usd": 102.42,
-      "market_cap_usd": 59953872224,
-      "volume_24h_usd": 2786503407,
-      "change_24h_pct": -1.16
+      "usd": 102.32,
+      "market_cap_usd": 59896525328,
+      "volume_24h_usd": 2763827999,
+      "change_24h_pct": -1.77
     },
     "tvl": {
-      "tvl_usd": 5862625040,
+      "tvl_usd": 5871805691,
       "rank": 2,
       "chains_total": 466,
-      "share_of_all_chains_pct": 6.7
+      "share_of_all_chains_pct": 6.71
     },
     "dex_volume": {
-      "volume_24h_usd": 1847410950,
-      "volume_7d_usd": 14320204946,
-      "change_24h_pct": -24.89,
+      "volume_24h_usd": 1881639252,
+      "volume_7d_usd": 14903833989,
+      "change_24h_pct": -23.5,
       "protocols_count": 121,
       "top_protocols": [
         {
           "name": "PumpSwap",
           "volume_24h_usd": 310665861,
-          "share_pct": 16.8
+          "share_pct": 16.5
         },
         {
           "name": "BisonFi",
-          "volume_24h_usd": 232510470,
-          "share_pct": 12.6
+          "volume_24h_usd": 251945413,
+          "share_pct": 13.4
         },
         {
           "name": "Orca DEX",
           "volume_24h_usd": 209999637,
-          "share_pct": 11.4
+          "share_pct": 11.2
         },
         {
           "name": "Meteora DLMM",
           "volume_24h_usd": 180657527,
-          "share_pct": 9.8
+          "share_pct": 9.6
         },
         {
           "name": "Manifest Trade",
-          "volume_24h_usd": 145243729,
-          "share_pct": 7.9
+          "volume_24h_usd": 140672417,
+          "share_pct": 7.5
         }
       ]
     },
     "fees": {
       "fees_24h_usd": 9538396,
-      "fees_7d_usd": 80855923,
+      "fees_7d_usd": 80868263,
       "change_24h_pct": -19.31
     },
     "stablecoins": {
-      "total_usd": 16339423925,
+      "total_usd": 16350046658,
       "by_peg": {
-        "peggedUSD": 16271009752,
-        "peggedEUR": 63606736,
+        "peggedUSD": 16281658918,
+        "peggedEUR": 63595491,
         "peggedJPY": 54,
-        "peggedCHF": 1278480,
-        "peggedAUD": 75454,
-        "peggedVAR": 2470219,
-        "peggedGBP": 815281,
+        "peggedCHF": 1278446,
+        "peggedAUD": 75597,
+        "peggedVAR": 2454926,
+        "peggedGBP": 815279,
         "peggedTRY": 166479,
         "peggedCAD": 1468,
         "peggedKRW": 1
@@ -169,12 +169,12 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 8.6,
+  "collection_seconds": 8.3,
   "errors": [],
   "anomalies": {
     "count": 0,
     "critical": 0,
-    "baseline_snapshots": 187,
+    "baseline_snapshots": 188,
     "statistical_detection_active": true,
     "findings": []
   }
