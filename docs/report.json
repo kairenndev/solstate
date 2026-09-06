@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-09-06T17:25:13+00:00",
+  "generated_at": "2026-09-06T18:28:30+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3879.4,
-      "tps_non_vote": 1775.2,
-      "slot_time_ms": 319.5,
+      "tps_total": 4111.7,
+      "tps_non_vote": 1968.8,
+      "slot_time_ms": 314.1,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1029,
-      "slot": 444848834,
-      "block_height": 422893171,
-      "slots_done": 320834,
+      "slot": 444860828,
+      "block_height": 422905157,
+      "slots_done": 332828,
       "slots_in_epoch": 432000,
-      "progress_pct": 74.27,
-      "hours_remaining": 9.9
+      "progress_pct": 77.04,
+      "hours_remaining": 8.7
     },
     "supply": {
-      "total_sol": 633548853,
-      "circulating_sol": 585444978,
+      "total_sol": 633548813,
+      "circulating_sol": 585444938,
       "non_circulating_sol": 48103875
     },
     "validators": {
@@ -99,10 +99,10 @@
   },
   "economy": {
     "price": {
-      "usd": 106.2,
-      "market_cap_usd": 62146612797,
-      "volume_24h_usd": 3749536446,
-      "change_24h_pct": 2.23
+      "usd": 106.34,
+      "market_cap_usd": 62254757070,
+      "volume_24h_usd": 3680647548,
+      "change_24h_pct": 2.31
     },
     "tvl": {
       "tvl_usd": 5924761773,
@@ -169,12 +169,12 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 7.5,
+  "collection_seconds": 8.5,
   "errors": [],
   "anomalies": {
     "count": 0,
     "critical": 0,
-    "baseline_snapshots": 218,
+    "baseline_snapshots": 219,
     "statistical_detection_active": true,
     "findings": []
   }
