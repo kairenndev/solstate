@@ -1,21 +1,21 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-06T03:27:40+00:00 · data collected in 9.0s*
+*Generated 2026-09-06T04:27:43+00:00 · data collected in 11.3s*
 
 ## Anomalies
 
-None detected. Baseline: 204 snapshots.
+None detected. Baseline: 205 snapshots.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,532.5 |
-| Total TPS (incl. votes) | 3,653.6 |
-| Slot time | 317.5 ms (target 400) |
-| Epoch | 1029 — 37.6% done, ~23.8h left |
-| Block height | 422,734,678 |
-| Circulating supply | 585,445,462 SOL |
+| Non-vote TPS | 1,337.7 |
+| Total TPS (incl. votes) | 3,460.0 |
+| Slot time | 316.8 ms (target 400) |
+| Epoch | 1029 — 40.2% done, ~22.7h left |
+| Block height | 422,746,055 |
+| Circulating supply | 585,445,427 SOL |
 
 ## Validators
 
@@ -51,12 +51,12 @@ None detected. Baseline: 204 snapshots.
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $104.71 | +2.71% |
-| Market cap | $61.31B | |
-| TVL | $5.91B | rank #2 of 466 chains |
+| SOL price | $105.94 | +3.97% |
+| Market cap | $62.02B | |
+| TVL | $5.92B | rank #2 of 466 chains |
 | DEX volume | $1.96B | +4.20% |
 | Network fees | $10.48M | +0.44% |
-| Stablecoin supply | $16.37B | |
+| Stablecoin supply | $16.40B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
