@@ -1,29 +1,29 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-07T02:28:58+00:00 · data collected in 6.6s*
+*Generated 2026-09-07T03:29:46+00:00 · data collected in 10.8s*
 
 ## Anomalies
 
-None detected. Baseline: 227 snapshots.
+None detected. Baseline: 228 snapshots.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,737.6 |
-| Total TPS (incl. votes) | 3,863.5 |
-| Slot time | 316.5 ms (target 400) |
-| Epoch | 1029 — 98.1% done, ~0.7h left |
-| Block height | 422,996,105 |
-| Circulating supply | 586,080,088 SOL |
+| Non-vote TPS | 2,517.8 |
+| Total TPS (incl. votes) | 4,629.0 |
+| Slot time | 318.1 ms (target 400) |
+| Epoch | 1030 — 0.8% done, ~37.9h left |
+| Block height | 423,007,537 |
+| Circulating supply | 586,166,541 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active | 676 |
-| Delinquent | 17 (0.018% of stake) |
-| Total stake | 439,248,820 SOL |
+| Active | 675 |
+| Delinquent | 13 (0.030% of stake) |
+| Total stake | 439,477,988 SOL |
 | Nakamoto coefficient | **18** |
 
 > The Nakamoto coefficient is how many of the largest validators together
@@ -34,16 +34,16 @@ None detected. Baseline: 227 snapshots.
 
 | # | Identity | Stake (SOL) | Share | Commission |
 |---|---|---|---|---|
-| 1 | `Fd7btg…69Nk` | 17,421,941 | 3.97% | 7% |
-| 2 | `HEL1US…e2TU` | 16,321,581 | 3.72% | 0% |
-| 3 | `DRpbCB…21hy` | 12,507,097 | 2.85% | 0% |
-| 4 | `JUPiTE…1h4b` | 11,374,756 | 2.59% | 5% |
-| 5 | `E1r4Ps…dxHL` | 9,561,892 | 2.18% | 0% |
-| 6 | `C8Bey3…JP1k` | 9,268,042 | 2.11% | 7% |
-| 7 | `CAo1dC…Sve4` | 9,037,668 | 2.06% | 10% |
-| 8 | `EvnRmn…qDo4` | 7,352,604 | 1.67% | 7% |
-| 9 | `9eGrDo…8FoY` | 7,128,761 | 1.62% | 5% |
-| 10 | `Awes4T…vpLM` | 6,594,606 | 1.5% | 0% |
+| 1 | `Fd7btg…69Nk` | 17,438,541 | 3.97% | 7% |
+| 2 | `HEL1US…e2TU` | 16,336,964 | 3.72% | 0% |
+| 3 | `DRpbCB…21hy` | 12,517,399 | 2.85% | 0% |
+| 4 | `JUPiTE…1h4b` | 11,397,824 | 2.59% | 5% |
+| 5 | `E1r4Ps…dxHL` | 9,564,412 | 2.18% | 0% |
+| 6 | `C8Bey3…JP1k` | 9,181,909 | 2.09% | 7% |
+| 7 | `CAo1dC…Sve4` | 9,038,443 | 2.06% | 10% |
+| 8 | `EvnRmn…qDo4` | 7,384,461 | 1.68% | 7% |
+| 9 | `9eGrDo…8FoY` | 6,858,929 | 1.56% | 5% |
+| 10 | `Awes4T…vpLM` | 6,595,421 | 1.5% | 0% |
 
 </details>
 
@@ -51,12 +51,12 @@ None detected. Baseline: 227 snapshots.
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $105.66 | +1.56% |
-| Market cap | $61.93B | |
+| SOL price | $105.22 | +0.16% |
+| Market cap | $61.66B | |
 | TVL | $5.92B | rank #2 of 466 chains |
 | DEX volume | $1.96B | +4.20% |
 | Network fees | $10.48M | +0.44% |
-| Stablecoin supply | $16.42B | |
+| Stablecoin supply | $16.44B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
