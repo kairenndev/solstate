@@ -1,28 +1,28 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-07T00:39:43+00:00 · data collected in 12.1s*
+*Generated 2026-09-07T01:27:00+00:00 · data collected in 16.5s*
 
 ## Anomalies
 
-None detected. Baseline: 225 snapshots.
+None detected. Baseline: 226 snapshots.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,487.8 |
-| Total TPS (incl. votes) | 3,623.0 |
-| Slot time | 315.8 ms (target 400) |
-| Epoch | 1029 — 93.3% done, ~2.5h left |
-| Block height | 422,975,495 |
-| Circulating supply | 586,080,156 SOL |
+| Non-vote TPS | 1,789.0 |
+| Total TPS (incl. votes) | 3,910.1 |
+| Slot time | 316.8 ms (target 400) |
+| Epoch | 1029 — 95.4% done, ~1.8h left |
+| Block height | 422,984,413 |
+| Circulating supply | 586,080,126 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active | 677 |
-| Delinquent | 16 (0.013% of stake) |
+| Active | 676 |
+| Delinquent | 17 (0.018% of stake) |
 | Total stake | 439,248,820 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -51,8 +51,8 @@ None detected. Baseline: 225 snapshots.
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $106.08 | +2.56% |
-| Market cap | $62.12B | |
+| SOL price | $105.37 | +1.76% |
+| Market cap | $61.76B | |
 | TVL | $5.92B | rank #2 of 466 chains |
 | DEX volume | $1.96B | +4.20% |
 | Network fees | $10.48M | +0.44% |
