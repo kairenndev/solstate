@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-09-08T04:29:26+00:00",
+  "generated_at": "2026-09-08T05:28:30+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3723.2,
-      "tps_non_vote": 1599.3,
-      "slot_time_ms": 316.8,
+      "tps_total": 3667.1,
+      "tps_non_vote": 1560.4,
+      "slot_time_ms": 319.5,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1030,
-      "slot": 445247501,
-      "block_height": 423291653,
-      "slots_done": 287501,
+      "slot": 445258671,
+      "block_height": 423302819,
+      "slots_done": 298671,
       "slots_in_epoch": 432000,
-      "progress_pct": 66.55,
-      "hours_remaining": 12.7
+      "progress_pct": 69.14,
+      "hours_remaining": 11.8
     },
     "supply": {
-      "total_sol": 633642793,
-      "circulating_sol": 586165513,
+      "total_sol": 633642758,
+      "circulating_sol": 586165479,
       "non_circulating_sol": 47477279
     },
     "validators": {
@@ -99,16 +99,16 @@
   },
   "economy": {
     "price": {
-      "usd": 103.17,
-      "market_cap_usd": 60485070128,
-      "volume_24h_usd": 2991839048,
-      "change_24h_pct": -1.83
+      "usd": 103.41,
+      "market_cap_usd": 60617596671,
+      "volume_24h_usd": 2977111025,
+      "change_24h_pct": -2.14
     },
     "tvl": {
-      "tvl_usd": 5910198260,
+      "tvl_usd": 5898897283,
       "rank": 2,
       "chains_total": 466,
-      "share_of_all_chains_pct": 6.72
+      "share_of_all_chains_pct": 6.71
     },
     "dex_volume": {
       "volume_24h_usd": 2872025885,
@@ -144,9 +144,9 @@
       ]
     },
     "fees": {
-      "fees_24h_usd": 16000684,
+      "fees_24h_usd": 15999657,
       "fees_7d_usd": 84750739,
-      "change_24h_pct": 9.18
+      "change_24h_pct": 9.17
     },
     "stablecoins": {
       "total_usd": 16364905989,
@@ -169,12 +169,12 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 11.3,
+  "collection_seconds": 12.1,
   "errors": [],
   "anomalies": {
     "count": 0,
     "critical": 0,
-    "baseline_snapshots": 253,
+    "baseline_snapshots": 254,
     "statistical_detection_active": true,
     "findings": []
   }
