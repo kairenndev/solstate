@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-08T11:28:13+00:00",
+  "generated_at": "2026-09-08T12:36:03+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3816.4,
-      "tps_non_vote": 1682.2,
-      "slot_time_ms": 315.5,
+      "tps_total": 3470.0,
+      "tps_non_vote": 1342.3,
+      "slot_time_ms": 316.1,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1030,
-      "slot": 445326949,
-      "block_height": 423370949,
-      "slots_done": 366949,
+      "slot": 445339821,
+      "block_height": 423383805,
+      "slots_done": 379821,
       "slots_in_epoch": 432000,
-      "progress_pct": 84.94,
-      "hours_remaining": 5.7
+      "progress_pct": 87.92,
+      "hours_remaining": 4.6
     },
     "supply": {
-      "total_sol": 633642558,
-      "circulating_sol": 586165279,
+      "total_sol": 633642520,
+      "circulating_sol": 586165240,
       "non_circulating_sol": 47477279
     },
     "validators": {
-      "active_count": 674,
-      "delinquent_count": 14,
-      "delinquent_stake_pct": 0.207,
+      "active_count": 676,
+      "delinquent_count": 12,
+      "delinquent_stake_pct": 0.011,
       "total_stake_sol": 439477988,
       "nakamoto_coefficient": 18,
       "top_validators": [
@@ -99,16 +99,16 @@
   },
   "economy": {
     "price": {
-      "usd": 103.02,
-      "market_cap_usd": 60361285106,
-      "volume_24h_usd": 2939496919,
-      "change_24h_pct": -1.76
+      "usd": 103.05,
+      "market_cap_usd": 60405300063,
+      "volume_24h_usd": 2972680236,
+      "change_24h_pct": -2.15
     },
     "tvl": {
-      "tvl_usd": 5877855560,
+      "tvl_usd": 5897294489,
       "rank": 2,
       "chains_total": 466,
-      "share_of_all_chains_pct": 6.69
+      "share_of_all_chains_pct": 6.72
     },
     "dex_volume": {
       "volume_24h_usd": 2720639105,
@@ -123,8 +123,8 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 286322842,
-          "share_pct": 10.5
+          "volume_24h_usd": 284155041,
+          "share_pct": 10.4
         },
         {
           "name": "Orca DEX",
@@ -144,20 +144,20 @@
       ]
     },
     "fees": {
-      "fees_24h_usd": 15994909,
-      "fees_7d_usd": 84901570,
-      "change_24h_pct": 9.14
+      "fees_24h_usd": 15653198,
+      "fees_7d_usd": 86562827,
+      "change_24h_pct": 6.81
     },
     "stablecoins": {
-      "total_usd": 16301653155,
+      "total_usd": 16337788369,
       "by_peg": {
-        "peggedUSD": 16236764355,
-        "peggedEUR": 60074927,
+        "peggedUSD": 16272933380,
+        "peggedEUR": 60058631,
         "peggedJPY": 54,
-        "peggedCHF": 1265880,
-        "peggedAUD": 75474,
-        "peggedVAR": 2487911,
-        "peggedGBP": 816676,
+        "peggedCHF": 1256454,
+        "peggedAUD": 75457,
+        "peggedVAR": 2479875,
+        "peggedGBP": 816641,
         "peggedTRY": 166409,
         "peggedCAD": 1468,
         "peggedKRW": 1
@@ -169,19 +169,13 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 9.2,
+  "collection_seconds": 8.5,
   "errors": [],
   "anomalies": {
-    "count": 1,
+    "count": 0,
     "critical": 0,
-    "baseline_snapshots": 260,
+    "baseline_snapshots": 261,
     "statistical_detection_active": true,
-    "findings": [
-      {
-        "severity": "warning",
-        "metric": "Delinquent stake",
-        "message": "Delinquent stake is 567.7% above its recent median (0.207 vs 0.031 %); z=6.2."
-      }
-    ]
+    "findings": []
   }
 }
