@@ -1,28 +1,28 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-09T10:30:20+00:00 · data collected in 7.7s*
+*Generated 2026-09-09T11:29:11+00:00 · data collected in 7.2s*
 
 ## Anomalies
 
-None detected. Baseline: 283 snapshots.
+None detected. Baseline: 284 snapshots.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,639.1 |
-| Total TPS (incl. votes) | 3,758.0 |
-| Slot time | 317.8 ms (target 400) |
-| Epoch | 1031 — 45.5% done, ~20.8h left |
-| Block height | 423,632,160 |
-| Circulating supply | 586,250,586 SOL |
+| Non-vote TPS | 1,609.1 |
+| Total TPS (incl. votes) | 3,731.3 |
+| Slot time | 317.1 ms (target 400) |
+| Epoch | 1031 — 48.1% done, ~19.8h left |
+| Block height | 423,643,338 |
+| Circulating supply | 586,250,552 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active | 677 |
-| Delinquent | 10 (0.007% of stake) |
+| Active | 676 |
+| Delinquent | 11 (0.029% of stake) |
 | Total stake | 438,653,505 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -51,12 +51,12 @@ None detected. Baseline: 283 snapshots.
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $103.87 | +0.10% |
-| Market cap | $60.90B | |
-| TVL | $5.99B | rank #2 of 466 chains |
-| DEX volume | $2.58B | -5.25% |
-| Network fees | $16.44M | +5.16% |
-| Stablecoin supply | $16.25B | |
+| SOL price | $103.68 | +0.70% |
+| Market cap | $60.76B | |
+| TVL | $5.96B | rank #2 of 466 chains |
+| DEX volume | $2.71B | -0.36% |
+| Network fees | $16.56M | +5.94% |
+| Stablecoin supply | $16.27B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
@@ -66,11 +66,11 @@ None detected. Baseline: 283 snapshots.
 
 | Venue | Volume | Share |
 |---|---|---|
-| PumpSwap | $737.12M | 28.6% |
-| Raydium AMM | $328.32M | 12.7% |
-| Meteora DLMM | $237.76M | 9.2% |
-| BisonFi | $204.07M | 7.9% |
-| Tessera V | $149.50M | 5.8% |
+| PumpSwap | $737.12M | 27.2% |
+| Raydium AMM | $316.79M | 11.7% |
+| BisonFi | $249.32M | 9.2% |
+| Meteora DLMM | $237.76M | 8.8% |
+| Tessera V | $156.31M | 5.8% |
 
 ## Sources
 
