@@ -1,28 +1,28 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-08T23:26:18+00:00 · data collected in 8.3s*
+*Generated 2026-09-09T00:39:07+00:00 · data collected in 7.9s*
 
 ## Anomalies
 
-None detected. Baseline: 272 snapshots.
+None detected. Baseline: 273 snapshots.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,956.4 |
-| Total TPS (incl. votes) | 4,061.1 |
-| Slot time | 319.8 ms (target 400) |
-| Epoch | 1031 — 16.4% done, ~32.1h left |
-| Block height | 423,506,610 |
-| Circulating supply | 586,250,998 SOL |
+| Non-vote TPS | 2,373.6 |
+| Total TPS (incl. votes) | 4,488.2 |
+| Slot time | 318.8 ms (target 400) |
+| Epoch | 1031 — 19.6% done, ~30.8h left |
+| Block height | 423,520,397 |
+| Circulating supply | 586,250,950 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active | 675 |
-| Delinquent | 12 (0.071% of stake) |
+| Active | 678 |
+| Delinquent | 10 (0.012% of stake) |
 | Total stake | 438,653,505 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -51,12 +51,12 @@ None detected. Baseline: 272 snapshots.
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $103.36 | -0.28% |
-| Market cap | $60.60B | |
+| SOL price | $103.43 | -0.43% |
+| Market cap | $60.64B | |
 | TVL | $5.92B | rank #2 of 466 chains |
-| DEX volume | $2.72B | -6.33% |
+| DEX volume | $2.67B | -1.85% |
 | Network fees | $15.65M | +6.81% |
-| Stablecoin supply | $16.34B | |
+| Stablecoin supply | $16.32B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
@@ -66,11 +66,11 @@ None detected. Baseline: 272 snapshots.
 
 | Venue | Volume | Share |
 |---|---|---|
-| PumpSwap | $873.43M | 32.1% |
-| Raydium AMM | $351.64M | 12.9% |
-| BisonFi | $204.07M | 7.5% |
-| Meteora DLMM | $195.35M | 7.2% |
-| Orca DEX | $166.59M | 6.1% |
+| PumpSwap | $873.43M | 32.7% |
+| Raydium AMM | $350.63M | 13.1% |
+| BisonFi | $204.07M | 7.6% |
+| Meteora DLMM | $195.35M | 7.3% |
+| Orca DEX | $153.62M | 5.8% |
 
 ## Sources
 
