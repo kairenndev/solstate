@@ -1,28 +1,28 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-10T10:29:53+00:00 · data collected in 7.7s*
+*Generated 2026-09-10T11:28:17+00:00 · data collected in 7.4s*
 
 ## Anomalies
 
-None detected. Baseline: 307 snapshots.
+None detected. Baseline: 308 snapshots.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,518.2 |
-| Total TPS (incl. votes) | 3,645.1 |
-| Slot time | 315.8 ms (target 400) |
-| Epoch | 1032 — 8.7% done, ~34.6h left |
-| Block height | 423,904,958 |
-| Circulating supply | 586,335,735 SOL |
+| Non-vote TPS | 1,712.0 |
+| Total TPS (incl. votes) | 3,838.1 |
+| Slot time | 316.5 ms (target 400) |
+| Epoch | 1032 — 11.3% done, ~33.7h left |
+| Block height | 423,916,041 |
+| Circulating supply | 586,335,690 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active | 676 |
-| Delinquent | 12 (0.019% of stake) |
+| Active | 677 |
+| Delinquent | 11 (0.011% of stake) |
 | Total stake | 439,188,213 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -51,12 +51,12 @@ None detected. Baseline: 307 snapshots.
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $101.07 | -2.69% |
-| Market cap | $59.27B | |
+| SOL price | $101.25 | -2.37% |
+| Market cap | $59.38B | |
 | TVL | $5.84B | rank #2 of 466 chains |
-| DEX volume | $2.56B | -5.68% |
-| Network fees | $15.70M | -6.01% |
-| Stablecoin supply | $16.25B | |
+| DEX volume | $3.00B | +10.69% |
+| Network fees | $15.44M | -7.56% |
+| Stablecoin supply | $16.22B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
@@ -66,11 +66,11 @@ None detected. Baseline: 307 snapshots.
 
 | Venue | Volume | Share |
 |---|---|---|
-| Raydium AMM | $374.81M | 14.7% |
-| PumpSwap | $340.96M | 13.3% |
-| Meteora DLMM | $322.25M | 12.6% |
-| BisonFi | $249.32M | 9.8% |
-| Orca DEX | $198.14M | 7.7% |
+| BisonFi | $402.77M | 13.4% |
+| Raydium AMM | $364.79M | 12.2% |
+| PumpSwap | $340.96M | 11.4% |
+| Meteora DLMM | $322.25M | 10.7% |
+| HumidiFi | $285.64M | 9.5% |
 
 ## Sources
 
