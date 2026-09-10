@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-09-10T01:27:16+00:00",
+  "generated_at": "2026-09-10T02:29:25+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 4043.8,
-      "tps_non_vote": 1908.5,
-      "slot_time_ms": 314.8,
+      "tps_total": 4153.2,
+      "tps_non_vote": 2028.1,
+      "slot_time_ms": 316.1,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1031,
-      "slot": 445758284,
-      "block_height": 423801706,
-      "slots_done": 366284,
+      "slot": 445770108,
+      "block_height": 423813526,
+      "slots_done": 378108,
       "slots_in_epoch": 432000,
-      "progress_pct": 84.79,
-      "hours_remaining": 5.7
+      "progress_pct": 87.52,
+      "hours_remaining": 4.7
     },
     "supply": {
-      "total_sol": 633736213,
-      "circulating_sol": 586249987,
+      "total_sol": 633736170,
+      "circulating_sol": 586249944,
       "non_circulating_sol": 47486226
     },
     "validators": {
@@ -99,27 +99,27 @@
   },
   "economy": {
     "price": {
-      "usd": 101.21,
-      "market_cap_usd": 59335837304,
-      "volume_24h_usd": 3219028941,
-      "change_24h_pct": -2.14
+      "usd": 101.04,
+      "market_cap_usd": 59236558130,
+      "volume_24h_usd": 3241896695,
+      "change_24h_pct": -2.42
     },
     "tvl": {
-      "tvl_usd": 5788104801,
+      "tvl_usd": 5852927909,
       "rank": 2,
       "chains_total": 466,
-      "share_of_all_chains_pct": 6.62
+      "share_of_all_chains_pct": 6.68
     },
     "dex_volume": {
-      "volume_24h_usd": 2555510167,
-      "volume_7d_usd": 16124880870,
-      "change_24h_pct": -5.73,
+      "volume_24h_usd": 2556730643,
+      "volume_7d_usd": 16126101346,
+      "change_24h_pct": -5.68,
       "protocols_count": 122,
       "top_protocols": [
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 434278259,
-          "share_pct": 17.0
+          "volume_24h_usd": 427164136,
+          "share_pct": 16.7
         },
         {
           "name": "PumpSwap",
@@ -138,28 +138,28 @@
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 169534709,
+          "volume_24h_usd": 169546010,
           "share_pct": 6.6
         }
       ]
     },
     "fees": {
-      "fees_24h_usd": 16140710,
-      "fees_7d_usd": 83210764,
-      "change_24h_pct": -2.54
+      "fees_24h_usd": 15507502,
+      "fees_7d_usd": 83770932,
+      "change_24h_pct": -6.36
     },
     "stablecoins": {
-      "total_usd": 16277130875,
+      "total_usd": 16261175920,
       "by_peg": {
-        "peggedUSD": 16212407954,
-        "peggedEUR": 59941890,
-        "peggedJPY": 55,
-        "peggedCHF": 1259890,
-        "peggedAUD": 75483,
-        "peggedVAR": 2460930,
-        "peggedGBP": 816822,
-        "peggedTRY": 166381,
-        "peggedCAD": 1468,
+        "peggedUSD": 16196466035,
+        "peggedEUR": 59942149,
+        "peggedJPY": 54,
+        "peggedCHF": 1253120,
+        "peggedAUD": 75477,
+        "peggedVAR": 2454289,
+        "peggedGBP": 817052,
+        "peggedTRY": 166274,
+        "peggedCAD": 1469,
         "peggedKRW": 1
       }
     }
@@ -174,7 +174,7 @@
   "anomalies": {
     "count": 0,
     "critical": 0,
-    "baseline_snapshots": 298,
+    "baseline_snapshots": 299,
     "statistical_detection_active": true,
     "findings": []
   }
