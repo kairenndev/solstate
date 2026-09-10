@@ -1,28 +1,28 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-09T23:26:27+00:00 · data collected in 12.6s*
+*Generated 2026-09-10T00:35:04+00:00 · data collected in 12.0s*
 
-## ⚠ Anomalies
+## Anomalies
 
-- 🟡 **Delinquent stake** — Delinquent stake is 420.0% above its recent median (0.156 vs 0.03 %); z=4.7.
+None detected. Baseline: 297 snapshots.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,918.9 |
-| Total TPS (incl. votes) | 4,040.0 |
-| Slot time | 316.8 ms (target 400) |
-| Epoch | 1031 — 79.5% done, ~7.8h left |
-| Block height | 423,778,795 |
-| Circulating supply | 586,250,064 SOL |
+| Non-vote TPS | 1,785.1 |
+| Total TPS (incl. votes) | 3,910.7 |
+| Slot time | 314.5 ms (target 400) |
+| Epoch | 1031 — 82.5% done, ~6.6h left |
+| Block height | 423,791,784 |
+| Circulating supply | 586,250,020 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
 | Active | 675 |
-| Delinquent | 13 (0.156% of stake) |
+| Delinquent | 13 (0.047% of stake) |
 | Total stake | 438,653,505 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -51,12 +51,12 @@
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $101.45 | -1.85% |
-| Market cap | $59.49B | |
-| TVL | $5.92B | rank #2 of 466 chains |
-| DEX volume | $2.71B | -0.36% |
-| Network fees | $16.56M | +5.92% |
-| Stablecoin supply | $16.28B | |
+| SOL price | $101.11 | -2.32% |
+| Market cap | $59.27B | |
+| TVL | $5.90B | rank #2 of 466 chains |
+| DEX volume | $2.86B | +5.55% |
+| Network fees | $16.14M | -2.54% |
+| Stablecoin supply | $16.27B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
@@ -66,11 +66,11 @@
 
 | Venue | Volume | Share |
 |---|---|---|
-| PumpSwap | $737.12M | 27.2% |
-| Raydium AMM | $433.73M | 16.0% |
-| BisonFi | $249.32M | 9.2% |
-| Meteora DLMM | $237.76M | 8.8% |
-| Orca DEX | $166.62M | 6.1% |
+| PumpSwap | $737.12M | 25.8% |
+| Raydium AMM | $435.13M | 15.2% |
+| BisonFi | $249.32M | 8.7% |
+| Meteora DLMM | $237.76M | 8.3% |
+| Orca DEX | $169.53M | 5.9% |
 
 ## Sources
 
