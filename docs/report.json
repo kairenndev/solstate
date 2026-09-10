@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-10T22:25:48+00:00",
+  "generated_at": "2026-09-10T23:25:23+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3678.4,
-      "tps_non_vote": 1526.0,
-      "slot_time_ms": 313.2,
+      "tps_total": 3728.7,
+      "tps_non_vote": 1623.8,
+      "slot_time_ms": 319.1,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1032,
-      "slot": 445997211,
-      "block_height": 424040538,
-      "slots_done": 173211,
+      "slot": 446008514,
+      "block_height": 424051837,
+      "slots_done": 184514,
       "slots_in_epoch": 432000,
-      "progress_pct": 40.1,
-      "hours_remaining": 22.5
+      "progress_pct": 42.71,
+      "hours_remaining": 21.9
     },
     "supply": {
-      "total_sol": 633830530,
-      "circulating_sol": 586335257,
+      "total_sol": 633830493,
+      "circulating_sol": 586335220,
       "non_circulating_sol": 47495273
     },
     "validators": {
-      "active_count": 677,
-      "delinquent_count": 12,
-      "delinquent_stake_pct": 0.024,
+      "active_count": 675,
+      "delinquent_count": 14,
+      "delinquent_stake_pct": 0.105,
       "total_stake_sol": 439188213,
       "nakamoto_coefficient": 18,
       "top_validators": [
@@ -99,16 +99,16 @@
   },
   "economy": {
     "price": {
-      "usd": 99.96,
-      "market_cap_usd": 58609345815,
-      "volume_24h_usd": 2934474239,
-      "change_24h_pct": -1.52
+      "usd": 99.03,
+      "market_cap_usd": 58092929390,
+      "volume_24h_usd": 2892661367,
+      "change_24h_pct": -2.41
     },
     "tvl": {
-      "tvl_usd": 5797083723,
+      "tvl_usd": 5793845056,
       "rank": 2,
       "chains_total": 466,
-      "share_of_all_chains_pct": 6.66
+      "share_of_all_chains_pct": 6.63
     },
     "dex_volume": {
       "volume_24h_usd": 3000435430,
@@ -123,8 +123,8 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 359923954,
-          "share_pct": 12.0
+          "volume_24h_usd": 362210175,
+          "share_pct": 12.1
         },
         {
           "name": "PumpSwap",
@@ -169,12 +169,12 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 12.5,
+  "collection_seconds": 11.6,
   "errors": [],
   "anomalies": {
     "count": 0,
     "critical": 0,
-    "baseline_snapshots": 319,
+    "baseline_snapshots": 320,
     "statistical_detection_active": true,
     "findings": []
   }
