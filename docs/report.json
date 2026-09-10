@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-10T17:26:43+00:00",
+  "generated_at": "2026-09-10T18:30:21+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 4200.0,
-      "tps_non_vote": 2072.1,
-      "slot_time_ms": 316.5,
+      "tps_total": 4083.9,
+      "tps_non_vote": 1963.4,
+      "slot_time_ms": 317.1,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1032,
-      "slot": 445940472,
-      "block_height": 423983827,
-      "slots_done": 116472,
+      "slot": 445952525,
+      "block_height": 423995880,
+      "slots_done": 128525,
       "slots_in_epoch": 432000,
-      "progress_pct": 26.96,
-      "hours_remaining": 27.7
+      "progress_pct": 29.75,
+      "hours_remaining": 26.7
     },
     "supply": {
-      "total_sol": 633830722,
-      "circulating_sol": 586335449,
+      "total_sol": 633830680,
+      "circulating_sol": 586335407,
       "non_circulating_sol": 47495273
     },
     "validators": {
-      "active_count": 677,
-      "delinquent_count": 12,
-      "delinquent_stake_pct": 0.024,
+      "active_count": 676,
+      "delinquent_count": 13,
+      "delinquent_stake_pct": 0.043,
       "total_stake_sol": 439188213,
       "nakamoto_coefficient": 18,
       "top_validators": [
@@ -99,16 +99,16 @@
   },
   "economy": {
     "price": {
-      "usd": 99.91,
-      "market_cap_usd": 58582421026,
-      "volume_24h_usd": 3272308768,
-      "change_24h_pct": -3.69
+      "usd": 99.37,
+      "market_cap_usd": 58243441041,
+      "volume_24h_usd": 3311570066,
+      "change_24h_pct": -4.09
     },
     "tvl": {
-      "tvl_usd": 5781349628,
+      "tvl_usd": 5768333090,
       "rank": 2,
       "chains_total": 466,
-      "share_of_all_chains_pct": 6.62
+      "share_of_all_chains_pct": 6.61
     },
     "dex_volume": {
       "volume_24h_usd": 3000435430,
@@ -123,8 +123,8 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 351412276,
-          "share_pct": 11.7
+          "volume_24h_usd": 347702548,
+          "share_pct": 11.6
         },
         {
           "name": "PumpSwap",
@@ -174,7 +174,7 @@
   "anomalies": {
     "count": 0,
     "critical": 0,
-    "baseline_snapshots": 314,
+    "baseline_snapshots": 315,
     "statistical_detection_active": true,
     "findings": []
   }
