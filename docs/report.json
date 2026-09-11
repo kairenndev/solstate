@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-11T11:27:33+00:00",
+  "generated_at": "2026-09-11T12:34:16+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 4050.4,
-      "tps_non_vote": 1934.4,
-      "slot_time_ms": 316.8,
+      "tps_total": 6515.3,
+      "tps_non_vote": 4418.8,
+      "slot_time_ms": 319.5,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1032,
-      "slot": 446145568,
-      "block_height": 424188778,
-      "slots_done": 321568,
+      "slot": 446158186,
+      "block_height": 424201392,
+      "slots_done": 334186,
       "slots_in_epoch": 432000,
-      "progress_pct": 74.44,
-      "hours_remaining": 9.7
+      "progress_pct": 77.36,
+      "hours_remaining": 8.7
     },
     "supply": {
-      "total_sol": 633830072,
-      "circulating_sol": 586537507,
+      "total_sol": 633830027,
+      "circulating_sol": 586537462,
       "non_circulating_sol": 47292565
     },
     "validators": {
-      "active_count": 673,
-      "delinquent_count": 16,
-      "delinquent_stake_pct": 0.449,
+      "active_count": 672,
+      "delinquent_count": 17,
+      "delinquent_stake_pct": 0.467,
       "total_stake_sol": 439188213,
       "nakamoto_coefficient": 18,
       "top_validators": [
@@ -99,65 +99,65 @@
   },
   "economy": {
     "price": {
-      "usd": 98.94,
-      "market_cap_usd": 58032080505,
-      "volume_24h_usd": 3039967362,
-      "change_24h_pct": -2.28
+      "usd": 98.73,
+      "market_cap_usd": 57906018792,
+      "volume_24h_usd": 3095765654,
+      "change_24h_pct": -2.07
     },
     "tvl": {
-      "tvl_usd": 5804212418,
+      "tvl_usd": 5799851047,
       "rank": 2,
       "chains_total": 467,
       "share_of_all_chains_pct": 6.68
     },
     "dex_volume": {
-      "volume_24h_usd": 2948479741,
-      "volume_7d_usd": 16615042185,
-      "change_24h_pct": -1.73,
+      "volume_24h_usd": 2921890110,
+      "volume_7d_usd": 18004468138,
+      "change_24h_pct": -2.61,
       "protocols_count": 122,
       "top_protocols": [
         {
           "name": "PumpSwap",
           "volume_24h_usd": 468144120,
-          "share_pct": 15.9
+          "share_pct": 16.0
         },
         {
           "name": "BisonFi",
-          "volume_24h_usd": 402765962,
-          "share_pct": 13.7
-        },
-        {
-          "name": "Raydium AMM",
-          "volume_24h_usd": 396892926,
+          "volume_24h_usd": 395807093,
           "share_pct": 13.5
         },
         {
+          "name": "Raydium AMM",
+          "volume_24h_usd": 390337322,
+          "share_pct": 13.4
+        },
+        {
           "name": "HumidiFi",
-          "volume_24h_usd": 285639061,
-          "share_pct": 9.7
+          "volume_24h_usd": 322665212,
+          "share_pct": 11.0
         },
         {
           "name": "Tessera V",
-          "volume_24h_usd": 248022503,
-          "share_pct": 8.4
+          "volume_24h_usd": 231997864,
+          "share_pct": 7.9
         }
       ]
     },
     "fees": {
-      "fees_24h_usd": 14812528,
-      "fees_7d_usd": 96796926,
-      "change_24h_pct": -5.73
+      "fees_24h_usd": 14614985,
+      "fees_7d_usd": 98124055,
+      "change_24h_pct": -6.98
     },
     "stablecoins": {
-      "total_usd": 15989473113,
+      "total_usd": 16039270709,
       "by_peg": {
-        "peggedUSD": 15923859301,
-        "peggedEUR": 60852617,
+        "peggedUSD": 15974220221,
+        "peggedEUR": 60332258,
         "peggedJPY": 54,
-        "peggedCHF": 1257856,
-        "peggedAUD": 74623,
-        "peggedVAR": 2463445,
-        "peggedGBP": 797808,
+        "peggedCHF": 1260598,
+        "peggedAUD": 74745,
+        "peggedVAR": 2417732,
+        "peggedGBP": 797691,
         "peggedTRY": 165942,
         "peggedCAD": 1466,
         "peggedKRW": 1
@@ -169,18 +169,23 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 10.7,
+  "collection_seconds": 7.2,
   "errors": [],
   "anomalies": {
-    "count": 1,
+    "count": 2,
     "critical": 0,
-    "baseline_snapshots": 332,
+    "baseline_snapshots": 333,
     "statistical_detection_active": true,
     "findings": [
       {
         "severity": "warning",
+        "metric": "Non-vote TPS",
+        "message": "Non-vote TPS is 171.7% above its recent median (4,419 vs 1,627 tx/s); z=6.2."
+      },
+      {
+        "severity": "warning",
         "metric": "Delinquent stake",
-        "message": "Delinquent stake is 1396.7% above its recent median (0.449 vs 0.03 %); z=15.7."
+        "message": "Delinquent stake is 1456.7% above its recent median (0.467 vs 0.03 %); z=16.4."
       }
     ]
   }

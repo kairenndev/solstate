@@ -1,28 +1,29 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-11T11:27:33+00:00 · data collected in 10.7s*
+*Generated 2026-09-11T12:34:16+00:00 · data collected in 7.2s*
 
 ## ⚠ Anomalies
 
-- 🟡 **Delinquent stake** — Delinquent stake is 1396.7% above its recent median (0.449 vs 0.03 %); z=15.7.
+- 🟡 **Non-vote TPS** — Non-vote TPS is 171.7% above its recent median (4,419 vs 1,627 tx/s); z=6.2.
+- 🟡 **Delinquent stake** — Delinquent stake is 1456.7% above its recent median (0.467 vs 0.03 %); z=16.4.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,934.4 |
-| Total TPS (incl. votes) | 4,050.4 |
-| Slot time | 316.8 ms (target 400) |
-| Epoch | 1032 — 74.4% done, ~9.7h left |
-| Block height | 424,188,778 |
-| Circulating supply | 586,537,507 SOL |
+| Non-vote TPS | 4,418.8 |
+| Total TPS (incl. votes) | 6,515.3 |
+| Slot time | 319.5 ms (target 400) |
+| Epoch | 1032 — 77.4% done, ~8.7h left |
+| Block height | 424,201,392 |
+| Circulating supply | 586,537,462 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active | 673 |
-| Delinquent | 16 (0.449% of stake) |
+| Active | 672 |
+| Delinquent | 17 (0.467% of stake) |
 | Total stake | 439,188,213 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -51,12 +52,12 @@
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $98.94 | -2.28% |
-| Market cap | $58.03B | |
+| SOL price | $98.73 | -2.07% |
+| Market cap | $57.91B | |
 | TVL | $5.80B | rank #2 of 467 chains |
-| DEX volume | $2.95B | -1.73% |
-| Network fees | $14.81M | -5.73% |
-| Stablecoin supply | $15.99B | |
+| DEX volume | $2.92B | -2.61% |
+| Network fees | $14.61M | -6.98% |
+| Stablecoin supply | $16.04B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
@@ -66,11 +67,11 @@
 
 | Venue | Volume | Share |
 |---|---|---|
-| PumpSwap | $468.14M | 15.9% |
-| BisonFi | $402.77M | 13.7% |
-| Raydium AMM | $396.89M | 13.5% |
-| HumidiFi | $285.64M | 9.7% |
-| Tessera V | $248.02M | 8.4% |
+| PumpSwap | $468.14M | 16.0% |
+| BisonFi | $395.81M | 13.5% |
+| Raydium AMM | $390.34M | 13.4% |
+| HumidiFi | $322.67M | 11.0% |
+| Tessera V | $232.00M | 7.9% |
 
 ## Sources
 
