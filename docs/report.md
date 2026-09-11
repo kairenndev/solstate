@@ -1,28 +1,28 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-11T00:35:29+00:00 · data collected in 9.1s*
+*Generated 2026-09-11T01:27:15+00:00 · data collected in 9.8s*
 
-## Anomalies
+## ⚠ Anomalies
 
-None detected. Baseline: 321 snapshots.
+- 🟡 **Delinquent stake** — Delinquent stake is 313.3% above its recent median (0.124 vs 0.03 %); z=3.5.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,576.7 |
-| Total TPS (incl. votes) | 3,679.0 |
-| Slot time | 318.8 ms (target 400) |
-| Epoch | 1032 — 45.8% done, ~20.7h left |
-| Block height | 424,065,082 |
-| Circulating supply | 586,537,885 SOL |
+| Non-vote TPS | 1,562.7 |
+| Total TPS (incl. votes) | 3,701.4 |
+| Slot time | 314.1 ms (target 400) |
+| Epoch | 1032 — 48.1% done, ~19.6h left |
+| Block height | 424,074,913 |
+| Circulating supply | 586,537,854 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active | 676 |
-| Delinquent | 13 (0.045% of stake) |
+| Active | 675 |
+| Delinquent | 14 (0.124% of stake) |
 | Total stake | 439,188,213 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -51,11 +51,11 @@ None detected. Baseline: 321 snapshots.
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $98.60 | -2.64% |
-| Market cap | $57.81B | |
-| TVL | $5.79B | rank #2 of 466 chains |
-| DEX volume | $3.00B | +10.69% |
-| Network fees | $15.72M | -5.90% |
+| SOL price | $99.22 | -1.95% |
+| Market cap | $58.19B | |
+| TVL | $5.75B | rank #2 of 467 chains |
+| DEX volume | $2.95B | -1.76% |
+| Network fees | $15.36M | -2.23% |
 | Stablecoin supply | $16.05B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
@@ -66,11 +66,11 @@ None detected. Baseline: 321 snapshots.
 
 | Venue | Volume | Share |
 |---|---|---|
-| BisonFi | $402.77M | 13.4% |
-| Raydium AMM | $361.80M | 12.1% |
-| PumpSwap | $340.96M | 11.4% |
-| Meteora DLMM | $322.25M | 10.7% |
-| HumidiFi | $285.64M | 9.5% |
+| PumpSwap | $468.14M | 15.9% |
+| BisonFi | $402.77M | 13.7% |
+| Raydium AMM | $362.49M | 12.3% |
+| HumidiFi | $285.64M | 9.7% |
+| Tessera V | $248.02M | 8.4% |
 
 ## Sources
 

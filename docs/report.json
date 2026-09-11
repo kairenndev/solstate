@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-11T00:35:29+00:00",
+  "generated_at": "2026-09-11T01:27:15+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3679.0,
-      "tps_non_vote": 1576.7,
-      "slot_time_ms": 318.8,
+      "tps_total": 3701.4,
+      "tps_non_vote": 1562.7,
+      "slot_time_ms": 314.1,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1032,
-      "slot": 446021767,
-      "block_height": 424065082,
-      "slots_done": 197767,
+      "slot": 446031602,
+      "block_height": 424074913,
+      "slots_done": 207602,
       "slots_in_epoch": 432000,
-      "progress_pct": 45.78,
-      "hours_remaining": 20.7
+      "progress_pct": 48.06,
+      "hours_remaining": 19.6
     },
     "supply": {
-      "total_sol": 633830450,
-      "circulating_sol": 586537885,
+      "total_sol": 633830419,
+      "circulating_sol": 586537854,
       "non_circulating_sol": 47292565
     },
     "validators": {
-      "active_count": 676,
-      "delinquent_count": 13,
-      "delinquent_stake_pct": 0.045,
+      "active_count": 675,
+      "delinquent_count": 14,
+      "delinquent_stake_pct": 0.124,
       "total_stake_sol": 439188213,
       "nakamoto_coefficient": 18,
       "top_validators": [
@@ -99,54 +99,54 @@
   },
   "economy": {
     "price": {
-      "usd": 98.6,
-      "market_cap_usd": 57810230728,
-      "volume_24h_usd": 3001406815,
-      "change_24h_pct": -2.64
+      "usd": 99.22,
+      "market_cap_usd": 58192600261,
+      "volume_24h_usd": 2998736720,
+      "change_24h_pct": -1.95
     },
     "tvl": {
-      "tvl_usd": 5793764199,
+      "tvl_usd": 5753737226,
       "rank": 2,
-      "chains_total": 466,
-      "share_of_all_chains_pct": 6.64
+      "chains_total": 467,
+      "share_of_all_chains_pct": 6.63
     },
     "dex_volume": {
-      "volume_24h_usd": 3000435430,
-      "volume_7d_usd": 17542118392,
-      "change_24h_pct": 10.69,
+      "volume_24h_usd": 2947608342,
+      "volume_7d_usd": 16614170786,
+      "change_24h_pct": -1.76,
       "protocols_count": 122,
       "top_protocols": [
         {
+          "name": "PumpSwap",
+          "volume_24h_usd": 468144120,
+          "share_pct": 15.9
+        },
+        {
           "name": "BisonFi",
           "volume_24h_usd": 402765962,
-          "share_pct": 13.4
+          "share_pct": 13.7
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 361802553,
-          "share_pct": 12.1
-        },
-        {
-          "name": "PumpSwap",
-          "volume_24h_usd": 340962649,
-          "share_pct": 11.4
-        },
-        {
-          "name": "Meteora DLMM",
-          "volume_24h_usd": 322249810,
-          "share_pct": 10.7
+          "volume_24h_usd": 362486806,
+          "share_pct": 12.3
         },
         {
           "name": "HumidiFi",
           "volume_24h_usd": 285639061,
-          "share_pct": 9.5
+          "share_pct": 9.7
+        },
+        {
+          "name": "Tessera V",
+          "volume_24h_usd": 248022503,
+          "share_pct": 8.4
         }
       ]
     },
     "fees": {
-      "fees_24h_usd": 15717207,
-      "fees_7d_usd": 95333285,
-      "change_24h_pct": -5.9
+      "fees_24h_usd": 15361775,
+      "fees_7d_usd": 88212074,
+      "change_24h_pct": -2.23
     },
     "stablecoins": {
       "total_usd": 16051854416,
@@ -169,13 +169,19 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 9.1,
+  "collection_seconds": 9.8,
   "errors": [],
   "anomalies": {
-    "count": 0,
+    "count": 1,
     "critical": 0,
-    "baseline_snapshots": 321,
+    "baseline_snapshots": 322,
     "statistical_detection_active": true,
-    "findings": []
+    "findings": [
+      {
+        "severity": "warning",
+        "metric": "Delinquent stake",
+        "message": "Delinquent stake is 313.3% above its recent median (0.124 vs 0.03 %); z=3.5."
+      }
+    ]
   }
 }
