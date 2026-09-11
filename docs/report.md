@@ -1,28 +1,29 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-11T16:29:30+00:00 · data collected in 11.3s*
+*Generated 2026-09-11T17:27:07+00:00 · data collected in 9.3s*
 
 ## ⚠ Anomalies
 
-- 🟡 **Delinquent stake** — Delinquent stake is 1303.3% above its recent median (0.428 vs 0.0305 %); z=14.5.
+- 🟡 **Slot time** — Slot time is 2.7% above its recent median (325 vs 316.5 ms); z=3.6.
+- 🟡 **Delinquent stake** — Delinquent stake is 1238.7% above its recent median (0.415 vs 0.031 %); z=13.6.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 2,522.6 |
-| Total TPS (incl. votes) | 4,605.3 |
-| Slot time | 322.2 ms (target 400) |
-| Epoch | 1032 — 87.6% done, ~4.8h left |
-| Block height | 424,245,638 |
-| Circulating supply | 586,537,291 SOL |
+| Non-vote TPS | 1,813.3 |
+| Total TPS (incl. votes) | 3,882.4 |
+| Slot time | 325.0 ms (target 400) |
+| Epoch | 1032 — 90.2% done, ~3.8h left |
+| Block height | 424,256,500 |
+| Circulating supply | 586,537,252 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active | 675 |
-| Delinquent | 15 (0.428% of stake) |
+| Active | 676 |
+| Delinquent | 14 (0.415% of stake) |
 | Total stake | 439,188,213 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -51,12 +52,12 @@
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $101.62 | +2.48% |
-| Market cap | $59.61B | |
-| TVL | $5.84B | rank #2 of 467 chains |
+| SOL price | $102.28 | +2.52% |
+| Market cap | $59.99B | |
+| TVL | $5.88B | rank #2 of 467 chains |
 | DEX volume | $2.92B | -2.61% |
 | Network fees | $14.61M | -6.98% |
-| Stablecoin supply | $16.21B | |
+| Stablecoin supply | $16.19B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
@@ -67,7 +68,7 @@
 | Venue | Volume | Share |
 |---|---|---|
 | PumpSwap | $468.14M | 16.0% |
-| Raydium AMM | $432.33M | 14.8% |
+| Raydium AMM | $456.93M | 15.6% |
 | BisonFi | $395.81M | 13.5% |
 | HumidiFi | $322.67M | 11.0% |
 | Tessera V | $232.00M | 7.9% |
