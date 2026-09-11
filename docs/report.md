@@ -1,28 +1,28 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-11T18:31:25+00:00 · data collected in 8.0s*
+*Generated 2026-09-11T19:26:24+00:00 · data collected in 10.1s*
 
 ## ⚠ Anomalies
 
-- 🟡 **Delinquent stake** — Delinquent stake is 1238.7% above its recent median (0.415 vs 0.031 %); z=13.6.
+- 🟡 **Delinquent stake** — Delinquent stake is 1212.9% above its recent median (0.407 vs 0.031 %); z=13.3.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 2,225.8 |
-| Total TPS (incl. votes) | 4,333.5 |
-| Slot time | 318.8 ms (target 400) |
-| Epoch | 1032 — 93.0% done, ~2.7h left |
-| Block height | 424,268,623 |
-| Circulating supply | 586,537,208 SOL |
+| Non-vote TPS | 2,074.3 |
+| Total TPS (incl. votes) | 4,194.7 |
+| Slot time | 317.8 ms (target 400) |
+| Epoch | 1032 — 95.4% done, ~1.8h left |
+| Block height | 424,279,019 |
+| Circulating supply | 586,537,171 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active | 676 |
-| Delinquent | 14 (0.415% of stake) |
+| Active | 677 |
+| Delinquent | 13 (0.407% of stake) |
 | Total stake | 439,188,213 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -51,12 +51,12 @@
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $101.35 | +2.05% |
-| Market cap | $59.45B | |
+| SOL price | $101.28 | +1.35% |
+| Market cap | $59.40B | |
 | TVL | $5.88B | rank #2 of 467 chains |
 | DEX volume | $2.92B | -2.61% |
 | Network fees | $14.61M | -6.98% |
-| Stablecoin supply | $16.17B | |
+| Stablecoin supply | $16.25B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
@@ -66,8 +66,8 @@
 
 | Venue | Volume | Share |
 |---|---|---|
+| Raydium AMM | $480.73M | 16.5% |
 | PumpSwap | $468.14M | 16.0% |
-| Raydium AMM | $456.93M | 15.6% |
 | BisonFi | $395.81M | 13.5% |
 | HumidiFi | $322.67M | 11.0% |
 | Tessera V | $232.00M | 7.9% |
