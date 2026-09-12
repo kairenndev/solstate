@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-09-11T23:25:18+00:00",
+  "generated_at": "2026-09-12T00:34:13+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3987.1,
-      "tps_non_vote": 1850.9,
-      "slot_time_ms": 315.1,
+      "tps_total": 3816.3,
+      "tps_non_vote": 1680.3,
+      "slot_time_ms": 315.5,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1033,
-      "slot": 446281202,
-      "block_height": 424324110,
-      "slots_done": 25202,
+      "slot": 446294237,
+      "block_height": 424337097,
+      "slots_done": 38237,
       "slots_in_epoch": 432000,
-      "progress_pct": 5.83,
-      "hours_remaining": 35.6
+      "progress_pct": 8.85,
+      "hours_remaining": 34.5
     },
     "supply": {
-      "total_sol": 633924625,
-      "circulating_sol": 586623141,
-      "non_circulating_sol": 47301484
+      "total_sol": 633924582,
+      "circulating_sol": 586633306,
+      "non_circulating_sol": 47291276
     },
     "validators": {
-      "active_count": 676,
+      "active_count": 677,
       "delinquent_count": 13,
       "delinquent_stake_pct": 0.68,
       "total_stake_sol": 436837681,
@@ -99,67 +99,67 @@
   },
   "economy": {
     "price": {
-      "usd": 102.21,
-      "market_cap_usd": 59989810117,
-      "volume_24h_usd": 4542148085,
-      "change_24h_pct": 3.21
+      "usd": 102.09,
+      "market_cap_usd": 59890342066,
+      "volume_24h_usd": 4633819860,
+      "change_24h_pct": 3.54
     },
     "tvl": {
-      "tvl_usd": 5889121161,
+      "tvl_usd": 5878469901,
       "rank": 2,
       "chains_total": 467,
       "share_of_all_chains_pct": 6.66
     },
     "dex_volume": {
-      "volume_24h_usd": 2921890110,
-      "volume_7d_usd": 18004468138,
-      "change_24h_pct": -2.61,
+      "volume_24h_usd": 3266490958,
+      "volume_7d_usd": 17250541268,
+      "change_24h_pct": 11.79,
       "protocols_count": 122,
       "top_protocols": [
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 546273049,
-          "share_pct": 18.7
+          "volume_24h_usd": 555805063,
+          "share_pct": 17.0
         },
         {
           "name": "PumpSwap",
           "volume_24h_usd": 468144120,
-          "share_pct": 16.0
+          "share_pct": 14.3
         },
         {
           "name": "BisonFi",
           "volume_24h_usd": 395807093,
-          "share_pct": 13.5
+          "share_pct": 12.1
         },
         {
           "name": "HumidiFi",
           "volume_24h_usd": 322665212,
-          "share_pct": 11.0
+          "share_pct": 9.9
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 283808767,
-          "share_pct": 9.7
+          "volume_24h_usd": 272490429,
+          "share_pct": 8.3
         }
       ]
     },
     "fees": {
-      "fees_24h_usd": 14614973,
-      "fees_7d_usd": 98124013,
-      "change_24h_pct": -6.98
+      "fees_24h_usd": 16560444,
+      "fees_7d_usd": 93133442,
+      "change_24h_pct": 13.31
     },
     "stablecoins": {
-      "total_usd": 16206335426,
+      "total_usd": 16273756900,
       "by_peg": {
-        "peggedUSD": 16138933076,
-        "peggedEUR": 62646066,
+        "peggedUSD": 16206352759,
+        "peggedEUR": 62657721,
         "peggedJPY": 55,
-        "peggedCHF": 1270578,
-        "peggedAUD": 74902,
-        "peggedVAR": 2442885,
-        "peggedGBP": 800460,
+        "peggedCHF": 1268869,
+        "peggedAUD": 74622,
+        "peggedVAR": 2435135,
+        "peggedGBP": 800335,
         "peggedTRY": 165942,
-        "peggedCAD": 1460,
+        "peggedCAD": 1461,
         "peggedKRW": 1
       }
     }
@@ -169,12 +169,12 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 10.2,
+  "collection_seconds": 7.9,
   "errors": [],
   "anomalies": {
     "count": 1,
     "critical": 0,
-    "baseline_snapshots": 344,
+    "baseline_snapshots": 345,
     "statistical_detection_active": true,
     "findings": [
       {
