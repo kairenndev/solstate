@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-09-12T02:28:29+00:00",
+  "generated_at": "2026-09-12T03:27:44+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3752.1,
-      "tps_non_vote": 1637.7,
-      "slot_time_ms": 318.5,
+      "tps_total": 3663.0,
+      "tps_non_vote": 1542.3,
+      "slot_time_ms": 317.8,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1033,
-      "slot": 446315895,
-      "block_height": 424358727,
-      "slots_done": 59895,
+      "slot": 446327091,
+      "block_height": 424369923,
+      "slots_done": 71091,
       "slots_in_epoch": 432000,
-      "progress_pct": 13.86,
-      "hours_remaining": 32.9
+      "progress_pct": 16.46,
+      "hours_remaining": 31.9
     },
     "supply": {
-      "total_sol": 633924513,
-      "circulating_sol": 586633238,
+      "total_sol": 633924478,
+      "circulating_sol": 586633202,
       "non_circulating_sol": 47291276
     },
     "validators": {
@@ -99,16 +99,16 @@
   },
   "economy": {
     "price": {
-      "usd": 101.81,
-      "market_cap_usd": 59725358270,
-      "volume_24h_usd": 4555620251,
-      "change_24h_pct": 2.64
+      "usd": 101.63,
+      "market_cap_usd": 59603239838,
+      "volume_24h_usd": 4563719127,
+      "change_24h_pct": 2.47
     },
     "tvl": {
-      "tvl_usd": 5906350849,
+      "tvl_usd": 5897133503,
       "rank": 2,
       "chains_total": 467,
-      "share_of_all_chains_pct": 6.69
+      "share_of_all_chains_pct": 6.68
     },
     "dex_volume": {
       "volume_24h_usd": 3247782462,
@@ -144,9 +144,9 @@
       ]
     },
     "fees": {
-      "fees_24h_usd": 17471085,
-      "fees_7d_usd": 103273519,
-      "change_24h_pct": 19.54
+      "fees_24h_usd": 17508306,
+      "fees_7d_usd": 103623394,
+      "change_24h_pct": 19.8
     },
     "stablecoins": {
       "total_usd": 16238563760,
@@ -169,12 +169,12 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 14.3,
+  "collection_seconds": 10.1,
   "errors": [],
   "anomalies": {
     "count": 1,
     "critical": 0,
-    "baseline_snapshots": 347,
+    "baseline_snapshots": 348,
     "statistical_detection_active": true,
     "findings": [
       {
