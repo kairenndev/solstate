@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-12T07:25:57+00:00",
+  "generated_at": "2026-09-12T08:27:36+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3209.7,
-      "tps_non_vote": 1081.7,
-      "slot_time_ms": 316.5,
+      "tps_total": 3309.0,
+      "tps_non_vote": 1181.4,
+      "slot_time_ms": 317.5,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1033,
-      "slot": 446372176,
-      "block_height": 424414984,
-      "slots_done": 116176,
+      "slot": 446383844,
+      "block_height": 424426652,
+      "slots_done": 127844,
       "slots_in_epoch": 432000,
-      "progress_pct": 26.89,
-      "hours_remaining": 27.8
+      "progress_pct": 29.59,
+      "hours_remaining": 26.8
     },
     "supply": {
-      "total_sol": 633924346,
-      "circulating_sol": 586633071,
+      "total_sol": 633924315,
+      "circulating_sol": 586633039,
       "non_circulating_sol": 47291276
     },
     "validators": {
-      "active_count": 677,
-      "delinquent_count": 13,
-      "delinquent_stake_pct": 0.403,
+      "active_count": 679,
+      "delinquent_count": 11,
+      "delinquent_stake_pct": 0.385,
       "total_stake_sol": 436837681,
       "nakamoto_coefficient": 18,
       "top_validators": [
@@ -99,16 +99,16 @@
   },
   "economy": {
     "price": {
-      "usd": 101.82,
-      "market_cap_usd": 59733154836,
-      "volume_24h_usd": 4496114641,
-      "change_24h_pct": 1.88
+      "usd": 101.63,
+      "market_cap_usd": 59623086935,
+      "volume_24h_usd": 4477451093,
+      "change_24h_pct": 1.86
     },
     "tvl": {
-      "tvl_usd": 5886832062,
+      "tvl_usd": 5888800122,
       "rank": 2,
       "chains_total": 467,
-      "share_of_all_chains_pct": 6.67
+      "share_of_all_chains_pct": 6.66
     },
     "dex_volume": {
       "volume_24h_usd": 3247771790,
@@ -118,8 +118,8 @@
       "top_protocols": [
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 496001139,
-          "share_pct": 15.3
+          "volume_24h_usd": 481080275,
+          "share_pct": 14.8
         },
         {
           "name": "BisonFi",
@@ -149,15 +149,15 @@
       "change_24h_pct": 20.03
     },
     "stablecoins": {
-      "total_usd": 16198815439,
+      "total_usd": 16194714890,
       "by_peg": {
-        "peggedUSD": 16133133088,
-        "peggedEUR": 60911479,
+        "peggedUSD": 16129086552,
+        "peggedEUR": 60909948,
         "peggedJPY": 55,
-        "peggedCHF": 1277564,
-        "peggedAUD": 74829,
-        "peggedVAR": 2449432,
-        "peggedGBP": 800999,
+        "peggedCHF": 1273699,
+        "peggedAUD": 74828,
+        "peggedVAR": 2400820,
+        "peggedGBP": 800995,
         "peggedTRY": 166533,
         "peggedCAD": 1459,
         "peggedKRW": 1
@@ -169,18 +169,18 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 10.1,
+  "collection_seconds": 10.8,
   "errors": [],
   "anomalies": {
     "count": 1,
     "critical": 0,
-    "baseline_snapshots": 352,
+    "baseline_snapshots": 353,
     "statistical_detection_active": true,
     "findings": [
       {
         "severity": "warning",
         "metric": "Delinquent stake",
-        "message": "Delinquent stake is 1200.0% above its recent median (0.403 vs 0.031 %); z=13.2."
+        "message": "Delinquent stake is 1141.9% above its recent median (0.385 vs 0.031 %); z=12.6."
       }
     ]
   }
