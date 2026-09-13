@@ -1,6 +1,6 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-13T05:26:16+00:00 · data collected in 12.7s*
+*Generated 2026-09-13T06:36:06+00:00 · data collected in 9.3s*
 
 ## ⚠ Anomalies
 
@@ -10,12 +10,12 @@
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,272.8 |
-| Total TPS (incl. votes) | 3,421.3 |
+| Non-vote TPS | 1,245.8 |
+| Total TPS (incl. votes) | 3,393.1 |
 | Slot time | 313.8 ms (target 400) |
-| Epoch | 1033 — 84.8% done, ~5.7h left |
-| Block height | 424,665,226 |
-| Circulating supply | 586,644,807 SOL |
+| Epoch | 1033 — 87.9% done, ~4.5h left |
+| Block height | 424,678,559 |
+| Circulating supply | 586,644,770 SOL |
 
 ## Validators
 
@@ -51,8 +51,8 @@
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $101.82 | +0.36% |
-| Market cap | $59.73B | |
+| SOL price | $101.35 | -0.43% |
+| Market cap | $59.50B | |
 | TVL | $5.91B | rank #2 of 467 chains |
 | DEX volume | $2.47B | -22.31% |
 | Network fees | $13.91M | -22.17% |
@@ -68,7 +68,7 @@
 |---|---|---|
 | BisonFi | $471.70M | 19.1% |
 | PumpSwap | $377.15M | 15.2% |
-| Raydium AMM | $323.01M | 13.1% |
+| Raydium AMM | $319.77M | 12.9% |
 | Tessera V | $202.03M | 8.2% |
 | Meteora DLMM | $161.06M | 6.5% |
 
