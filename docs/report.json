@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-13T03:28:21+00:00",
+  "generated_at": "2026-09-13T04:28:17+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3888.5,
-      "tps_non_vote": 1744.3,
+      "tps_total": 3546.0,
+      "tps_non_vote": 1401.6,
       "slot_time_ms": 314.5,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
@@ -15,16 +15,16 @@
     },
     "epoch": {
       "epoch": 1033,
-      "slot": 446600084,
-      "block_height": 424642796,
-      "slots_done": 344084,
+      "slot": 446611481,
+      "block_height": 424654188,
+      "slots_done": 355481,
       "slots_in_epoch": 432000,
-      "progress_pct": 79.65,
-      "hours_remaining": 7.7
+      "progress_pct": 82.29,
+      "hours_remaining": 6.7
     },
     "supply": {
-      "total_sol": 633923652,
-      "circulating_sol": 586644875,
+      "total_sol": 633923616,
+      "circulating_sol": 586644839,
       "non_circulating_sol": 47278777
     },
     "validators": {
@@ -99,20 +99,20 @@
   },
   "economy": {
     "price": {
-      "usd": 101.96,
-      "market_cap_usd": 59818078844,
-      "volume_24h_usd": 1815263505,
-      "change_24h_pct": 0.31
+      "usd": 101.69,
+      "market_cap_usd": 59656141188,
+      "volume_24h_usd": 1774264451,
+      "change_24h_pct": 0.02
     },
     "tvl": {
-      "tvl_usd": 5909615192,
+      "tvl_usd": 5910189570,
       "rank": 2,
       "chains_total": 467,
       "share_of_all_chains_pct": 6.68
     },
     "dex_volume": {
-      "volume_24h_usd": 2473377940,
-      "volume_7d_usd": 18589800517,
+      "volume_24h_usd": 2473369329,
+      "volume_7d_usd": 18589791906,
       "change_24h_pct": -22.31,
       "protocols_count": 122,
       "top_protocols": [
@@ -128,8 +128,8 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 322180540,
-          "share_pct": 13.0
+          "volume_24h_usd": 325405397,
+          "share_pct": 13.2
         },
         {
           "name": "Tessera V",
@@ -149,15 +149,15 @@
       "change_24h_pct": -22.17
     },
     "stablecoins": {
-      "total_usd": 16210554181,
+      "total_usd": 16208999400,
       "by_peg": {
-        "peggedUSD": 16144831981,
-        "peggedEUR": 60976378,
-        "peggedJPY": 55,
-        "peggedCHF": 1265241,
-        "peggedAUD": 75317,
-        "peggedVAR": 2436187,
-        "peggedGBP": 801030,
+        "peggedUSD": 16143258805,
+        "peggedEUR": 60975226,
+        "peggedJPY": 54,
+        "peggedCHF": 1270142,
+        "peggedAUD": 75314,
+        "peggedVAR": 2450838,
+        "peggedGBP": 801028,
         "peggedTRY": 166533,
         "peggedCAD": 1460,
         "peggedKRW": 1
@@ -169,12 +169,12 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 10.4,
+  "collection_seconds": 9.9,
   "errors": [],
   "anomalies": {
     "count": 1,
     "critical": 0,
-    "baseline_snapshots": 372,
+    "baseline_snapshots": 373,
     "statistical_detection_active": true,
     "findings": [
       {
