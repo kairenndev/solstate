@@ -1,97 +1,97 @@
 {
-  "generated_at": "2026-09-13T10:30:40+00:00",
+  "generated_at": "2026-09-13T11:26:36+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3440.4,
-      "tps_non_vote": 1294.0,
-      "slot_time_ms": 314.1,
+      "tps_total": 3398.8,
+      "tps_non_vote": 1272.6,
+      "slot_time_ms": 317.5,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
-      "epoch": 1033,
-      "slot": 446680506,
-      "block_height": 424723173,
-      "slots_done": 424506,
+      "epoch": 1034,
+      "slot": 446691151,
+      "block_height": 424733814,
+      "slots_done": 3151,
       "slots_in_epoch": 432000,
-      "progress_pct": 98.27,
-      "hours_remaining": 0.7
+      "progress_pct": 0.73,
+      "hours_remaining": 37.8
     },
     "supply": {
-      "total_sol": 633923419,
-      "circulating_sol": 586644642,
-      "non_circulating_sol": 47278777
+      "total_sol": 634018395,
+      "circulating_sol": 586731300,
+      "non_circulating_sol": 47287095
     },
     "validators": {
-      "active_count": 677,
-      "delinquent_count": 13,
-      "delinquent_stake_pct": 0.419,
-      "total_stake_sol": 436837681,
+      "active_count": 678,
+      "delinquent_count": 11,
+      "delinquent_stake_pct": 0.408,
+      "total_stake_sol": 438740367,
       "nakamoto_coefficient": 18,
       "top_validators": [
         {
           "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
-          "stake_sol": 17557397,
-          "stake_pct": 4.02,
+          "stake_sol": 17568189,
+          "stake_pct": 4.0,
           "commission": 7
         },
         {
           "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
-          "stake_sol": 16359842,
-          "stake_pct": 3.75,
+          "stake_sol": 16361599,
+          "stake_pct": 3.73,
           "commission": 0
         },
         {
           "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
-          "stake_sol": 12516388,
-          "stake_pct": 2.87,
+          "stake_sol": 12501349,
+          "stake_pct": 2.85,
           "commission": 0
         },
         {
           "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
-          "stake_sol": 11367276,
-          "stake_pct": 2.6,
+          "stake_sol": 11372391,
+          "stake_pct": 2.59,
           "commission": 5
         },
         {
           "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
-          "stake_sol": 9667435,
-          "stake_pct": 2.21,
+          "stake_sol": 9619665,
+          "stake_pct": 2.19,
           "commission": 0
         },
         {
           "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
-          "stake_sol": 9234081,
+          "stake_sol": 9252712,
           "stake_pct": 2.11,
           "commission": 7
         },
         {
           "identity": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
-          "stake_sol": 9021415,
-          "stake_pct": 2.07,
+          "stake_sol": 9025175,
+          "stake_pct": 2.06,
           "commission": 10
         },
         {
           "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
-          "stake_sol": 7357834,
+          "stake_sol": 7367885,
           "stake_pct": 1.68,
           "commission": 7
         },
         {
           "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
-          "stake_sol": 6941562,
-          "stake_pct": 1.59,
+          "stake_sol": 6943003,
+          "stake_pct": 1.58,
           "commission": 5
         },
         {
           "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
-          "stake_sol": 6551099,
-          "stake_pct": 1.5,
+          "stake_sol": 6552506,
+          "stake_pct": 1.49,
           "commission": 0
         }
       ]
@@ -99,47 +99,47 @@
   },
   "economy": {
     "price": {
-      "usd": 99.77,
-      "market_cap_usd": 58529055660,
-      "volume_24h_usd": 1868158113,
-      "change_24h_pct": -2.25
+      "usd": 99.69,
+      "market_cap_usd": 58493886025,
+      "volume_24h_usd": 1875830642,
+      "change_24h_pct": -2.27
     },
     "tvl": {
-      "tvl_usd": 5849871625,
+      "tvl_usd": 5846118712,
       "rank": 2,
       "chains_total": 467,
       "share_of_all_chains_pct": 6.65
     },
     "dex_volume": {
-      "volume_24h_usd": 2473369329,
-      "volume_7d_usd": 18589791906,
-      "change_24h_pct": -22.31,
+      "volume_24h_usd": 1691135695,
+      "volume_7d_usd": 19132812147,
+      "change_24h_pct": -46.88,
       "protocols_count": 122,
       "top_protocols": [
         {
-          "name": "BisonFi",
-          "volume_24h_usd": 471695431,
-          "share_pct": 19.1
-        },
-        {
           "name": "PumpSwap",
           "volume_24h_usd": 377154340,
-          "share_pct": 15.2
+          "share_pct": 22.3
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 298953975,
-          "share_pct": 12.1
+          "volume_24h_usd": 292665416,
+          "share_pct": 17.3
         },
         {
-          "name": "Tessera V",
-          "volume_24h_usd": 202033828,
-          "share_pct": 8.2
+          "name": "BisonFi",
+          "volume_24h_usd": 162680667,
+          "share_pct": 9.6
         },
         {
           "name": "Meteora DLMM",
           "volume_24h_usd": 161064791,
-          "share_pct": 6.5
+          "share_pct": 9.5
+        },
+        {
+          "name": "Orca DEX",
+          "volume_24h_usd": 94628833,
+          "share_pct": 5.6
         }
       ]
     },
@@ -149,15 +149,15 @@
       "change_24h_pct": -22.25
     },
     "stablecoins": {
-      "total_usd": 16186415646,
+      "total_usd": 16177988749,
       "by_peg": {
-        "peggedUSD": 16122837178,
-        "peggedEUR": 58834174,
+        "peggedUSD": 16114382175,
+        "peggedEUR": 58843914,
         "peggedJPY": 54,
-        "peggedCHF": 1256690,
-        "peggedAUD": 74844,
-        "peggedVAR": 2443579,
-        "peggedGBP": 801132,
+        "peggedCHF": 1268937,
+        "peggedAUD": 75237,
+        "peggedVAR": 2449410,
+        "peggedGBP": 801027,
         "peggedTRY": 166533,
         "peggedCAD": 1461,
         "peggedKRW": 1
@@ -169,18 +169,18 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 9.7,
+  "collection_seconds": 6.6,
   "errors": [],
   "anomalies": {
     "count": 1,
     "critical": 0,
-    "baseline_snapshots": 379,
+    "baseline_snapshots": 380,
     "statistical_detection_active": true,
     "findings": [
       {
         "severity": "warning",
         "metric": "Delinquent stake",
-        "message": "Delinquent stake is 1209.4% above its recent median (0.419 vs 0.032 %); z=12.4."
+        "message": "Delinquent stake is 1175.0% above its recent median (0.408 vs 0.032 %); z=12.1."
       }
     ]
   }
