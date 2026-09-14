@@ -1,28 +1,28 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-14T10:29:21+00:00 · data collected in 8.4s*
+*Generated 2026-09-14T11:29:59+00:00 · data collected in 7.2s*
 
 ## ⚠ Anomalies
 
-- 🟡 **Delinquent stake** — Delinquent stake is 1418.7% above its recent median (0.486 vs 0.032 %); z=14.2.
+- 🟡 **Delinquent stake** — Delinquent stake is 1334.4% above its recent median (0.459 vs 0.032 %); z=13.1.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,238.2 |
-| Total TPS (incl. votes) | 3,379.6 |
-| Slot time | 312.8 ms (target 400) |
-| Epoch | 1034 — 61.6% done, ~14.4h left |
-| Block height | 424,996,452 |
-| Circulating supply | 586,892,830 SOL |
+| Non-vote TPS | 1,389.3 |
+| Total TPS (incl. votes) | 3,509.9 |
+| Slot time | 316.8 ms (target 400) |
+| Epoch | 1034 — 64.2% done, ~13.6h left |
+| Block height | 425,007,964 |
+| Circulating supply | 586,892,797 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
 | Active | 676 |
-| Delinquent | 14 (0.486% of stake) |
+| Delinquent | 14 (0.459% of stake) |
 | Total stake | 438,740,367 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -51,12 +51,12 @@
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $101.71 | +1.95% |
-| Market cap | $59.72B | |
+| SOL price | $101.78 | +2.12% |
+| Market cap | $59.73B | |
 | TVL | $5.89B | rank #3 of 467 chains |
-| DEX volume | $1.64B | -6.11% |
+| DEX volume | $1.79B | +2.72% |
 | Network fees | $14.26M | +5.55% |
-| Stablecoin supply | $16.03B | |
+| Stablecoin supply | $16.04B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
@@ -66,11 +66,11 @@
 
 | Venue | Volume | Share |
 |---|---|---|
-| PumpSwap | $315.70M | 19.3% |
-| Raydium AMM | $250.08M | 15.3% |
-| BisonFi | $162.68M | 9.9% |
-| fomo Wallet | $160.90M | 9.8% |
-| Meteora DLMM | $157.73M | 9.6% |
+| PumpSwap | $315.70M | 17.6% |
+| Raydium AMM | $248.09M | 13.9% |
+| BisonFi | $201.48M | 11.2% |
+| fomo Wallet | $160.90M | 9.0% |
+| Meteora DLMM | $157.73M | 8.8% |
 
 ## Sources
 
