@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-14T11:29:59+00:00",
+  "generated_at": "2026-09-14T12:36:00+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3509.9,
-      "tps_non_vote": 1389.3,
-      "slot_time_ms": 316.8,
+      "tps_total": 3704.3,
+      "tps_non_vote": 1575.9,
+      "slot_time_ms": 316.5,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1034,
-      "slot": 446965467,
-      "block_height": 425007964,
-      "slots_done": 277467,
+      "slot": 446978028,
+      "block_height": 425020493,
+      "slots_done": 290028,
       "slots_in_epoch": 432000,
-      "progress_pct": 64.23,
-      "hours_remaining": 13.6
+      "progress_pct": 67.14,
+      "hours_remaining": 12.5
     },
     "supply": {
-      "total_sol": 634017542,
-      "circulating_sol": 586892797,
+      "total_sol": 634017503,
+      "circulating_sol": 586892758,
       "non_circulating_sol": 47124745
     },
     "validators": {
-      "active_count": 676,
-      "delinquent_count": 14,
-      "delinquent_stake_pct": 0.459,
+      "active_count": 677,
+      "delinquent_count": 13,
+      "delinquent_stake_pct": 0.426,
       "total_stake_sol": 438740367,
       "nakamoto_coefficient": 18,
       "top_validators": [
@@ -99,16 +99,16 @@
   },
   "economy": {
     "price": {
-      "usd": 101.78,
-      "market_cap_usd": 59727566401,
-      "volume_24h_usd": 2344133897,
-      "change_24h_pct": 2.12
+      "usd": 101.9,
+      "market_cap_usd": 59779894163,
+      "volume_24h_usd": 2442240853,
+      "change_24h_pct": 2.21
     },
     "tvl": {
-      "tvl_usd": 5891621715,
-      "rank": 3,
+      "tvl_usd": 5899561228,
+      "rank": 2,
       "chains_total": 467,
-      "share_of_all_chains_pct": 6.65
+      "share_of_all_chains_pct": 6.67
     },
     "dex_volume": {
       "volume_24h_usd": 1790994712,
@@ -144,20 +144,20 @@
       ]
     },
     "fees": {
-      "fees_24h_usd": 14255439,
-      "fees_7d_usd": 107257674,
-      "change_24h_pct": 5.55
+      "fees_24h_usd": 14036096,
+      "fees_7d_usd": 108219759,
+      "change_24h_pct": 3.93
     },
     "stablecoins": {
-      "total_usd": 16035352042,
+      "total_usd": 16030168886,
       "by_peg": {
-        "peggedUSD": 15972506298,
-        "peggedEUR": 58126224,
+        "peggedUSD": 15967234372,
+        "peggedEUR": 58235207,
         "peggedJPY": 54,
-        "peggedCHF": 1275282,
-        "peggedAUD": 74969,
-        "peggedVAR": 2401313,
-        "peggedGBP": 800586,
+        "peggedCHF": 1263680,
+        "peggedAUD": 74928,
+        "peggedVAR": 2392645,
+        "peggedGBP": 800682,
         "peggedTRY": 165856,
         "peggedCAD": 1461,
         "peggedKRW": 1
@@ -169,18 +169,18 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 7.2,
+  "collection_seconds": 8.4,
   "errors": [],
   "anomalies": {
     "count": 1,
     "critical": 0,
-    "baseline_snapshots": 404,
+    "baseline_snapshots": 405,
     "statistical_detection_active": true,
     "findings": [
       {
         "severity": "warning",
         "metric": "Delinquent stake",
-        "message": "Delinquent stake is 1334.4% above its recent median (0.459 vs 0.032 %); z=13.1."
+        "message": "Delinquent stake is 1231.2% above its recent median (0.426 vs 0.032 %); z=12.1."
       }
     ]
   }
