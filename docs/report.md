@@ -1,28 +1,28 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-14T00:36:37+00:00 · data collected in 7.5s*
+*Generated 2026-09-14T01:28:05+00:00 · data collected in 7.0s*
 
 ## ⚠ Anomalies
 
-- 🟡 **Delinquent stake** — Delinquent stake is 1253.1% above its recent median (0.433 vs 0.032 %); z=12.9.
+- 🟡 **Delinquent stake** — Delinquent stake is 1246.9% above its recent median (0.431 vs 0.032 %); z=12.8.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,823.8 |
-| Total TPS (incl. votes) | 3,950.4 |
-| Slot time | 317.8 ms (target 400) |
-| Epoch | 1034 — 35.5% done, ~24.6h left |
-| Block height | 424,883,757 |
-| Circulating supply | 586,893,165 SOL |
+| Non-vote TPS | 1,563.8 |
+| Total TPS (incl. votes) | 3,694.3 |
+| Slot time | 317.5 ms (target 400) |
+| Epoch | 1034 — 37.7% done, ~23.7h left |
+| Block height | 424,893,526 |
+| Circulating supply | 586,893,135 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
 | Active | 679 |
-| Delinquent | 11 (0.433% of stake) |
+| Delinquent | 11 (0.431% of stake) |
 | Total stake | 438,740,367 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -51,12 +51,12 @@
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $99.57 | -2.02% |
-| Market cap | $58.45B | |
-| TVL | $5.87B | rank #3 of 467 chains |
-| DEX volume | $1.74B | -45.23% |
-| Network fees | $13.52M | -24.39% |
-| Stablecoin supply | $16.09B | |
+| SOL price | $99.47 | -2.55% |
+| Market cap | $58.37B | |
+| TVL | $5.82B | rank #3 of 467 chains |
+| DEX volume | $1.63B | -6.32% |
+| Network fees | $13.15M | -2.65% |
+| Stablecoin supply | $16.04B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
@@ -66,11 +66,11 @@
 
 | Venue | Volume | Share |
 |---|---|---|
-| PumpSwap | $377.15M | 21.6% |
-| Raydium AMM | $257.05M | 14.7% |
-| fomo Wallet | $170.16M | 9.8% |
-| BisonFi | $162.68M | 9.3% |
-| Meteora DLMM | $161.06M | 9.2% |
+| PumpSwap | $315.70M | 19.3% |
+| Raydium AMM | $258.89M | 15.8% |
+| fomo Wallet | $169.17M | 10.4% |
+| BisonFi | $162.68M | 10.0% |
+| Meteora DLMM | $157.73M | 9.7% |
 
 ## Sources
 
