@@ -1,6 +1,6 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-14T06:37:00+00:00 · data collected in 8.1s*
+*Generated 2026-09-14T07:30:51+00:00 · data collected in 7.8s*
 
 ## ⚠ Anomalies
 
@@ -10,12 +10,12 @@
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,388.8 |
-| Total TPS (incl. votes) | 3,522.8 |
-| Slot time | 314.5 ms (target 400) |
-| Epoch | 1034 — 51.3% done, ~18.4h left |
-| Block height | 424,952,239 |
-| Circulating supply | 586,892,956 SOL |
+| Non-vote TPS | 1,304.5 |
+| Total TPS (incl. votes) | 3,437.2 |
+| Slot time | 316.1 ms (target 400) |
+| Epoch | 1034 — 53.7% done, ~17.6h left |
+| Block height | 424,962,516 |
+| Circulating supply | 586,892,927 SOL |
 
 ## Validators
 
@@ -51,12 +51,12 @@
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $101.24 | -0.09% |
-| Market cap | $59.42B | |
+| SOL price | $101.53 | +0.27% |
+| Market cap | $59.58B | |
 | TVL | $5.88B | rank #3 of 467 chains |
 | DEX volume | $1.64B | -6.11% |
-| Network fees | $14.18M | +4.97% |
-| Stablecoin supply | $16.04B | |
+| Network fees | $14.26M | +5.56% |
+| Stablecoin supply | $16.02B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
@@ -67,7 +67,7 @@
 | Venue | Volume | Share |
 |---|---|---|
 | PumpSwap | $315.70M | 19.3% |
-| Raydium AMM | $264.02M | 16.1% |
+| Raydium AMM | $262.97M | 16.1% |
 | fomo Wallet | $164.38M | 10.0% |
 | BisonFi | $162.68M | 9.9% |
 | Meteora DLMM | $157.73M | 9.6% |
