@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-09-14T18:33:01+00:00",
+  "generated_at": "2026-09-14T19:29:22+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 4298.0,
-      "tps_non_vote": 2167.5,
-      "slot_time_ms": 316.5,
+      "tps_total": 4099.9,
+      "tps_non_vote": 1979.0,
+      "slot_time_ms": 317.8,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1034,
-      "slot": 447045813,
-      "block_height": 425088187,
-      "slots_done": 357813,
+      "slot": 447056460,
+      "block_height": 425098818,
+      "slots_done": 368460,
       "slots_in_epoch": 432000,
-      "progress_pct": 82.83,
-      "hours_remaining": 6.5
+      "progress_pct": 85.29,
+      "hours_remaining": 5.6
     },
     "supply": {
-      "total_sol": 634017267,
-      "circulating_sol": 586892521,
+      "total_sol": 634017230,
+      "circulating_sol": 586892484,
       "non_circulating_sol": 47124745
     },
     "validators": {
@@ -99,16 +99,16 @@
   },
   "economy": {
     "price": {
-      "usd": 103.42,
-      "market_cap_usd": 60699309868,
-      "volume_24h_usd": 3045517912,
-      "change_24h_pct": 2.22
+      "usd": 103.43,
+      "market_cap_usd": 60701624488,
+      "volume_24h_usd": 3154347918,
+      "change_24h_pct": 2.43
     },
     "tvl": {
-      "tvl_usd": 5903842046,
+      "tvl_usd": 5942396182,
       "rank": 2,
       "chains_total": 467,
-      "share_of_all_chains_pct": 6.66
+      "share_of_all_chains_pct": 6.68
     },
     "dex_volume": {
       "volume_24h_usd": 1790994712,
@@ -123,8 +123,8 @@
         },
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 267864472,
-          "share_pct": 15.0
+          "volume_24h_usd": 276014339,
+          "share_pct": 15.4
         },
         {
           "name": "BisonFi",
@@ -149,15 +149,15 @@
       "change_24h_pct": 3.22
     },
     "stablecoins": {
-      "total_usd": 16026390609,
+      "total_usd": 16102270718,
       "by_peg": {
-        "peggedUSD": 15963315895,
-        "peggedEUR": 58328846,
+        "peggedUSD": 16039182249,
+        "peggedEUR": 58329003,
         "peggedJPY": 54,
-        "peggedCHF": 1269633,
-        "peggedAUD": 75066,
-        "peggedVAR": 2432972,
-        "peggedGBP": 800832,
+        "peggedCHF": 1271167,
+        "peggedAUD": 75054,
+        "peggedVAR": 2445015,
+        "peggedGBP": 800866,
         "peggedTRY": 165856,
         "peggedCAD": 1455,
         "peggedKRW": 1
@@ -169,12 +169,12 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 8.4,
+  "collection_seconds": 8.3,
   "errors": [],
   "anomalies": {
     "count": 0,
     "critical": 0,
-    "baseline_snapshots": 411,
+    "baseline_snapshots": 412,
     "statistical_detection_active": true,
     "findings": []
   }
