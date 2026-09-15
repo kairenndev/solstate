@@ -1,28 +1,28 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-15T10:29:35+00:00 · data collected in 8.2s*
+*Generated 2026-09-15T11:28:09+00:00 · data collected in 9.0s*
 
 ## Anomalies
 
-None detected. Baseline: 427 snapshots.
+None detected. Baseline: 428 snapshots.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,671.1 |
-| Total TPS (incl. votes) | 3,805.1 |
-| Slot time | 315.8 ms (target 400) |
-| Epoch | 1035 — 24.9% done, ~28.5h left |
-| Block height | 425,269,308 |
-| Circulating supply | 587,028,096 SOL |
+| Non-vote TPS | 1,116.7 |
+| Total TPS (incl. votes) | 3,239.2 |
+| Slot time | 318.1 ms (target 400) |
+| Epoch | 1035 — 27.4% done, ~27.7h left |
+| Block height | 425,280,419 |
+| Circulating supply | 587,028,064 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active | 676 |
-| Delinquent | 13 (0.111% of stake) |
+| Active | 678 |
+| Delinquent | 11 (0.072% of stake) |
 | Total stake | 439,248,639 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -51,12 +51,12 @@ None detected. Baseline: 427 snapshots.
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $100.75 | -0.96% |
-| Market cap | $59.16B | |
+| SOL price | $100.69 | -1.06% |
+| Market cap | $59.10B | |
 | TVL | $5.85B | rank #2 of 467 chains |
-| DEX volume | $2.21B | +23.55% |
-| Network fees | $13.55M | -3.47% |
-| Stablecoin supply | $15.96B | |
+| DEX volume | $2.53B | +41.27% |
+| Network fees | $13.49M | -3.86% |
+| Stablecoin supply | $16.03B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
@@ -66,11 +66,11 @@ None detected. Baseline: 427 snapshots.
 
 | Venue | Volume | Share |
 |---|---|---|
-| PumpSwap | $445.38M | 20.1% |
-| Raydium AMM | $262.75M | 11.9% |
-| BisonFi | $201.48M | 9.1% |
-| Meteora DLMM | $198.81M | 9.0% |
-| fomo Wallet | $190.20M | 8.6% |
+| PumpSwap | $445.38M | 17.6% |
+| BisonFi | $315.80M | 12.5% |
+| Raydium AMM | $254.63M | 10.1% |
+| Meteora DLMM | $198.81M | 7.9% |
+| fomo Wallet | $190.20M | 7.5% |
 
 ## Sources
 
