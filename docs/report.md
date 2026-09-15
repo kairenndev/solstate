@@ -1,28 +1,28 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-15T21:26:25+00:00 · data collected in 8.3s*
+*Generated 2026-09-15T22:27:16+00:00 · data collected in 8.9s*
 
 ## Anomalies
 
-None detected. Baseline: 438 snapshots.
+None detected. Baseline: 439 snapshots.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 2,750.7 |
-| Total TPS (incl. votes) | 4,858.8 |
-| Slot time | 319.1 ms (target 400) |
-| Epoch | 1035 — 53.7% done, ~17.7h left |
-| Block height | 425,393,633 |
-| Circulating supply | 587,027,655 SOL |
+| Non-vote TPS | 3,006.3 |
+| Total TPS (incl. votes) | 5,091.3 |
+| Slot time | 318.5 ms (target 400) |
+| Epoch | 1035 — 56.3% done, ~16.7h left |
+| Block height | 425,405,026 |
+| Circulating supply | 587,027,608 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active | 679 |
-| Delinquent | 10 (0.036% of stake) |
+| Active | 677 |
+| Delinquent | 12 (0.104% of stake) |
 | Total stake | 439,248,639 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -51,12 +51,12 @@ None detected. Baseline: 438 snapshots.
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $96.98 | -6.48% |
-| Market cap | $56.93B | |
-| TVL | $5.76B | rank #2 of 467 chains |
-| DEX volume | $2.53B | +41.27% |
+| SOL price | $96.50 | -6.50% |
+| Market cap | $56.62B | |
+| TVL | $5.75B | rank #2 of 467 chains |
+| DEX volume | $2.51B | +40.24% |
 | Network fees | $13.58M | -3.25% |
-| Stablecoin supply | $15.71B | |
+| Stablecoin supply | $15.64B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
@@ -66,11 +66,11 @@ None detected. Baseline: 438 snapshots.
 
 | Venue | Volume | Share |
 |---|---|---|
-| PumpSwap | $445.38M | 17.6% |
-| BisonFi | $315.80M | 12.5% |
-| Raydium AMM | $251.63M | 9.9% |
+| PumpSwap | $445.38M | 17.7% |
+| BisonFi | $315.80M | 12.6% |
+| Raydium AMM | $258.94M | 10.3% |
 | Meteora DLMM | $198.81M | 7.9% |
-| fomo Wallet | $187.20M | 7.4% |
+| HumidiFi | $179.41M | 7.1% |
 
 ## Sources
 
