@@ -1,28 +1,28 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-15T06:36:32+00:00 · data collected in 10.3s*
+*Generated 2026-09-15T07:31:35+00:00 · data collected in 9.5s*
 
 ## Anomalies
 
-None detected. Baseline: 423 snapshots.
+None detected. Baseline: 424 snapshots.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,112.5 |
-| Total TPS (incl. votes) | 3,245.2 |
-| Slot time | 315.8 ms (target 400) |
-| Epoch | 1035 — 14.6% done, ~32.4h left |
-| Block height | 425,225,005 |
-| Circulating supply | 587,028,224 SOL |
+| Non-vote TPS | 1,060.2 |
+| Total TPS (incl. votes) | 3,218.9 |
+| Slot time | 312.5 ms (target 400) |
+| Epoch | 1035 — 17.0% done, ~31.1h left |
+| Block height | 425,235,455 |
+| Circulating supply | 587,028,195 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active | 679 |
-| Delinquent | 10 (0.052% of stake) |
+| Active | 678 |
+| Delinquent | 11 (0.072% of stake) |
 | Total stake | 439,248,639 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -51,11 +51,11 @@ None detected. Baseline: 423 snapshots.
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $101.08 | -0.22% |
-| Market cap | $59.33B | |
-| TVL | $5.89B | rank #2 of 467 chains |
+| SOL price | $100.84 | -0.61% |
+| Market cap | $59.20B | |
+| TVL | $5.88B | rank #2 of 467 chains |
 | DEX volume | $2.21B | +23.55% |
-| Network fees | $13.55M | -3.49% |
+| Network fees | $13.55M | -3.48% |
 | Stablecoin supply | $16.04B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
@@ -67,7 +67,7 @@ None detected. Baseline: 423 snapshots.
 | Venue | Volume | Share |
 |---|---|---|
 | PumpSwap | $445.38M | 20.1% |
-| Raydium AMM | $295.80M | 13.4% |
+| Raydium AMM | $288.44M | 13.0% |
 | BisonFi | $201.48M | 9.1% |
 | Meteora DLMM | $198.81M | 9.0% |
 | fomo Wallet | $183.79M | 8.3% |
