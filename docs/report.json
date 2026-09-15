@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-14T23:25:46+00:00",
+  "generated_at": "2026-09-15T00:37:23+00:00",
   "network": {
     "health": {
       "ok": true,
       "raw": "ok"
     },
     "performance": {
-      "tps_total": 3853.1,
-      "tps_non_vote": 1729.8,
-      "slot_time_ms": 318.1,
+      "tps_total": 3871.5,
+      "tps_non_vote": 1747.2,
+      "slot_time_ms": 316.5,
       "nominal_slot_time_ms": 400,
       "samples_used": 5,
       "window_secs": 300
     },
     "epoch": {
       "epoch": 1034,
-      "slot": 447101196,
-      "block_height": 425143530,
-      "slots_done": 413196,
+      "slot": 447114839,
+      "block_height": 425157157,
+      "slots_done": 426839,
       "slots_in_epoch": 432000,
-      "progress_pct": 95.65,
-      "hours_remaining": 1.7
+      "progress_pct": 98.81,
+      "hours_remaining": 0.5
     },
     "supply": {
-      "total_sol": 634017075,
-      "circulating_sol": 586892319,
-      "non_circulating_sol": 47124755
+      "total_sol": 634017032,
+      "circulating_sol": 586942272,
+      "non_circulating_sol": 47074759
     },
     "validators": {
-      "active_count": 679,
-      "delinquent_count": 11,
-      "delinquent_stake_pct": 0.037,
+      "active_count": 678,
+      "delinquent_count": 12,
+      "delinquent_stake_pct": 0.079,
       "total_stake_sol": 438740367,
       "nakamoto_coefficient": 18,
       "top_validators": [
@@ -99,65 +99,65 @@
   },
   "economy": {
     "price": {
-      "usd": 102.92,
-      "market_cap_usd": 60393531036,
-      "volume_24h_usd": 3441202418,
-      "change_24h_pct": 3.26
+      "usd": 102.74,
+      "market_cap_usd": 60298977040,
+      "volume_24h_usd": 3391354420,
+      "change_24h_pct": 3.21
     },
     "tvl": {
-      "tvl_usd": 5970888258,
+      "tvl_usd": 5923044331,
       "rank": 2,
       "chains_total": 467,
       "share_of_all_chains_pct": 6.67
     },
     "dex_volume": {
-      "volume_24h_usd": 1790994712,
-      "volume_7d_usd": 18462196801,
-      "change_24h_pct": 2.72,
+      "volume_24h_usd": 2013966216,
+      "volume_7d_usd": 16422620700,
+      "change_24h_pct": 12.45,
       "protocols_count": 123,
       "top_protocols": [
         {
           "name": "Raydium AMM",
-          "volume_24h_usd": 321409821,
-          "share_pct": 17.9
+          "volume_24h_usd": 324470097,
+          "share_pct": 16.1
         },
         {
           "name": "PumpSwap",
           "volume_24h_usd": 315699458,
-          "share_pct": 17.6
+          "share_pct": 15.7
         },
         {
           "name": "BisonFi",
           "volume_24h_usd": 201483703,
-          "share_pct": 11.2
+          "share_pct": 10.0
         },
         {
           "name": "Orca DEX",
-          "volume_24h_usd": 183277615,
-          "share_pct": 10.2
+          "volume_24h_usd": 176708829,
+          "share_pct": 8.8
         },
         {
           "name": "fomo Wallet",
-          "volume_24h_usd": 166804335,
-          "share_pct": 9.3
+          "volume_24h_usd": 169409719,
+          "share_pct": 8.4
         }
       ]
     },
     "fees": {
-      "fees_24h_usd": 14036102,
-      "fees_7d_usd": 108311730,
-      "change_24h_pct": 3.22
+      "fees_24h_usd": 14426954,
+      "fees_7d_usd": 96040749,
+      "change_24h_pct": 2.78
     },
     "stablecoins": {
-      "total_usd": 16144864732,
+      "total_usd": 16098853553,
       "by_peg": {
-        "peggedUSD": 16081774664,
-        "peggedEUR": 58315323,
+        "peggedUSD": 16035785747,
+        "peggedEUR": 58326796,
         "peggedJPY": 53,
-        "peggedCHF": 1275759,
-        "peggedAUD": 75052,
-        "peggedVAR": 2451842,
-        "peggedGBP": 804727,
+        "peggedCHF": 1268536,
+        "peggedAUD": 74922,
+        "peggedVAR": 2425424,
+        "peggedGBP": 804761,
         "peggedTRY": 165856,
         "peggedCAD": 1456,
         "peggedKRW": 1
@@ -169,12 +169,12 @@
     "DeFiLlama — TVL, DEX volume, fees, stablecoin supply",
     "CoinGecko — SOL price and market cap"
   ],
-  "collection_seconds": 7.0,
+  "collection_seconds": 12.4,
   "errors": [],
   "anomalies": {
     "count": 0,
     "critical": 0,
-    "baseline_snapshots": 416,
+    "baseline_snapshots": 417,
     "statistical_detection_active": true,
     "findings": []
   }

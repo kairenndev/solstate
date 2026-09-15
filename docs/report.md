@@ -1,28 +1,28 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-14T23:25:46+00:00 · data collected in 7.0s*
+*Generated 2026-09-15T00:37:23+00:00 · data collected in 12.4s*
 
 ## Anomalies
 
-None detected. Baseline: 416 snapshots.
+None detected. Baseline: 417 snapshots.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 1,729.8 |
-| Total TPS (incl. votes) | 3,853.1 |
-| Slot time | 318.1 ms (target 400) |
-| Epoch | 1034 — 95.7% done, ~1.7h left |
-| Block height | 425,143,530 |
-| Circulating supply | 586,892,319 SOL |
+| Non-vote TPS | 1,747.2 |
+| Total TPS (incl. votes) | 3,871.5 |
+| Slot time | 316.5 ms (target 400) |
+| Epoch | 1034 — 98.8% done, ~0.5h left |
+| Block height | 425,157,157 |
+| Circulating supply | 586,942,272 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active | 679 |
-| Delinquent | 11 (0.037% of stake) |
+| Active | 678 |
+| Delinquent | 12 (0.079% of stake) |
 | Total stake | 438,740,367 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -51,12 +51,12 @@ None detected. Baseline: 416 snapshots.
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $102.92 | +3.26% |
-| Market cap | $60.39B | |
-| TVL | $5.97B | rank #2 of 467 chains |
-| DEX volume | $1.79B | +2.72% |
-| Network fees | $14.04M | +3.22% |
-| Stablecoin supply | $16.14B | |
+| SOL price | $102.74 | +3.21% |
+| Market cap | $60.30B | |
+| TVL | $5.92B | rank #2 of 467 chains |
+| DEX volume | $2.01B | +12.45% |
+| Network fees | $14.43M | +2.78% |
+| Stablecoin supply | $16.10B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
@@ -66,11 +66,11 @@ None detected. Baseline: 416 snapshots.
 
 | Venue | Volume | Share |
 |---|---|---|
-| Raydium AMM | $321.41M | 17.9% |
-| PumpSwap | $315.70M | 17.6% |
-| BisonFi | $201.48M | 11.2% |
-| Orca DEX | $183.28M | 10.2% |
-| fomo Wallet | $166.80M | 9.3% |
+| Raydium AMM | $324.47M | 16.1% |
+| PumpSwap | $315.70M | 15.7% |
+| BisonFi | $201.48M | 10.0% |
+| Orca DEX | $176.71M | 8.8% |
+| fomo Wallet | $169.41M | 8.4% |
 
 ## Sources
 
