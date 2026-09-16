@@ -1,28 +1,28 @@
 # Solana Ecosystem State
 
-*Generated 2026-09-16T01:27:07+00:00 · data collected in 11.4s*
+*Generated 2026-09-16T02:28:53+00:00 · data collected in 9.0s*
 
 ## Anomalies
 
-None detected. Baseline: 442 snapshots.
+None detected. Baseline: 443 snapshots.
 
 ## Network
 
 | Metric | Value |
 |---|---|
-| Non-vote TPS | 3,010.2 |
-| Total TPS (incl. votes) | 5,147.3 |
-| Slot time | 314.1 ms (target 400) |
-| Epoch | 1035 — 64.2% done, ~13.5h left |
-| Block height | 425,438,826 |
-| Circulating supply | 587,064,980 SOL |
+| Non-vote TPS | 2,446.1 |
+| Total TPS (incl. votes) | 4,555.3 |
+| Slot time | 318.5 ms (target 400) |
+| Epoch | 1035 — 66.9% done, ~12.7h left |
+| Block height | 425,450,421 |
+| Circulating supply | 587,064,933 SOL |
 
 ## Validators
 
 | Metric | Value |
 |---|---|
-| Active | 677 |
-| Delinquent | 12 (0.105% of stake) |
+| Active | 679 |
+| Delinquent | 10 (0.036% of stake) |
 | Total stake | 439,248,639 SOL |
 | Nakamoto coefficient | **18** |
 
@@ -51,12 +51,12 @@ None detected. Baseline: 442 snapshots.
 
 | Metric | Value | 24h |
 |---|---|---|
-| SOL price | $97.19 | -5.15% |
-| Market cap | $57.05B | |
-| TVL | $5.72B | rank #2 of 467 chains |
-| DEX volume | $2.44B | -2.95% |
-| Network fees | $13.27M | -2.26% |
-| Stablecoin supply | $15.62B | |
+| SOL price | $97.09 | -5.07% |
+| Market cap | $56.98B | |
+| TVL | $5.73B | rank #2 of 467 chains |
+| DEX volume | $2.50B | -0.56% |
+| Network fees | $14.22M | +4.73% |
+| Stablecoin supply | $15.65B | |
 
 > Fees are reported as fees. The brief asks for Real Economic Value, but
 > REV has no single agreed methodology, so labelling a fee total as REV
@@ -66,11 +66,11 @@ None detected. Baseline: 442 snapshots.
 
 | Venue | Volume | Share |
 |---|---|---|
-| PumpSwap | $445.38M | 18.3% |
-| BisonFi | $315.80M | 13.0% |
-| Raydium AMM | $248.78M | 10.2% |
-| Meteora DLMM | $198.81M | 8.2% |
-| Orca DEX | $189.15M | 7.8% |
+| PumpSwap | $519.33M | 20.8% |
+| BisonFi | $315.80M | 12.6% |
+| Raydium AMM | $242.68M | 9.7% |
+| Orca DEX | $189.15M | 7.6% |
+| HumidiFi | $179.41M | 7.2% |
 
 ## Sources
 
